@@ -25,41 +25,38 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 
 1. **Land transport and transport via pipelines** is now visible in the **Industries** section at the bottom of the **Company profile** page.
 
-    ![image](./Images/Lab01/image15.svg)
-
 1. In the **Company profile** page, switch to the **Structure** tab.
 
    ![image](../media/s8.png)
 
-
-9. Select **Contoso USA** and select **Add** to add a new organizational unit under it.
+1. Select **Contoso USA** and select **Add** to add a new organizational unit under it.
 
    ![image](../media/s9.png)
 
 
-10. Enter the following data for organizational unit and select **Save** in the button pane:
+1. Enter the following data for organizational unit and select **Save** in the button pane:
 
-    1. **Name**: Wide World Importers
-    1. **Organizational unit type**: Department
+    * **Name**: Wide World Importers
+    * **Organizational unit type**: Department
 
-   ![image](../media/s10.png)
+      ![image](../media/s10.png)
 
-11. In the **Organizational hierarchies** section, which appears after selecting **Save**, select **+ New Organizational hierarchy**.
+1. In the **Organizational hierarchies** section, which appears after selecting **Save**, select **+ New Organizational hierarchy**.
 
-   ![image](../media/s11.png)
+    ![image](../media/s11.png)
 
-12. Set the following values and select **Save & Close**:
+1. Set the following values and select **Save & Close**:
 
-    1. **Parent**: Contoso USA
-    1. **Effective start date**: The first day of the current month (MM/DD/YYYY)
+    * **Parent**: Contoso USA
+    * **Effective start date**: The first day of the current month (MM/DD/YYYY)
 
-   ![image](../media/s12.png)
+      ![image](../media/S12.png)
 
-13. After being returned to the **Organizational Unit**, select **Save & Close** to return to the **Company profile**.
+1. After being returned to the **Organizational Unit**, select **Save & Close** to return to the **Company profile**.
 
    ![image](../media/s13.png)
 
-14. If necessary, navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
+1. If necessary, navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
 
    ![image](../media/s14.png)
 
@@ -78,11 +75,11 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 
     >**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-   ![image](../media/s15.png)
+     ![image](../media/s15.png)
 
 16. Using the same steps, add another new **Facility**. Once the values are entered, select **Save & Close**.
 
-    >[!NOTE] **Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
+    >**Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
     1. **Name**: Wide World Importers - Tampa Office
     1. **Address line 1**: Lois Avenue
@@ -94,9 +91,9 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
     1. **Longitude**: -82.514050
 
 
-**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
+    **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-   ![image](../media/s16.png)
+     ![image](../media/s16.png)
 
 
 Great job, by completing these steps, you have completed the organizational setup in Microsoft Sustainability Manager for Wide World of Importers. This included the Company profile, hierarchy, and facilities. Organizational structure and facility management will be linked to activity and emission data to group emissions by Organization, facility, and even regions. This is an important part of carbon emission reporting and organization disclosures. **Please continue to the next task.**
