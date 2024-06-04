@@ -1,4 +1,4 @@
----
+![image](https://github.com/CloudLabs-MOC/Sustainability-workshop/assets/121806136/299a4485-9e58-4f8d-bf33-a0a9e361e6bd)---
 lab:
     title: 'Lab 4: Insights and reporting'
     module: 'Module 6: Configure insights and reporting'
@@ -61,6 +61,16 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 5. Open the **Sustainability Manager** Application by clickin on Play button.
 
 **Important** Please make sure that you have completed the previous labs to ensure that the dashboards and reports show meaningful data.
+
+## Task 1 :  Executive dashboard
+
+The Executive dashboard in Microsoft Sustainability Manager provides an overview of total emissions, revenue intensity, and renewable energy categorized by scope, geography, organizational unit, and facility.
+
+ ![](./media/dash.png)
+
+
+
+
 
 ### Task 1: Explore Emission Insights 
 
