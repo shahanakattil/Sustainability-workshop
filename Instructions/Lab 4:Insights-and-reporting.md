@@ -243,6 +243,37 @@ You've now successfully explored various Sustainability dashboards. You can use 
 
 Great job, you have successfully explored various Sustainability dashboards with Amber to gain insights into the emissions data. You can see as you drilled down from total emissions to the organization level, Amber was able to determine that Wide World Importers needs to reduce the carbon emissions from Purchased electricity. This could be achieved in a variety of ways such as switching to renewable energy sources or using more energy efficient devices and vehicles. You and she can use these insights to drive business decisions and use the information to create scorecards and goals to track progress. **Please continue to the next task.**
 
+## Waste Insights
+
+The Water insights dashboard in Microsoft Sustainability Manager provides you with a holistic view of your organization's water sustainability performance relative to the business. Based on the selected water transaction type, the tiles contain the following information about your organization:
+
+Water revenue intensity (total water quantity/total revenue)
+Water production intensity (total water quantity/total weight of products produced)
+To open the Water insights dashboard in Sustainability Manager, select Analytics on the left navigation, and then select Water insights.
+
+Select the Water insights tab.
+
+Filter the dashboard by water transaction type, water stressed area, reporting period, or organizational hierarchy.
+
+
+https://learn.microsoft.com/en-us/industry/sustainability/report-waste-quantity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Exercise 2: Generate Quantitative preparation report
 
