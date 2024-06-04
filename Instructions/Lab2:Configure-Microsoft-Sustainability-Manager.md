@@ -99,5 +99,9 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 Great job, by completing these steps, you have completed the organizational setup in Microsoft Sustainability Manager for Wide World of Importers. This included the Company profile, hierarchy, and facilities. Organizational structure and facility management will be linked to activity and emission data to group emissions by Organization, facility, and even regions. This is an important part of carbon emission reporting and organization disclosures. **Please continue to the next task.**
 
 
+## Task 2 : Emission Calculations
+
+## Task 3 : Access/Permissio0ns 
+
 
 
