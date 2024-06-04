@@ -1,7 +1,3 @@
-lab:
-    title: 'Lab 4: Insights and reporting'
-    module: 'Module 6: Configure insights and reporting'
----
 # Module 6 Lesson 2 Lab 4: Insights and reporting
 
 ## Overview
@@ -16,10 +12,13 @@ Finally, this lab will help us gain insights into the emission activity trends a
 
 In this lab, you will do the following:
 
--   Analyze various Sustainability Dashboards
--   Generate Emissions Report
--   Generate Activity Report
--   Review Power BI Insights
+-  Executive Dashboard  
+
+-  Emission Insights 
+
+-  Waste Insights 
+
+-  Other Reporting 
 
 ### Prerequisites
 
@@ -67,7 +66,35 @@ The Executive dashboard in Microsoft Sustainability Manager provides an overview
 
  ![](../media/dash.png)
 
-### Task 1: Explore Emission Insights 
+You can filter this dashboard by Reporting year, Accounting method, and Organizational hierarchy.
+
+The options for Accounting method include:
+
+Location Based: Reflects the average emissions intensity of grids on which energy consumption occurs.
+Market Based: Reflects emissions from electricity you purposefully chose.
+
+The tiles at the top of the dashboard let you quickly assess the following metrics:
+
+Emissions: Total emissions, together with a breakdown by scope 1, scope 2, and scope 3.
+
+Revenue intensity: Revenue intensity score, together with a breakdown by scope 1, scope 2, and scope 3. (Revenue intensity equals emissions divided by revenue.)
+
+Renewable energy (%): Renewable energy as a percentage of total energy, together with a breakdown by renewable energy source.
+
+## View trends
+
+The bottom tile has three tabs that show a graphical representation of emissions, revenue intensity score, renewable energy, and water production intensity.
+
+Emissions: This tab has a toggle that lets you view either total emissions in a trend line chart or emissions by scope. Emissions by scope appear in column charts for the three scopes that show emissions over time.
+
+Revenue intensity score: This tab has a toggle that lets you view either revenue intensity in a trend line chart or revenue intensity categorized by scope. Revenue intensity by scope appears in column charts for the three scopes that show emissions over time.
+
+Renewable energy: This tab has a toggle that lets you view either renewable energy as a percentage in a column chart over time or renewable energy breakdown by source. Renewable by source data appears in a column chart for each source showing the percentage of renewable energy as a percentage of total energy over time.
+
+Water production intensity: This tab shows values for water production intensity consumed, discharged, and withdrawn. Water production intensity is the total amount of water used in relation to the total weight of products produced.
+
+
+### Task 2: Explore Emission Insights 
 
 In this task, Amber explores the various **Sustainability** dashboards which provide an overview of total emissions, revenue intensity, and renewable energy broken down by scope, geography, organizational unit, and facility.
 
@@ -248,7 +275,7 @@ You've now successfully explored various Sustainability dashboards. You can use 
 
 Great job, you have successfully explored various Sustainability dashboards with Amber to gain insights into the emissions data. You can see as you drilled down from total emissions to the organization level, Amber was able to determine that Wide World Importers needs to reduce the carbon emissions from Purchased electricity. This could be achieved in a variety of ways such as switching to renewable energy sources or using more energy efficient devices and vehicles. You and she can use these insights to drive business decisions and use the information to create scorecards and goals to track progress. **Please continue to the next task.**
 
-## Waste Insights
+## Task 3 :  Waste Insights
 
 The Water insights dashboard in Microsoft Sustainability Manager provides you with a holistic view of your organization's water sustainability performance relative to the business. Based on the selected water transaction type, the tiles contain the following information about your organization:
 
@@ -290,25 +317,9 @@ By finished good (weight)
 By finished good (percentage)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Exercise 2: Generate Quantitative preparation report
+## Task 4:  Generate Quantitative preparation report
 
 In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for Contoso Corp that the Activity and Emission Reports are available for review. Jessie generates quantitative preparation reports that extract emission and activity data from Microsoft Sustainability Manager. The reports are in an Excel format that can be used to submit the data for public disclosure.
-
-### Task 1: Generate emissions report
 
 1.  In the left navigation pane, select **Reporting**.
 
