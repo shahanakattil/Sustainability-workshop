@@ -1,1 +1,33 @@
-
+[
+    {
+     "Name": "Sustainability-workshop",
+     "Language": "English",
+     "Files": [
+        {
+         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Getting-started.md",
+         "Order": 1
+         }, 
+        {
+         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab1%3ADeploy-a-Microsoft-Sustainability-Manager-instance.md",
+         "Order": 2
+        },
+        {
+         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab2%3AConfigure-Microsoft-Sustainability-Manager.md",
+         "Order": 3
+        },
+        {
+         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab3%3AImport%20Sustainability%20Data.md",
+         "Order": 4
+        },
+        {
+         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab%204%3AInsights-and-reporting.md",
+         "Order": 5
+        },
+        {
+         "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab5%3A%20Reduce-Carbon-Emissions-for-Azure-Workloads.md",
+         "Order": 7
+        }
+      ]  
+    }
+ ]
+ 
