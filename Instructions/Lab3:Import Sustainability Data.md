@@ -216,8 +216,8 @@ The Purchased electricity view shows all purchased electricity activity data tha
  
 After a few moments, the view will refresh and the activity data records that were imported during this exercise will be displayed.
 
- ![image](./Images/Lab02/image42.svg)
- 
+ ![image](../media/ima28.png)
+
 You've now completed the data import of 2022 Purchased Electricity for Wide World Importers. This step is imperative in realizing the goal of recording, reporting, and reducing carbon emissions. Next, you'll import the 2022 Miles Driven for Wide World Importers fleet of electric vehicles.
 
 
