@@ -77,4 +77,8 @@ Follow these steps to make sure your dataset configurations are set correctly:
    ![](../media/updating-app.png)
 
 
+### Reference Link:
+
+  https://learn.microsoft.com/en-us/power-bi/connect-data/service-connect-to-emissions-impact-dashboard?toc=%2Findustry%2Fsustainability%2Ftoc.json&bc=%2Findustry%2Fbreadcrumb%2Ftoc.json
+
 ## Review Emission Impact Dashboard for M365 
