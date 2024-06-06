@@ -103,5 +103,7 @@ Great job, by completing these steps, you have completed the organizational setu
 
 ## Task 3 : Access/Permissions 
 
+https://learn.microsoft.com/en-us/azure/carbon-optimization/permissions
+
 
 
