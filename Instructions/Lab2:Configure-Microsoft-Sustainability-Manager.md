@@ -190,16 +190,16 @@ In this task, Alex will create factor mappings to map the contractual instrument
 
 3. Explore the EPA 2022 - eGRID factor library. The General tab includes the following identifying information about the factor library:
 
-      - Name - Identifies the factor library in the list.
+   - Name - Identifies the factor library in the list.
       
-      - Description - Provides more information about the factor library.
+   - Description - Provides more information about the factor library.
       
-      - Documentation reference - Identifies the documentation that's used to generate the factor library.
+   - Documentation reference - Identifies the documentation that's used to generate the factor library.
       
-      - Type of factor library - Identifies if this factor library type is Custom, Demo (sample), or Standard (preloaded based on EPA libraries). For more information, see Emission 
+   - Type of factor library - Identifies if this factor library type is Custom, Demo (sample), or Standard (preloaded based on EPA libraries). For more information, see Emission 
        factors.
       
-      - Library type - This functionally switches the library type between Emission or Estimation library. Emission libraries calculate emission gases. Estimation libraries create 
+   - Library type - This functionally switches the library type between Emission or Estimation library. Emission libraries calculate emission gases. Estimation libraries create 
        estimated conversions from one unit type to another, such as night stays at a hotel to kWh used.   
      
       ![](../media/image2.png)
