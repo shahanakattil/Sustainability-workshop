@@ -101,6 +101,111 @@ Great job, by completing these steps, you have completed the organizational setu
 
 ## Task 2 : Emission Calculations
 
+
+# Module 5 Lesson 2 Lab 3: Design Emission calculations
+
+## Overview
+
+### Background
+
+In the previous two labs, we laid the foundation for emission calculations by setting up the organization, reference data such as Contractual instrument types and ingesting the Activity data. Now that the groundwork and data has been laid for emission calculations, this lab will focus on performing the emission calculations using a combination of factor libraries, emission factors, estimation factors and calculation profiles. Once the calculations are performed, we will review the emission calculations output.
+
+### Learning Objectives
+
+In this lab, you will do the following:
+
+-   Review the Microsoft Sustainability Manager’s Dynamic calculation capabilities using Factor libraries, Emission factors and more.
+-   Review the existing “EPA 2022 - eGRID” factor library and emission factors
+-   Create a new custom factor library for estimating miles to kilowatt hours (kWh)
+-   Create new calculation models and new calculation profiles for calculation jobs
+-   The emissions calculated during this lab exercise will be utilized in the remaining scenarios (reporting and goals) in the upcoming lab exercises.
+
+### Prerequisites
+
+-   Microsoft Sustainability manager environment is set up with sample data
+-   Lab 01 organization and reference data is entered
+-   Lab 02 activity data is ingested
+
+### Solution Focus Area
+
+In the Emission calculations focus area calculation models are designed to calculate the emissions produced by the ingested activity data. The setup of the calculations breaks it down into two concepts: factor mappings and calculation models. Currently, Sustainability Manager has been verified with EPA default calculations and factor sets only. Additional factor sets will be available over time. Any factor set can easily be added or created by organizations based on their own business needs and regional requirements.
+
+The following terminologies will be used throughout the configuration of Emission Calculations:
+
+-   **Estimation Factor**: Provides a way to convert from one unit type to another, such as night stays to kilowatt hour (kWh) used.
+-   **Emission Factor**: Defines the amount of greenhouse gas emitted by a given unit type, this includes defining gas emissions such as CO<sub>2</sub>, CH<sub>4</sub>, and N<sub>2</sub>O.
+-   **Factor Mapping**: Provides a way to map reference data to a specific emission factor, simplifying calculation models by allowing customers to choose a reference data type and allowing the system to find the appropriate emission factor.
+-   **Factor Library**: A collection/grouping of emission or estimation factors and factor mappings, used by calculation models.
+-   **Calculation Model**: Thought of as the instruction set used by the application to perform the emission calculations, utilizes factor libraries, factor mappings, and emission/estimation factors to perform the emission calculations.
+-   **Calculation Profile**: Provides the scheduling for calculation jobs, defining activity data filter and the calculation model (instruction set) to use.
+-   **Allocation Profile**: An allocation profile configures methods to distribute emissions from a source (like a facility) to specific entities based on chosen parameters. It allows visualization of emissions distribution without altering default reporting, offering insights into how emissions are divided.
+-   **Custom dimensions**: Custom dimensions can be used in emission calculation models, for example, in condition, calculation, and reporting actions.
+
+   
+
+
+### Personas and Scenarios
+
+In this lab, Alex Serra – Emissions Analyst for Wide World Importers sets up factor mappings for Purchased electricity for facilities, mapping Contractual instrument types to the Florida electric grid (FRCC).
+
+Alex also creates a new estimation factor library for estimating miles driven to kilowatt hours (kWh) for Fabrikam electric trucks. Alex then creates calculation models for calculating the carbon emissions produced per the facility’s purchased electricity. Post that, Alex creates a calculation model for estimated carbon emissions produced by the purchased electricity for charging Fabrikam Electric trucks (based on the kWh per mile driven estimate).
+
+Finally, Alex creates and runs calculation profiles, filtering to Wide World Importers activity data. Post running the Calculation profile, Alex reviews the calculated emissions data before notifying Amber Rodriguez – Sustainability specialist that the emission calculations are complete.
+
+
+
+In this lab exercise, we will focus on the scenarios illustrated below:
+
+
+
+## Exercise 1: Set up Factor Libraries
+
+In this exercise, you will learn about the steps that Alex takes to define the factor mappings for Purchased electricity, and an estimation factor library for estimating the amount of electricity purchased based on the Miles driven by Wide World Importers fleet of electric trucks. While electric vehicles do not have Scope 1, direct tailpipe emissions, they do have to be charged while transporting goods, in this case - across the USA. This charging of Electric trucks results in Scope 2 purchased electricity.
+
+Wide World Importers may not know exactly how much electricity was purchased for charging the Electric Trucks, which grids the electricity came from, or what the energy source is. However, Wide World Importers can estimate the amount of electricity purchased by identifying how many kilowatt hours (kWh) are used per 100 miles, based on EPA vehicle efficiency data. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of Emission factors** at https://docs.microsoft.com/en-us/industry/sustainability/calculate-emission-factors.
+
+1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
+
+2. Open a new browser window and navigate to https://make.powerapps.com.
+
+3. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
+
+4. If needed, change the environment to your trial on the top bar.
+
+5. Open the **Sustainability Manager** Application by clickin on Play button.
+
+
+**Important** Please make sure that you have completed the previous lab to create Activity Data. **The emissions calculations require all the Data Ingestion processes from the previous lab to be completed.** Failure to do so will result in errors or incorrect values during the calculations
+
+
+## Task 1 : Add eGRID factor mappings
+In this task, Alex will create factor mappings to map the contractual instrument types for Wide World Importers that Reed previously added to the respective electric grid emission factor. This process allows Microsoft Sustainability Manager to find the correct electric grid for a given contractual instrument type. This type can be expanded to map other reference data to specific emission factors, avoiding the need to create calculation models that are for specific emission factors.
+
+
+1. In the left navigation pane, select Calculations > Factor libraries.
+
+2. Select the EPA 2022 - eGRID factor library to open it.
+
+     ![](../media/image1.png)
+
+3. Explore the EPA 2022 - eGRID factor library. The General tab includes the following identifying information about the factor library:
+
+      - Name - Identifies the factor library in the list.
+      
+      - Description - Provides more information about the factor library.
+      
+      - Documentation reference - Identifies the documentation that's used to generate the factor library.
+      
+      - Type of factor library - Identifies if this factor library type is Custom, Demo (sample), or Standard (preloaded based on EPA libraries). For more information, see Emission 
+       factors.
+      
+      - Library type - This functionally switches the library type between Emission or Estimation library. Emission libraries calculate emission gases. Estimation libraries create 
+       estimated conversions from one unit type to another, such as night stays at a hotel to kWh used.   
+     
+      ![](../media/image2.png)
+
+4. Select the Emission factors tab to view a list of emission factors in the factor library.
+
 ## Task 3 : Access/Permissions 
 
 https://learn.microsoft.com/en-us/azure/carbon-optimization/permissions
