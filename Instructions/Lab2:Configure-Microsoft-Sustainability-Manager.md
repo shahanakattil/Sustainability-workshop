@@ -1,7 +1,9 @@
 # Lab 2: Configure Microsoft Sustainability Manager 
 
 
-### Task 1: Prepare Business Units and Hierarchy  
+###  Exercise 1: Prepare Business Units and Hierarchy  
+
+## Task 1 : Prepare Business Units and Hierarchy  
 
 In this task, you will set up the Company profile, hierarchy, and facilities for the Wide World Importers organization in Microsoft Sustainability Manager.
 
@@ -99,7 +101,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 Great job, by completing these steps, you have completed the organizational setup in Microsoft Sustainability Manager for Wide World of Importers. This included the Company profile, hierarchy, and facilities. Organizational structure and facility management will be linked to activity and emission data to group emissions by Organization, facility, and even regions. This is an important part of carbon emission reporting and organization disclosures. **Please continue to the next task.**
 
 
-## Task: Set up reference data
+## Task 2 : Set up reference data
 
 In this task, Reed will set up the reference data for contractual instrument types in Microsoft Sustainability Manager. Contractual instrument types are different types of contractual agreements that a firm has with their providers and suppliers.
 
@@ -126,7 +128,7 @@ Many types of reference data are available. You can explore the other reference 
 
 
 
-## Task: Set up unit conversion factor
+## Task 3 : Set up unit conversion factor
 
 In this task, Reed will set up a unit conversion factor in Microsoft Sustainability Manager. While Alex is reviewing the inventory management plan, Alex identifies a missing unit of distance that's needed to calculate emissions for the fleet of electric vehicles. Alex asks Reed to add a new unit to the Length/Distance unit group.
 
@@ -150,7 +152,7 @@ By completing these steps, you've finished the organizational and reference data
 
 Organization and reference data is the foundation for Microsoft Cloud for Sustainability and Microsoft Sustainability Manager. This data is used throughout the tools, so make sure that your organization and reference data is set up correctly.
 
-## Task: Create a reporting year
+## Task 4 : Create a reporting year
 
 Alex and Reed will set up the reporting years in Microsoft Sustainability Manager. Alex will name the reporting year, set up the start date and use a template to create more than one period.
 
@@ -172,7 +174,7 @@ Alex and Reed will set up the reporting years in Microsoft Sustainability Manage
 
 5. Select Close. The reporting year will generate with the first period starting on the Start date and the last period ending one year from the Start date.
 
-# Lab 3: Import Sustainability Data 
+# Exercise 2 : Import Sustainability Data 
 
 ### Learning Objectives
 
@@ -192,7 +194,7 @@ In this lab, the focus is on the “Data Ingestion” aspect of the Solution Foc
 In this lab, Reed Flores – IT Admin for Wide World Importers utilizes the activity data Excel spreadsheets sourced by Alex Serra – Emissions Analyst. The Activity data spreadsheets contain Electricity Purchased for the year 2022 and Miles driven by the fleet of Fabrikam Electric Trucks for the calendar year 2022. Reed observes that associated information such as product, model and Vehicle size needs to be added as custom dimension meta data before importing which are required to run the emission calculation and gather the Emission insights reports for monitoring. After adding this information, Reed uses Microsoft Sustainability Manger’s connector functionality to import from the Excel spreadsheets, and reviews other connectors available for future purposes. Reed uses the built-in Power Query functionality to transform the data to match Microsoft Sustainability Manager’s data schema and looks for other potential issues such as case-sensitive d data fields.
 
 
-## Exercise 1: Import Data
+## Task 1: Import Data
 
 In this exercise, you will learn about the steps that Reed takes to ingest the spreadsheets given by Alex. Data import is a vital task to bringing large volumes of data into Microsoft Sustainability Manager. Excel is utilized in this lab; however, many pre-built connectors are available, and Partners can build custom connectors to integrate with additional data sources. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of data connectors** at https://docs.microsoft.com/en-us/industry/sustainability/import-data-connectors.
 
@@ -227,14 +229,14 @@ In this exercise, you will learn about the steps that Reed takes to ingest the s
     ![image](../media/ima4.png)
 
 
-### Task 1: Add custom dimension metadata
+### Task 2: Add custom dimension metadata
 
 In this task, Reed will add additional information to the Excel spreadsheet that Alex provided: **Purchased electricity Wide World Importers 2022.xlsx**. Reed will add custom dimensions metadata for the mapping before importing the data from the Excel spreadsheet. 
 
  
 3.	Select the **Custom dimensions** tab under **Data**.
      
- 
+
 4.	Select **New** on the top right on the Active Custom dimensions page.
 
    ![image](../media/ima5.png)
@@ -263,7 +265,7 @@ In this task, Reed will add additional information to the Excel spreadsheet that
       
        ![image](../media/ima7.png)
 
-### Task 1: Import 2022 data for “Purchased Electricity“ for Facilities
+### Task 3: Import 2022 data for “Purchased Electricity“ for Facilities
 
 In this task, Reed imports the Excel spreadsheet provided by Alex, _Purchased electricity Wide World Importers 2022.xlsx_. This brings in the Electricity Purchased by Wide World Importers facilities for the year 2022 into the Purchased electricity activity data.
 
@@ -394,7 +396,7 @@ After a few moments, the view will refresh and the activity data records that we
 
 You've now completed the data import of 2022 Purchased Electricity for Wide World Importers. This step is imperative in realizing the goal of recording, reporting, and reducing carbon emissions. Next, you'll import the 2022 Miles Driven for Wide World Importers fleet of electric vehicles.
 
-## Task 3.2 : Emission Calculations
+## Exercise 3 : Emission Calculations
 
 ## Overview
 
@@ -444,13 +446,9 @@ Alex also creates a new estimation factor library for estimating miles driven to
 
 Finally, Alex creates and runs calculation profiles, filtering to Wide World Importers activity data. Post running the Calculation profile, Alex reviews the calculated emissions data before notifying Amber Rodriguez – Sustainability specialist that the emission calculations are complete.
 
-
-
 In this lab exercise, we will focus on the scenarios illustrated below:
 
-
-
-## Exercise 1: Set up Factor Libraries
+## Task  1: Set up Factor Libraries
 
 In this exercise, you will learn about the steps that Alex takes to define the factor mappings for Purchased electricity, and an estimation factor library for estimating the amount of electricity purchased based on the Miles driven by Wide World Importers fleet of electric trucks. While electric vehicles do not have Scope 1, direct tailpipe emissions, they do have to be charged while transporting goods, in this case - across the USA. This charging of Electric trucks results in Scope 2 purchased electricity.
 
@@ -470,7 +468,7 @@ Wide World Importers may not know exactly how much electricity was purchased for
 **Important** Please make sure that you have completed the previous lab to create Activity Data. **The emissions calculations require all the Data Ingestion processes from the previous lab to be completed.** Failure to do so will result in errors or incorrect values during the calculations
 
 
-## Task 1 : Add eGRID factor mappings
+## Task 2 : Add eGRID factor mappings
 In this task, Alex will create factor mappings to map the contractual instrument types for Wide World Importers that Reed previously added to the respective electric grid emission factor. This process allows Microsoft Sustainability Manager to find the correct electric grid for a given contractual instrument type. This type can be expanded to map other reference data to specific emission factors, avoiding the need to create calculation models that are for specific emission factors.
 
 
@@ -570,7 +568,7 @@ You've completed adding the factor mappings for your purchased electricity activ
 By creating these factor mappings, you can choose contractual instrument types as emission factors during your calculation model creation. This information tells Microsoft Sustainability Manager to map the contractual instrument type on an activity data record to the emission factor that's listed in the factor mapping. Now, you can create more dynamic calculations rather than calculations that are specific to a given emission factor.
 
 
-## Task 2: Create an estimation factor library
+## Task 3: Create an estimation factor library
 
 In this task, Alex will create an estimation factor library to define the estimation factor for estimating the kilowatt-hours (kWh) that are used for each mile driven. While electric vehicles don't have Scope 1, direct tailpipe emissions, they do need to be charged while transporting goods across the US, resulting in Scope 2 purchased electricity. Wide World Importers don't know the exact amount of electricity purchased, what grid the electricity came from, or the energy source; however, they can estimate the amount of purchased electricity by identifying the number of kilowatt-hours (kWh) that are used every 100 miles based on EPA vehicle efficiency.
 
@@ -608,7 +606,7 @@ In this task, Alex will create an estimation factor library to define the estima
 
    ![](../media/image11.png)
 
-## Task 3: Create an estimation factor
+## Task 4: Create an estimation factor
 In this task, Alex will create the estimation factor for estimating the kilowatt-hours (kWh) that are used for every mile driven. The EPA estimates electric vehicle efficiency in kilowatt-hours (kWh) for every 100 miles. Alex will use this same metric in the estimation factor to ensure that the estimation factor is consistent with the EPA.
 
 1. Scroll down on the Factor library view and select Electric Vehicle Estimation Library (it will be near the bottom of your page) under Estimation factors.
@@ -663,7 +661,7 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
 
     You've now created an estimation factor. Estimation factors are important to be able to convert from one unit type to another when an estimate is appropriate, such as estimated fuel or battery economy of vehicles or when estimating gas and electric usage during hotel stays.
 
-## Exercise 2 - Set up calculation models
+## Task 5: Set up calculation models
  
  
 In this exercise, you learn about the steps that Alex takes to define calculation models that Microsoft Sustainability Manager uses to calculate emissions. Calculation models are the instruction sets, or recipes, that define the steps and values to use during the emission calculations. Microsoft Sustainability Manager provides several calculation models.
@@ -671,7 +669,7 @@ In this exercise, you learn about the steps that Alex takes to define calculatio
 Take the opportunity to review some prebuilt models. They're excellent sources of information when you're creating new calculation models. You can also use calculation models as a template for new models. This exercise and the next discuss the algorithm that's used to calculate emissions. For more information, see Overview of Calculation models. 
  
  
-## Task 1 : Create a purchased electricity model
+## Task 6: Create a purchased electricity model
  
 1. Select Calculations > Models on the left navigation pane.
 
@@ -780,7 +778,7 @@ The Report action stores the gases produced values, CO2E value, and other identi
     with Microsoft Cloud for Sustainability based on EPA calculations. Occasionally, these included models might not match your unique customer needs, so you need to create new 
     models to provide custom calculations. Make sure that you review the included models to view other types of complex calculation models.
 
- ## Task 2: Create an electric vehicle miles driven model
+ ## Task 7: Create an electric vehicle miles driven model
 
 In this task, Alex creates a new calculation model to calculate carbon emissions for miles driven by electric vehicles. This exercise uses the estimation factor library that was created in the previous exercise to estimate the kilowatt-hours (kWh) that are used by an electric vehicle and then calculate the carbon emissions for that electricity based on the US Average emission factor.
 
