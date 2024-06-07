@@ -101,9 +101,6 @@ Great job, by completing these steps, you have completed the organizational setu
 
 ## Task 2 : Emission Calculations
 
-
-# Module 5 Lesson 2 Lab 3: Design Emission calculations
-
 ## Overview
 
 ### Background
