@@ -75,11 +75,13 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
     1. **Latitude**: 25.774320
     1. **Longitude**: -80.187720
 
-    >**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-     ![image](../media/s15.png)
+       >**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-16. Using the same steps, add another new **Facility**. Once the values are entered, select **Save & Close**.
+
+       ![image](../media/s15.png)
+
+17. Using the same steps, add another new **Facility**. Once the values are entered, select **Save & Close**.
 
     >**Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
@@ -93,9 +95,10 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
     1. **Longitude**: -82.514050
 
 
-    >**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-     ![image](../media/s16.png)
+        >**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
+
+       ![image](../media/s16.png)
 
 
 Great job, by completing these steps, you have completed the organizational setup in Microsoft Sustainability Manager for Wide World of Importers. This included the Company profile, hierarchy, and facilities. Organizational structure and facility management will be linked to activity and emission data to group emissions by Organization, facility, and even regions. This is an important part of carbon emission reporting and organization disclosures. **Please continue to the next task.**
