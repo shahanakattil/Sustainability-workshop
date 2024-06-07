@@ -1,9 +1,9 @@
 # Lab 2: Configure Microsoft Sustainability Manager 
 
 
-###  Exercise 1: Prepare Business Units and Hierarchy  
+##  Exercise 1: Prepare Business Units and Hierarchy  
 
-## Task 1 : Prepare Business Units and Hierarchy  
+### Task 1 : Prepare Business Units and Hierarchy  
 
 In this task, you will set up the Company profile, hierarchy, and facilities for the Wide World Importers organization in Microsoft Sustainability Manager.
 
