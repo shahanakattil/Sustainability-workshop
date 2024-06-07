@@ -93,7 +93,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
     1. **Longitude**: -82.514050
 
 
-    **Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
+    >**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
      ![image](../media/s16.png)
 
