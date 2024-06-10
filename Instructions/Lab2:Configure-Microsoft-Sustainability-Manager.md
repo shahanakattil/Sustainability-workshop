@@ -180,7 +180,21 @@ Alex and Reed will set up the reporting years in Microsoft Sustainability Manage
 
 
 1. Fetch User1 email address by navigating to **Environment details** tab.
-2. 
+
+2. Go to the [Microsoft Sustainability Manager free trial page](https://dynamics.microsoft.com/en-us/sustainability/sustainability/free-trial/)
+
+1. On the **Let's get started** page, enter the  User1 email which you copied in first step and select the checkbox and click on **Start your free trial**
+
+   ![](../media/s1.png)
+
+1. Follow the on-screen guidance to provide the contact details and click on **Submit**
+
+   ![](../media/s2.png)
+
+1. You will be redirected to the Sustainability Manager page, where you can start using the trial version of Microsoft Sustainability Manager.
+
+   ![](../media/s3.png)
+
 
 
 
