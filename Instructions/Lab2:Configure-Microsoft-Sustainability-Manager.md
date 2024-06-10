@@ -205,7 +205,7 @@ Alex and Reed will set up the reporting years in Microsoft Sustainability Manage
 
 1. On the **Manage security roles** blade select the **Basic User** and **Sustainablilty all - reports - full access Role**.
 
-1. Click on **Save** 
+1. Click on **Save**. 
 
 
 
