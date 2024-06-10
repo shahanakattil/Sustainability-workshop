@@ -100,7 +100,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 Great job, by completing these steps, you have completed the organizational setup in Microsoft Sustainability Manager for Wide World of Importers. This included the Company profile, hierarchy, and facilities. Organizational structure and facility management will be linked to activity and emission data to group emissions by Organization, facility, and even regions. This is an important part of carbon emission reporting and organization disclosures. **Please continue to the next task.**
 
 
-## Task 2 : Set up reference data
+## Task 1.2 : Set up reference data
 
 In this task, Reed will set up the reference data for contractual instrument types in Microsoft Sustainability Manager. Contractual instrument types are different types of contractual agreements that a firm has with their providers and suppliers.
 
@@ -127,7 +127,7 @@ Many types of reference data are available. You can explore the other reference 
 
 
 
-## Task 3 : Set up unit conversion factor
+## Task 1.3 : Set up unit conversion factor
 
 In this task, Reed will set up a unit conversion factor in Microsoft Sustainability Manager. While Alex is reviewing the inventory management plan, Alex identifies a missing unit of distance that's needed to calculate emissions for the fleet of electric vehicles. Alex asks Reed to add a new unit to the Length/Distance unit group.
 
@@ -151,7 +151,7 @@ By completing these steps, you've finished the organizational and reference data
 
 Organization and reference data is the foundation for Microsoft Cloud for Sustainability and Microsoft Sustainability Manager. This data is used throughout the tools, so make sure that your organization and reference data is set up correctly.
 
-## Task 4 : Create a reporting year
+## Task 1.4 : Create a reporting year
 
 Alex and Reed will set up the reporting years in Microsoft Sustainability Manager. Alex will name the reporting year, set up the start date and use a template to create more than one period.
 
