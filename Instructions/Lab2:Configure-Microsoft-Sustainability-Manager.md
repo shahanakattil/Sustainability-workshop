@@ -176,6 +176,14 @@ Alex and Reed will set up the reporting years in Microsoft Sustainability Manage
  
  ## Task 3 : Access/Permissions 
 
+ In this we'll be adding User to Sustainability trail environment and we'll be assisgning security role. 
+
+
+1. Fetch User1 email address by navigating 
+
+
+
+
 https://learn.microsoft.com/en-us/azure/carbon-optimization/permissions
 
 
