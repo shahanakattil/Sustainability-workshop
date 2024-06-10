@@ -37,13 +37,6 @@ Analytics reports present calculated emissions in an organized way to detect tre
 
 ![image](./Images/Lab04/image1.svg)
 
-
-###  Lab Scenarios
-
-In this lab, Amber Rodriguez – Sustainability specialist for Contoso Corp reviews the data in the Insights section of Microsoft Sustainability Manager, noticing that Wide World Importers was a large contributor to Scope 2 emissions in 2022. Amber informs Jessie Irwin - Sustainability lead for Contoso Corp that the Activity and Emission Reports are available for review. Jessie opens the reporting section and creates a new Activity report and a new Emissions report. Jessie reviews the generated report and includes the report in the sustainability reporting procedures for Contoso Corp.
-
-![image](./Images/Lab04/image2.svg)
-
 In this lab exercise, we will focus on the scenarios illustrated below:
 
 ![image](./Images/Lab04/image3.svg)
@@ -66,24 +59,23 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 
 ## Task 1 :  Executive dashboard
 
-The Executive dashboard in Microsoft Sustainability Manager provides an overview of total emissions, revenue intensity, and renewable energy categorized by scope, geography, organizational unit, and facility.
+1. The Executive dashboard in Microsoft Sustainability Manager provides an overview of total emissions, revenue intensity, and renewable energy categorized by scope, geography, organizational unit, and facility.
 
- ![](../media/dash.png)
+     ![](../media/dash.png)
 
-You can filter this dashboard by Reporting year, Accounting method, and Organizational hierarchy.
+2. You can filter this dashboard by Reporting year, Accounting method, and Organizational hierarchy.
 
-The options for Accounting method include:
+3. The options for Accounting method include:
 
-Location Based: Reflects the average emissions intensity of grids on which energy consumption occurs.
-Market Based: Reflects emissions from electricity you purposefully chose.
+    - Location Based: Reflects the average emissions intensity of grids on which energy consumption occurs.
+    - Market Based: Reflects emissions from electricity you purposefully chose.
+    - The tiles at the top of the dashboard let you quickly assess the following metrics:
 
-The tiles at the top of the dashboard let you quickly assess the following metrics:
+        a). Emissions: Total emissions, together with a breakdown by scope 1, scope 2, and scope 3.
 
-Emissions: Total emissions, together with a breakdown by scope 1, scope 2, and scope 3.
+        b). Revenue intensity: Revenue intensity score, together with a breakdown by scope 1, scope 2, and scope 3. (Revenue intensity equals emissions divided by revenue.)
 
-Revenue intensity: Revenue intensity score, together with a breakdown by scope 1, scope 2, and scope 3. (Revenue intensity equals emissions divided by revenue.)
-
-Renewable energy (%): Renewable energy as a percentage of total energy, together with a breakdown by renewable energy source.
+        c). Renewable energy (%): Renewable energy as a percentage of total energy, together with a breakdown by renewable energy source.
 
 ## View trends
 
