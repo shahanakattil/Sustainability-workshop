@@ -179,7 +179,8 @@ Alex and Reed will set up the reporting years in Microsoft Sustainability Manage
  In this we'll be adding User to Sustainability trail environment and we'll be assisgning security role. 
 
 
-1. Fetch User1 email address by navigating 
+1. Fetch User1 email address by navigating to **Environment details** tab.
+2. 
 
 
 
