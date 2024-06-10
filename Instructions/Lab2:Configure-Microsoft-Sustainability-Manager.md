@@ -195,7 +195,17 @@ Alex and Reed will set up the reporting years in Microsoft Sustainability Manage
 
    ![](../media/s3.png)
 
+1. In edge browser for https://admin.powerplatform.microsoft.com/ and login with odl_user account.
 
+1. From the left navigation pane select **Environment** and **Sustainablity trail**.
+
+1. Select **Settings** from menu bar then expand **Users + Permissions** and click on **Users**.
+
+1. Select **+ Add Users** from left top menu bar and on the **Add user** window search for User1 and click on **Add**. 
+
+1. On the **Manage security roles** blade select the **Basic User** and **Sustainablilty all - reports - full access Role**.
+
+1. Click on **Save** 
 
 
 
