@@ -590,7 +590,7 @@ The Report action stores the gases produced values, CO2E value, and other identi
       
       Emission factor library - EPA 2022 - eGRID
       
-      Emission factor - 
+      Emission factor - FRCC (FRCC All)
       
    The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
