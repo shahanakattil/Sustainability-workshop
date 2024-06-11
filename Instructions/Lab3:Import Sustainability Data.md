@@ -842,6 +842,170 @@ In this task, Alex creates a calculation profile for the electricity that Wide W
 
 5. Select Done.
 
-You've now completed the data import of 2022 Purchased Electricity for Wide World Importers. This step is imperative in realizing the goal of recording, reporting, and reducing carbon emissions. Next, you'll import the 2022 Miles Driven for Wide World Importers fleet of electric vehicles.
+
+## Task: Create an electric vehicle miles driven calculation profile
+
+In this task, Alex creates a calculation profile for the miles driven by Wide World Importers' fleet of electric vehicles for 2022. Alex uses the calculation model that was previously defined in this exercise. Additionally, Alex filters the profile to only activity data for the Wide World Importers organizational unit and where the unit type is mile. These filters ensure that only the miles driven for Wide World Importers' fleet of electric vehicles are included in the calculation job. This task excludes the purchased electricity, which was covered in the previous task.
+
+1. Select + New Calculation profile to create a new calculation profile.
+
+    Populate the following information on the New calculation profile wizard.
+
+     - Calculation profile name - Electric Vehicle Miles Driven 2022
+
+     - Module - Carbon activities
+
+     - Emissions source - Purchased electricity
+
+     - Activity data to include in calculation - Select add > add row and select Organizational Unit equals Wide World Importers and Quantity unit equals mile
+
+     - Calculation model - Select Electric Vehicle Miles Driven - 2022 from the dropdown list
+
+     - Schedule - Select the Automatically run this calculation when data is refreshed checkbox
+
+2. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+
+      The Calculation profile name identifies the calculation profile in the list.
+      
+      The Module is used to identify which data types should appear in the Activity data field.
+      
+      The Emissions source identifies which activity data type should be used in the calculation.
+      
+      Use Activity data to include in calculation to filter activity data to a specific subset of the activity data type.
+      
+      The Calculation model identifies which calculation model should be used for the calculation. Be sure to choose the calculation model from the dropdown list.
+      
+      Use Automatically run this calculation when data is refreshed to automatically trigger calculations when the matching activity data is refreshed.
+      
+      The form should resemble the following image. Select Next.
+
+3. The Preview page of the New calculation profile wizard shows the emissions that were calculated for the first row of data that matches your Activity data to include filter. In this scenario, the values that are shown in the preview might differ from the following image.
+
+    These values were determined by converting the miles driven to kWh: (7484.724 / 100) * 49 = 3667.515 kWh
+    
+    The consumed kWh converted to MWh: 3667.515/1000 = 3.667515 MWh
+    
+    Multiply the converted consumption by each greenhouse gas factor from the emission factor (FRCC) that was determined in the factor mapping:
+    
+    CO2: 3.667515 * 861 = 3,001.127 lb
+    
+    CH4: 3.667515 * .055 = 0.238 lb
+    
+    N20: 3.667515 * .007 = 0.033 lb
+    
+    Multiply the greenhouse gases by their GWP factor that's found in the Greenhouse gases table and then add the values:
+    
+    CO2: 3,001.127 * 1 = 3,001.127 lb
+    
+    CH4: 0.238 * 25 = 5.95 lb
+    
+    N20: 0.033 * 298 = 9.834 lb
+    
+    CO2E: 3,001.127 + 5.95 + 9.834 = 3,016.911 lb
+
+4. Select Save to save your calculation profile.
+
+5. Select Done.
 
 
+## Task: Run calculation profiles
+ 
+In this task, Alex runs the newly created calculation profiles for the electricity that Wide World Importers purchased and for miles that Wide World Importers' fleet of electric vehicles drove. This task creates a calculation job that iterates over each activity data row that matches the calculation profile filter criteria. Additionally, it uses the calculation models that you created previously in this exercise to calculate the carbon emissions for each row. The results are placed in the emissions table, which Alex will review after the calculations are complete.
+
+1. To run the calculation profile for Purchased Electricity: Contractual Instrument Type 2022, complete the following steps:
+
+    - Select Purchased Electricity: Contractual Instrument Type 2022 in the list.
+
+    - Select Run calculation on the command bar.
+
+2. To run the calculation profile for Electric Vehicle Miles Driven 2022, follow these steps:
+
+    - Select Electric Vehicle Miles Driven 2022 in the list.
+
+    - Select Run calculation on the command bar.
+
+
+3. After several minutes (approximately six minutes), both calculation jobs should be completed. Select the Refresh button on the command bar to check the status of the calculation jobs. The two calculation profiles should now have a Status of Succeeded.
+
+
+4. In the lower-left corner, change the area to Analytics.
+
+5. Go to All emissions on the left side of the page.
+
+6. The All emissions view shows all emissions that have been calculated or directly imported.
+
+7. Filter the view by selecting the down arrow next to the Organizational Unit column. Select Filter By. Select Wide World Importers. Select Apply.
+
+8. After a few moments, the view refreshes. The calculated emissions data for each activity data record that was imported in previous exercises is shown. Scroll to the right to view the CO2E carbon emission values.
+
+   
+You've now created and run calculation profiles. Calculation profiles are the final step in calculating and recording your carbon emissions in Microsoft Cloud for Sustainability. Now, you'll be able to report and reduce your carbon emissions, which are discussed in the next exercises. It might take 30 minutes for your emissions to appear in the reporting areas.
+
+## Exercise - Create allocation profiles and run calculations
+
+In this exercise, you learn about the steps that Alex takes to create the allocation method, method details and an allocations profile. Allocations help visualize how your emissions are generated in multiple methods without impacting the default emissions reporting. With allocations, you can visualize how your emissions are distributed based on a parameter.
+
+## Task: Create allocation methods
+
+In this task, Alex creates an allocation method called Headcount to understand the emissions distributed based on the purchased electricity.
+
+1. Select Data on the left navigation pane.
+
+2. Select Reference data.
+
+3. Select View for (Preview) Allocation methods.
+
+4. Select New under Active Allocation methods.
+
+5. Enter the Name as Headcount and select Save & Close. The allocation method is created.
+
+
+## Task: Create the allocation method details
+
+In this task, Alex creates the allocation method details by importing an excel file with the details. You must download the sample data - Allocation Method Details.zip for this task.
+
+
+1. Select Reference data on the left navigation pane.
+
+2. Select View for (Preview) Allocation method details.
+
+3. Select New.
+
+4. Select the three horizontal dots and select Import from Excel.
+
+5. Select Choose File and then upload the allocation method details sample data.
+
+6. Select the allocation method details sample data.
+
+7. Select Next.
+
+8. Select Finish Import.
+
+9. Select Done. The data is imported successfully.
+
+
+## Task: Create an allocation profile
+
+1. Select Calculations from the left navigation pane.
+
+2. Select Allocation profile(preview).
+
+3. Select New.
+
+4. Select Next.
+
+5. Select the Profile method as Headcount that you created in the previous task and Profile period as Yearly.
+
+6. Select Next.
+
+7. Enter the Allocation profile name as Headcount and select Done.
+
+8. Select Continue.
+
+9. Select OK. The allocation profile is created successfully.
+
+10. In the Active Allocation Profile page, select the profile and select Run allocation for the profile created.
+
+11. Refresh the page and select the Allocation profile to view the status of the calculation.
+
+You created the allocation methods and set up the allocation profile with this method. Now, you'll be able to visualize how your emissions are generated using these methods without impacting the default emissions reporting. 
