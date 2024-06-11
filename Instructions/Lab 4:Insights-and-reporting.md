@@ -61,7 +61,7 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 
 1. The Executive dashboard in Microsoft Sustainability Manager provides an overview of total emissions, revenue intensity, and renewable energy categorized by scope, geography, organizational unit, and facility.
 
-     ![](../media/dash.png)
+     ![](../media/report1.png)
 
 2. You can filter this dashboard by Reporting year, Accounting method, and Organizational hierarchy. Under Filters select **Fiscal -2022** then **Organizational hierarchy** expand **Contoso Corp** > **Contoso USA** then select check box next to **Wide World Importers**. 
 
