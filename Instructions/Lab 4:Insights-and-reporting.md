@@ -79,7 +79,8 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 
         c). Renewable energy (%): Renewable energy as a percentage of total energy, together with a breakdown by renewable energy source.
 
-4.You can review the option by **By country / region**, **By organization unit** and  **By facility**. 
+4. You can review the option by **By country / region**, **By organization unit** and  **By facility**. 
+    
     ![](../media/report3.png)
 
 ## View trends
