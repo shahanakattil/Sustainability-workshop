@@ -284,11 +284,12 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
 2.  Select **New**.
 
-   ![image](./Images/Lab04/image26.svg)
+     ![](../media/report5.png)
 
 3.  Set the following fields:
 
-    1.  **Name**: Enter the name of the report. For example: MC4S Emissions report
+    1. **Report type**: Emissions report
+    1.  **Name**: MC4S Emissions report
     1.  **Report type**: Emissions report
     1.  **Start date**: 01/01/2022
     1.  **End date**: 12/31/2022
@@ -302,17 +303,25 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
     - **Facility**
     - **Scope**
     - **Emissions source**
-    - **Activity type** 
+    - **Activity data** 
 
-5. Once these are selected, select **Save** on the top command bar.
+     ![](../media/report6.png)
+    
+5. Once these are selected, select **Save & Close** on the top command bar.
 
 6.  Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
 
+       ![](../media/report7.png)
+  
 7.  Select **Refresh** button on the command bar until the **Report generation status** is changed from **Pending** to **Ready for download.** This may take a few minutes to generate.
+
+     ![](../media/report8.png)
 
 8.  Once the status is changed, a **Download report** button is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
 
-9.  The reports contain the following information:
+     ![](../media/report9.png)
+
+10.  The reports contain the following information:
     - The **Group by** column headers that were selected. In this case, it is grouped by Country/Region, Regional group, Facility, Scope, Emissions source, and Activity type
     - The following emission metrics: **CO<sub>2</sub>**, **CH<sub>4</sub>**, **N<sub>2</sub>O**, **SF<sub>6</sub>**, **NF<sub>3</sub>**, **CO<sub>2</sub>E**, **HFCs**, **PFCs**, and **Other GHGs.**
 
