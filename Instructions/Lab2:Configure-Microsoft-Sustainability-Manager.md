@@ -108,23 +108,29 @@ In this task, Reed will set up the reference data for contractual instrument typ
 
 2. Select Contractual instrument types and then select View.
 
+    ![image](../media/report11.png)
+
 3. Under Active contractual instrument types, select + New to create new contractual types.
 
 4. Create a new contractual instrument with the following details and then select Save & Close.
 
-      Name - VanArsdel Ltd
+      - Name - VanArsdel Ltd
       
-      Energy source - Nuclear
+      - Energy source - Nuclear
+
+        ![image](../media/report12.png)
+
 5. In the same way, create a new contractual instrument with the following details and then select Save & Close.
 
-      Name - Adatum Corp
+      - Name - Adatum Corp
       
-      Energy source - Other
+      - Energy source - Other
 
-By completing these steps, you've added contractual instrument types.
-
+        ![image](../media/report13.png)
+   
+    By completing these steps, you've added contractual instrument types.
+ 
 Many types of reference data are available. You can explore the other reference data types, which will be used throughout Microsoft Cloud for Sustainability and Microsoft Sustainability Manager.
-
 
 
 ## Task 1.3 : Set up unit conversion factor
@@ -133,20 +139,22 @@ In this task, Reed will set up a unit conversion factor in Microsoft Sustainabil
 
 You can use unit groups to group units together and define a base unit that you can use to convert unit types. For example, the Length/Distance unit group contains units for length and distance, with a base unit of meter (m). The units within the Length/Distance unit group have conversions between the unit type and meter, such as miles convert to 1,609.344 meters.
 
-1. Select Settings > Application.
+1. From the left navigation pane expand **Settings** and select **Application** > the choose the **Unit groups** from the menu bar. Under Active unit groups, select Length/distance and then open it.
 
-2. Select Unit groups.
+    ![image](../media/report14.png)
 
-3. Under Active unit groups, select Length/distance and then open it.
+2. Scroll down and select + New Unit to create a new unit.
 
-4. Scroll down and select + New Unit to create a new unit.
+   ![image](../media/report15.png)
 
 5. Enter the following details for the new unit and then select Save & Close.
 
-   Name - 100 mile
-   
-   Conversion factor - 160934.40
+     - Name - 100 mile
+      
+     - Conversion factor - 160934.40
 
+       ![image](../media/report16.png)
+       
 By completing these steps, you've finished the organizational and reference data setup.
 
 Organization and reference data is the foundation for Microsoft Cloud for Sustainability and Microsoft Sustainability Manager. This data is used throughout the tools, so make sure that your organization and reference data is set up correctly.
@@ -155,29 +163,28 @@ Organization and reference data is the foundation for Microsoft Cloud for Sustai
 
 Alex and Reed will set up the reporting years in Microsoft Sustainability Manager. Alex will name the reporting year, set up the start date and use a template to create more than one period.
 
-1. In the left navigation pane, select the Settings > Company profile.
+1. In the left navigation pane, select the **Settings** > **Company profile** then select the Reporting years tab and choose Create reporting year.
 
-2. Select the Reporting years tab.
-
-3. Select Create reporting year.
+   ![image](../media/report17.png)
 
 4. Enter the following details. After you've entered the values, select Save.
 
-      Name - Enter Fiscal - 2022.
+      - Name - Enter Fiscal - 2022.
       
-      This name appears on the Insights page in Microsoft Sustainability Manager.
+      - Start date: 01/01/2022.
       
-      Start date: 01/01/2022.
-      
-      Year template - Annual.
+      - Year template - Annual.
+
+      ![image](../media/report18.png)
+
+   >**Note**: This name appears on the Insights page in Microsoft Sustainability Manager.
 
 5. Select Close. The reporting year will generate with the first period starting on the Start date and the last period ending one year from the Start date.
 
- 
- ## Task 3 : Access/Permissions 
 
- In this we'll be adding User to Sustainability trail environment and we'll be assisgning security role. 
+## Task 3 : Access/Permissions 
 
+ In this we'll be adding User to Sustainability trial environment and we'll be assisgning security role to user1. 
 
 1. Fetch User1 email address by navigating to **Environment details** tab.
 
@@ -206,10 +213,3 @@ Alex and Reed will set up the reporting years in Microsoft Sustainability Manage
 1. On the **Manage security roles** blade select the **Basic User** and **Sustainablilty all - reports - full access Role**.
 
 1. Click on **Save**. 
-
-
-
-https://learn.microsoft.com/en-us/azure/carbon-optimization/permissions
-
-
-
