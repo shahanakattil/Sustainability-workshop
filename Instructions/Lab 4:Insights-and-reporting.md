@@ -63,7 +63,9 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
 
      ![](../media/dash.png)
 
-2. You can filter this dashboard by Reporting year, Accounting method, and Organizational hierarchy.
+2. You can filter this dashboard by Reporting year, Accounting method, and Organizational hierarchy. Under Filters select **Fiscal -2022** then **Organizational hierarchy** expand **Contoso Corp** > **Contoso USA** then select check box next to **Wide World Importers**. 
+
+    ![](../media/report2.png)
 
 3. The options for Accounting method include:
 
@@ -76,6 +78,9 @@ In this exercise, you will take on the persona of Amber Rodriguez – Sustainabi
         b). Revenue intensity: Revenue intensity score, together with a breakdown by scope 1, scope 2, and scope 3. (Revenue intensity equals emissions divided by revenue.)
 
         c). Renewable energy (%): Renewable energy as a percentage of total energy, together with a breakdown by renewable energy source.
+
+4.You can review the option by **By country / region**, **By organization unit** and  **By facility**. 
+    ![](../media/report3.png)
 
 ## View trends
 
