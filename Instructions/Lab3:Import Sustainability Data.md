@@ -66,36 +66,30 @@ In this exercise, you will learn about the steps that Reed takes to ingest the s
 
    ![image](../media/ima3.png)
 
-1. Open the **Sustainability Manager** Application by clicking on Play button.
-
-    You will land on the **Home** page for Microsoft Sustainability Manager.
-
-    ![image](../media/ima4.png)
+1. Open the **Sustainability Manager** Application.
 
 
 ### Task 2: Add custom dimension metadata
 
 In this task, Reed will add additional information to the Excel spreadsheet that Alex provided: **Purchased electricity Wide World Importers 2022.xlsx**. Reed will add custom dimensions metadata for the mapping before importing the data from the Excel spreadsheet. 
 
- 
-3.	Select the **Custom dimensions** tab under **Data**.
+1.	Select the **Custom dimensions** tab under **Data**.
      
+1.	Select **+ New** on the top right on the Active Custom dimensions page.
 
-4.	Select **New** on the top right on the Active Custom dimensions page.
-
-   ![image](../media/ima5.png)
+   ![image](../media/report19.png)
  
 5.	Enter the details as follows: 
 
-  	 1. Logical name - Product
+  	 - Logical name - Product
    
-     2. Display name – Product
+    - Display name – Product
 
-     3. Description - Product (This is optional)
+    - Description - Product (This is optional)
   	
-      4. Click **Save & Close**.
+    - Click **Save & Close**.
 
-    ![image](../media/ima6.png)
+      ![image](../media/report20.png)
  
 6.	Repeat the previous steps to create another custom dimension metadata as follows 
 
@@ -106,8 +100,6 @@ In this task, Reed will add additional information to the Excel spreadsheet that
       •	Logical name - Vehicle Size  
       
       •	Display name – Vehicle Size
-      
-       ![image](../media/ima7.png)
 
 ### Task 3: Import 2022 data for “Purchased Electricity“ for Facilities
 
