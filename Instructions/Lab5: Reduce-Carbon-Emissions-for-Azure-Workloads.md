@@ -12,9 +12,6 @@ Content not found
 
 The Emissions Impact Dashboard promotes transparency of information and provides insights that empower you to make effective decisions to reach your sustainability goals.
 
-
-
-
 ### Task 1 : Deploy the dashboards from the Solution Center
 
 In this task, you sign in to the Microsoft Cloud Solution Center and deploy the Microsoft Cloud for Sustainability dashboard solutions.
@@ -50,7 +47,9 @@ In this task, you sign in to the Microsoft Cloud Solution Center and deploy the 
     ![](../media/report27.png)
 
 10. You will be navigated to **Emissions Impact Dashboard for Azure**.
-    
+
+      ![](../media/report26.png)
+
 You successfully installed the Emissions Impact Dashboard for Azure and Emissions Impact Dashboard for Microsoft 365 applications.
 
 
