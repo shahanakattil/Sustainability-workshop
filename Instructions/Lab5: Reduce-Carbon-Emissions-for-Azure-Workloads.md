@@ -98,19 +98,13 @@ In this task, you sign in to the Microsoft Cloud Solution Center and deploy the 
 
 7. Verify that the pre-deployment dependencies are installed and set up. Select Deploy.
 
-     ![](../media/report24.png)
+     ![](../media/report30.png)
 
 8. Wait for the deployment to show as successful. You're notified about the deployment start and success through email. Select Close.
 
-   ![](../media/report25.png)
-
 9. Go to Microsoft [Power BI](https://app.powerbi.com/home?experience=power-bi), select the Apps on the left navigation pane. You see the Emissions Impact Dashboard for Microsoft 365 and select the Emissions Impact Dashboard for Azure listed on the Apps page.
 
-    ![](../media/report27.png)
-
-10. You will be navigated to **Emissions Impact Dashboard for Azure**.
-
-      ![](../media/report26.png)
+10. You will be navigated to **Emissions Impact Dashboard for M365**.
 
     You successfully installed the Emissions Impact Dashboard for Azure and Emissions Impact Dashboard for Microsoft 365 applications.
 
@@ -128,6 +122,8 @@ You can also compare that number to other common sources of the emissions, like 
 15. The **Emission Savings** tab  provides an estimate of the greenhouse gas emissions your organization has already avoided by using cloud instead of on premises versions of exchange and SharePoint.
 
 16. Research has shown that the  Microsoft cloud is up to 98% more Carbon efficient that on premises alternatives. You can customize the estimate by selecting the efficiency of your on premises alternative and volume of renewable energy your organization purchases.  
+
+
 
 ### Reference Link:
 
