@@ -50,8 +50,28 @@ In this task, you sign in to the Microsoft Cloud Solution Center and deploy the 
 
       ![](../media/report26.png)
 
-You successfully installed the Emissions Impact Dashboard for Azure and Emissions Impact Dashboard for Microsoft 365 applications.
+    You successfully installed the Emissions Impact Dashboard for Azure and Emissions Impact Dashboard for Microsoft 365 applications.
 
+11. The Emissions Impact Dashboard for Azure has multiple tabs that detail a range of metrics.
+
+12. The dashboard provides insight into emissions that are generated based on an organization's use of Microsoft Cloud services. Key fact boxes across the upper left of the page provide visibility into carbon emissions, total cloud usage, and carbon intensity, which is a measure of efficiency.
+
+13. While most cloud services only provide a view into scope 1 and 2 emission types, Microsoft takes emissions analysis one step further by also providing visibility to scope 3 emissions.
+
+14. Emissions savings lets organizations view the carbon emissions savings from running on Microsoft Cloud versus an on-premises alternative. On the efficiency scale, organizations can select their level of efficiency to be low, medium, or high by using the criteria on the right side of the page's guidance.
+
+15. GHG preparation report helps organizations prepare internal or external sustainability reports. You can filter by time horizon, yearly, monthly, and quarterly, in addition to subscription name and ID, Azure service, Azure region, and scope type. You can export this report to Microsoft Excel for further analysis and reporting. 
+
+
+16. Usage report helps organizations know the usage hours of Azure services across all available subscriptions. The usage hours are based on the sum of the organization’s compute, storage, and data transfer in Microsoft Cloud. You can filter and export a usage report.
+
+17. You can export data from the GHG preparation report, Usage report, and dashboard page on a per-visualization level. You can't export the overall report's data from the Export button on the page header.
+
+18. The Calculation methodology page provides insights into how Microsoft calculates emissions and usage for the Emissions Impact Dashboard.
+
+19. The Learn more page contains information and tutorials on how to use the Emissions Impact Dashboard. It also provides insights into Microsoft sustainable energy initiatives and investments.
+
+20. The Manage data page provides organizations the ability to delete their emissions data from the Emissions Impact Dashboard.
 
 
 ## Exercise 1 : Emission Impact Dashboard for Micosodt 365
