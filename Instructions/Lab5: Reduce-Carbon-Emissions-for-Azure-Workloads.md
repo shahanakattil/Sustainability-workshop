@@ -74,7 +74,7 @@ In this task, you sign in to the Microsoft Cloud Solution Center and deploy the 
 20. The Manage data page provides organizations the ability to delete their emissions data from the Emissions Impact Dashboard.
 
 
-## Exercise 1 : Emission Impact Dashboard for Micosodt 365
+## Task 2 : Emission Impact Dashboard for Micosodt 365
 
 In this task, you sign in to the Microsoft Cloud Solution Center and deploy the Microsoft Cloud for Sustainability dashboard solutions.
 
