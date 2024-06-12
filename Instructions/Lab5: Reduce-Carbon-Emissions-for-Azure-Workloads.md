@@ -10,6 +10,10 @@ Content not found
 
 ## Emission Impact Dashboard for Azure 
 
+The Emissions Impact Dashboard promotes transparency of information and provides insights that empower you to make effective decisions to reach your sustainability goals.
+
+
+
 ## Install the app
 
 2. Select the following link https://appsource.microsoft.com/en-us/marketplace/apps?search=emissions%20impact%20dashboard&page=1 to get to the app: Emissions Impact Dashboard template app.
