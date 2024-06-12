@@ -45,11 +45,12 @@ In this task, you sign in to the Microsoft Cloud Solution Center and deploy the 
 
    ![](../media/report25.png)
 
-9. Go to Microsoft [Power BI](https://app.powerbi.com/home?experience=power-bi), select the Apps on the left navigation pane. You see the Emissions Impact Dashboard for Microsoft 365 and Emissions Impact Dashboard for Azure listed on the Apps page.
+9. Go to Microsoft [Power BI](https://app.powerbi.com/home?experience=power-bi), select the Apps on the left navigation pane. You see the Emissions Impact Dashboard for Microsoft 365 and select the Emissions Impact Dashboard for Azure listed on the Apps page.
 
     ![](../media/report27.png)
 
-       
+10. You will be navigated to **Emissions Impact Dashboard for Azure**.
+    
 You successfully installed the Emissions Impact Dashboard for Azure and Emissions Impact Dashboard for Microsoft 365 applications.
 
 
