@@ -25,4 +25,4 @@ In this task, you will sign up for a trial version of Microsoft Sustainability M
    ![](../media/lab01-3.png)
 
 
-You have successfully completed the lab. Click on Next >>.
+## You have successfully completed the lab. Click on Next >>.
