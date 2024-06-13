@@ -110,7 +110,7 @@ In this task, we will set up the reference data for contractual instrument types
 
 1. Under Active contractual instrument types, select **+ New** to create new contractual types.
 
-   ![image](../media/lab01-15.png)
+   ![image](../media/lab01-17.png)
 
 1. Create a new contractual instrument with the following details and then select Save & Close.
 
@@ -158,9 +158,9 @@ You can use unit groups to group units together and define a base unit that you 
 
 In this task, we will be setting up the reporting years in Microsoft Sustainability Manager and name the reporting year, set up the start date and use a template to create more than one period.
 
-1. In the left navigation pane, select the **Settings** > **Company profile** then select the Reporting years tab and choose Create reporting year.
+1. In the left navigation pane, select the **Settings** > **Company profile** then select the **Reporting years** tab and choose **Create reporting year**.
 
-   ![image](../media/report17.png)
+    ![image](../media/lab01-18.png)
 
 4. Enter the following details. After you've entered the values, select Save.
 
