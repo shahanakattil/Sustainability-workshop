@@ -259,7 +259,6 @@ Wide World Importers may not know exactly how much electricity was purchased for
 
 **Important** Please make sure that you have completed the previous lab to create Activity Data. **The emissions calculations require all the Data Ingestion processes from the previous lab to be completed.** Failure to do so will result in errors or incorrect values during the calculations
 
-
 ## Task 2 : Add eGRID factor mappings
 In this task, Alex will create factor mappings to map the contractual instrument types for Wide World Importers that Reed previously added to the respective electric grid emission factor. This process allows Microsoft Sustainability Manager to find the correct electric grid for a given contractual instrument type. This type can be expanded to map other reference data to specific emission factors, avoiding the need to create calculation models that are for specific emission factors.
 
@@ -285,9 +284,9 @@ In this task, Alex will create factor mappings to map the contractual instrument
      
       ![image](../media/lab01-54.png)
 
-4. Select the Emission factors tab to view a list of emission factors in the factor library.
+1. Select the Emission factors tab to view a list of emission factors in the factor library.
 
-5. The Emission factors list displays the name of the emission factor, the unit type, sub type, documentation reference, and gases generated. Because Wide World Importers is a Florida-based business and is connected to the FRCC electrical grid, select **FRCC (FRCC All)** from the list of emission factors.
+1. The Emission factors list displays the name of the emission factor, the unit type, sub type, documentation reference, and gases generated. Because Wide World Importers is a Florida-based business and is connected to the FRCC electrical grid, select **FRCC (FRCC All)** from the list of emission factors.
 
     ![image](../media/lab01-58.png)
 
@@ -297,67 +296,49 @@ In this task, Alex will create factor mappings to map the contractual instrument
 
    ![image](../media/lab01-59.png)
 
-6. Select the Factors mapping tab.
+1. Click on back arrow which navigate to **EPA 2022 - eGRID** and select the **Factors mapping** tab.
 
-   ![](../media/image5.png)
+   ![image](../media/lab01-56.png)
 
-7. Create factor mappings for the two contractual instrument types that were created in previous exercise and then associate them with the FRCC (FRCC All) emission factor. Each contractual instrument is a local power provider in Florida, and they're part of the FRCC electric grid. Select **+ New Factor mapping**.
+1. Create factor mappings for the two contractual instrument types that were created in previous exercise and then associate them with the FRCC (FRCC All) emission factor. Each contractual instrument is a local power provider in Florida, and they're part of the FRCC electric grid. Select **+ New Factor mapping**.
 
-    ![](../media/image6.png)
+    ![image](../media/lab01-57.png)
 
-8. Use the following information to populate the fields on the New Factor mapping screen:
+1. Use the following information to populate the fields on the New Factor mapping screen and select the **Save & Close** button to save the record.
 
-      Name - FRCC - Purchased Electricity - VanArsdel Ltd
+     - Name - FRCC - Purchased Electricity - VanArsdel Ltd
       
-      Reference data - VanArsdel Ltd
+     - Reference data - VanArsdel Ltd
+
+     - Factor library EPA 2022 - eGRID
       
-      Factor - FRCC (FRCC All)
-   
-   The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
-   
-      The Name of the factor mapping identifies the factor mapping in the list.
+     - Factor - FRCC (FRCC All)
+
+      ![image](../media/lab01-60.png)
       
-      The Reference data maps the contractual instrument type.
-      
-      The Factor maps the emission factor.
-      
-      You can select the Save & Close button to save the record.
+1. Select **+ New Factor mapping**.
 
-      ![](../media/image7.png)
+      ![image](../media/lab01-61.png)
 
-10. Select + New Factor mapping.
+1. Use the following information to populate the fields on the New Factor mapping screen and select the **Save & Close** button to save the record.
 
-     ![](../media/image8.png)
+      - Name - FRCC - Purchased Electricity - Adatum Corp
 
-11. Use the following information to populate the fields on the New Factor mapping screen:
+      - Factor library EPA 2022 - eGRID
 
-         Name - FRCC - Purchased Electricity - Adatum Corp
+      - Reference data - Adatum Corp
          
-         Reference data - Adatum Corp
-         
-         Factor - FRCC (FRCC All)
+      - Factor - FRCC (FRCC All)
 
-The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+      ![image](../media/lab01-62.png)
 
-      The Name of the factor mapping identifies the factor mapping in the list.
-      
-      The Reference data maps the contractual instrument type.
-      
-      The Factor maps the emission factor.
-      
-      You can select Save & Close to save the record.
+1. Now, you have two additional factor mappings, one for each contractual instrument that was added in previous step.
 
-   ![](../media/image9.png)
-
-Now, you have two additional factor mappings, one for each contractual instrument that was added during the previous exercise.
-
-  ![](../media/image10.png)
-
+    ![image](../media/lab01-63.png)
 
 You've completed adding the factor mappings for your purchased electricity activity data. This step is important toward the creation of calculation models that will calculate emissions for multiple emission factors based on reference data, such as contractual instrument types or facilities.
 
 By creating these factor mappings, you can choose contractual instrument types as emission factors during your calculation model creation. This information tells Microsoft Sustainability Manager to map the contractual instrument type on an activity data record to the emission factor that's listed in the factor mapping. Now, you can create more dynamic calculations rather than calculations that are specific to a given emission factor.
-
 
 ## Task 3: Create an estimation factor library
 
