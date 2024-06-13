@@ -162,7 +162,7 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
 
     ![image](../media/lab01-18.png)
 
-4. Enter the following details. After you've entered the values, select Save.
+1. Enter the following details. After you've entered the values, select Save.
 
       - Name - Enter Fiscal - 2023.
       
@@ -170,11 +170,13 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
       
       - Year template - Annual.
 
-      ![image](../media/report18.png)
+      ![image](../media/lab01-19.png)
 
-   >**Note**: This name appears on the Insights page in Microsoft Sustainability Manager.
+1. This name appears on the Insights page in Microsoft Sustainability Manager.
 
-5. Select Close. The reporting year will generate with the first period starting on the Start date and the last period ending one year from the Start date.
+    ![image](../media/lab01-20.png)
+
+1. Select Close. The reporting year will generate with the first period starting on the Start date and the last period ending one year from the Start date.
 
 ## Task 3 : Access/Permissions 
 
