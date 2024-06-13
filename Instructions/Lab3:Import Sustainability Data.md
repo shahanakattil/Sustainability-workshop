@@ -44,40 +44,13 @@ In this exercise, you will learn about the steps that Reed takes to ingest the s
 
 **Important** Please ensure you have completed the previous lab to create Reference Data. **The data import process requires all Reference Data to exist, and the process is case sensitive, so please ensure the Reference data that was added has the exact same case formatting as what is found in the lab**. Failure to do so will result in errors during the data import process
 
-1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
+### Task 1: Add custom dimension metadata
 
-1. Open a new browser window and navigate to `https://make.powerapps.com`.
- 
-1. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
+In this task, We will add additional information to the Excel spreadsheet that Alex provided: **Purchased electricity Wide World Importers 2022.xlsx**. Reed will add custom dimensions metadata for the mapping before importing the data from the Excel spreadsheet. 
 
-1. If needed, change the environment to your trial on the top bar.
+1.	Select the **Custom dimensions** tab under **Data** then select **+ New** on the top right on the Active Custom dimensions page.
 
-2. For this exercise, you'll use OneDrive.
-
-   Ensure that your personal OneDrive has been initialized by selecting the app selector button in the upper-left corner of the screen.
-
-  	![image](../media/ima1.png)
-
-3. Select OneDrive from the Apps list.
-   
-   ![image](../media/ima2.png)
-
-5. A tab with your new OneDrive will open. Close this tab and return to Power Apps.
-
-   ![image](../media/ima3.png)
-
-1. Open the **Sustainability Manager** Application.
-
-
-### Task 2: Add custom dimension metadata
-
-In this task, Reed will add additional information to the Excel spreadsheet that Alex provided: **Purchased electricity Wide World Importers 2022.xlsx**. Reed will add custom dimensions metadata for the mapping before importing the data from the Excel spreadsheet. 
-
-1.	Select the **Custom dimensions** tab under **Data**.
-     
-1.	Select **+ New** on the top right on the Active Custom dimensions page.
-
-   ![image](../media/report19.png)
+   ![image](../media/lab01-29.png)
  
 5.	Enter the details as follows: 
 
@@ -89,17 +62,21 @@ In this task, Reed will add additional information to the Excel spreadsheet that
   	
     - Click **Save & Close**.
 
-      ![image](../media/report20.png)
+      ![image](../media/lab01-30.png)
  
 6.	Repeat the previous steps to create another custom dimension metadata as follows 
 
-      •	Logical name - Model
+      -	Logical name - Model
       
-      •	Display name - Model
+      -	Display name - Model
       
-      •	Logical name - Vehicle Size  
+      -	Logical name - Vehicle Size  
       
-      •	Display name – Vehicle Size
+      -	Display name – Vehicle Size
+
+        ![image](../media/lab01-31.png)
+
+        ![image](../media/lab01-32.png)
 
 ### Task 3: Import 2022 data for “Purchased Electricity“ for Facilities
 
