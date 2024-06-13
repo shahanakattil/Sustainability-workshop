@@ -12,9 +12,11 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
     
 1. The Company profile page includes basic information about the organization, such as name, address, company logo, the annual reporting period, and relevant industries. Additionally, there are tabs at the top of the page for setting up organization structure and facilities, both will be covered in this exercise.
 
-1. On the **Company profile** page, select the **Industries** tab. Microsoft Sustainability Manager includes a selection of pre-defined industries and sub-verticals based on NACE standards, see NACE Code at https://nacev2.com/en. Select **+Add**.
+1. On the **Company profile** page, select the **Industries** tab > **+Add**.
 
    ![image](../media/lab01-5.png)
+
+    >**Note**: Microsoft Sustainability Manager includes a selection of pre-defined industries and sub-verticals based on NACE standards, see NACE Code at https://nacev2.com/en.
 
 1. Select **Transportation and storage**.
 
