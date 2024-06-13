@@ -118,96 +118,79 @@ In this task, Reed imports the Excel spreadsheet provided by Alex, _Purchased el
       ![image](../media/lab01-34.png)
      
 
+1. On the **Choose data** window expand **sustainability** and select **Purchase electricity wide world importer 2022** then click on **Transform data**.
+
+    ![image](../media/lab01-39.png)
 
 
+1. You can complete various data and column transformations on the **Transform data** page of the Power Query wizard. As a result, you can adjust data types, update column mappings, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Microsoft Power BI datasets. For this exercise, do not apply any transformations, click **Create**.
 
-
-
-
-
-
-
-
-     
-
-14. On the Choose data page of the Power Query wizard:
-
-    1. Select the **Purchased electricity** Excel spreadsheet.
-
-    2. Select **Transform data**.
-
-       ![image](../media/ima14.png)
-
-15. You can complete various data and column transformations on the **Transform data** page of the Power Query wizard. As a result, you can adjust data types, update column mappings, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Microsoft Power BI datasets. For this exercise, do not apply any transformations, click **Create**.
-
-**Note** - Wait for the transformations to be applied properly, before you click **Create**, else you may get an error.
-
-   ![image](../media/ima15.png)
+    ![image](../media/lab01-40.png)
+   
+    >**Note** - Wait for the transformations to be applied properly, before you click **Create**, else you may get an error.
     
-16. The **New data connection** wizard will now be on the **Schedule data** **import** page, where you'll complete the following actions:
+1. The **New data connection** wizard will now be on the **Schedule data** **import** page, where you'll complete the following actions:
 
-     1. Turn on the **Import data automatically** toggle to allow the option to set a schedule for the data to be imported automatically. Selecting this     
+     - Turn on the **Import data automatically** toggle to allow the option to set a schedule for the data to be imported automatically. Selecting this     
         option is beneficial if the connector will be used in a scenario where the data will change frequently, such as a web API or FTP server.
 
-      2. Turn on the **Replace previously imported data** toggle to remove all previously imported data and bring in the full dataset that was retrieved. 
+     - Turn on the **Replace previously imported data** toggle to remove all previously imported data and bring in the full dataset that was retrieved. 
          Selecting this option is beneficial if the data source isn't providing data from only the last import or if it always includes a full set of data. For 
          this scenario of importing historical data, leave both options turned off.
-    
-17. Select **Next** when finished.
 
-      ![image](../media/ima16.png)
+      - Select **Next** when finished.
+        
+          ![image](../media/lab01-41.png)
  
-18. On the Review and finish page, complete the following tasks:
+1. On the Review and finish page, complete the following tasks:
     
     1. Enter a name for the new connection, such as **Wide World Importers Purchased Electricity 2022**
 
     2. Select **Connect**.
 
-    ![image](../media/ima17.png)
+    ![image](../media/lab01-42.png)
  
-19. Next, you'll need to map your source data to the data model. Data will not appear until this step is complete. Select on **Map fields**.
+1. Next, you'll need to map your source data to the data model. Data will not appear until this step is complete. Select on **Map fields**.
 
-      ![image](../media/ima18.png)
+      ![image](../media/lab01-43.png)
  
-20. Select the **Data source** to map, in this exercise select **Purchased electricity** under **Carbon Activities.**
+1. Select the **Data source** to map, in this exercise select **Purchased electricity** under **Carbon Activities.** Select **Auto Map** for the solution to automatically map the file’s source fields with the destination fields, for any field that is not an exact match the best match will be found and highlighted in blue, make sure to review them. Review the custom dimensions to ensure Model and Product are added as part of mapping. Remove the unnecessary custom dimensions if they are added When you are done with the mapping, toggle **Ready to Import** as yes and click on **Save**.
 
-     ![image](../media/ima19.png)
+      ![image](../media/lab01-44.png)
  
-21. In this scenario, Reed will need to map the columns from the spreadsheet to the columns in Microsoft Sustainability Manager. Select **Auto Map** for the solution to automatically map the file’s source fields with the destination fields, for any field that is not an exact match the best match will be found and highlighted in blue, make sure to review them. Review the custom dimensions to ensure Model and Product are added as part of mapping. Remove the unnecessary custom dimensions if they are added When you are done with the mapping, select **Save**.
+     >**Note**: In this scenario, we will need to map the columns from the spreadsheet to the columns in Microsoft Sustainability Manager. 
 
-      ![image](../media/ima20.png)
+1. Now that we have reviewed our field mappings, toggle **Ready to Import** as yes. Click the back arrow. Click on **Done**.
 
-       ![image](../media/ima21.png)
+     ![image](../media/lab01-45.png)
 
-23. Now that we have reviewed our field mappings, toggle **Ready to Import** as yes. Click the back arrow. Click on **Done**.
+1. Click on **Done**.
 
-     ![image](../media/ima22.png)
+   ![image](../media/lab01-46.png)
+   
+1. You will be navigated back to **Data imports** where you can view the import you created.
 
-     ![image](../media/ima23.png)
+1. The **Data Import** job will run, and the status will display **Scheduled** and then in a moment it switches to **Processing**. You might need to refresh your page to view the change.
+
+1. After a minute or two select **Refresh** above the list to view the updated status, which should be **Complete**.
  
-24. You will be navigated back to **Data imports** where you can view the import you created.
-
-25. The **Data Import** job will run, and the status will display **Scheduled** and then in a moment it switches to **Processing**. You might need to refresh your page to view the change.
-
-26. After a minute or two select **Refresh** above the list to view the updated status, which should be **Complete**.
+    ![image](../media/lab01-47.png)
  
-     ![image](../media/ima24.png)
- 
-27. Go to **Carbon Activities** on the left navigation pane under **Data management**.
+1. Go to **Carbon Activities** on the left navigation pane under **Data management**.
 
-28. Find **Purchased electricity** in the **Scope 2: Indirect emissions** section and then select **View**.
+1. Find **Purchased electricity** in the **Scope 2: Indirect emissions** section and then select **View**.
 
       ![image](../media/ima25.png)
  
-The Purchased electricity view shows all purchased electricity activity data that has been imported.
+1. The Purchased electricity view shows all purchased electricity activity data that has been imported.
 
    ![image](../media/ima26.png)
  
-28. Filter the view by selecting the **Organizational Unit** dropdown menu and then selecting **Filter By**.
+1. Filter the view by selecting the **Organizational Unit** dropdown menu and then selecting **Filter By**.
 
-29. Select **Wide World Importers** from the **Filter By** dialog.
+1. Select **Wide World Importers** from the **Filter By** dialog.
 
-30. Select **Apply** to apply the filter to the column.
+1. Select **Apply** to apply the filter to the column.
 
      ![image](../media/ima27.png)
  
