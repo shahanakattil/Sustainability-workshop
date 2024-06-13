@@ -185,19 +185,17 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
 
 1. Fetch User1@otuwamocxxxxxxx.onmicrosoft.com email address by navigating to **Environment details** tab.
 
-2. Open InPrivate Windown. Go to the [Microsoft Sustainability Manager free trial page](https://dynamics.microsoft.com/en-us/sustainability/sustainability/free-trial/)
+1. Open InPrivate Windown. Go to the [Microsoft Sustainability Manager free trial page](https://dynamics.microsoft.com/en-us/sustainability/sustainability/free-trial/)
 
-1. On the **Let's get started** page, enter the  User1 email which you copied in first step and select the checkbox and click on **Start your free trial**
-
-   ![](../media/s1.png)
+1. Login with User1@otuwamocxxxxxxx.onmicrosoft.com email address.
 
 1. Follow the on-screen guidance to provide the contact details and click on **Submit**
 
-   ![](../media/s2.png)
+   ![](../media/lab01-2.png)
 
 1. You will be redirected to the Sustainability Manager page, where you can start using the trial version of Microsoft Sustainability Manager.
 
-   ![](../media/s3.png)
+   ![](../media/lab01-3.png)
 
 1. In edge browser for https://admin.powerplatform.microsoft.com/ and login with  - **Email/Username:** <inject key="AzureAdUserEmail"></inject>  - **Password:** <inject key="AzureAdUserPassword"></inject> account.
 
