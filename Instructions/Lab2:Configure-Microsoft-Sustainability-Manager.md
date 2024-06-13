@@ -199,7 +199,7 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
 
    ![](../media/s3.png)
 
-1. In edge browser for https://admin.powerplatform.microsoft.com/ and login with odl_user account.
+1. In edge browser for https://admin.powerplatform.microsoft.com/ and login with  - **Email/Username:** <inject key="AzureAdUserEmail"></inject>  - **Password:** <inject key="AzureAdUserPassword"></inject> account.
 
 1. From the left navigation pane select **Environment** and **Sustainablity trail**.
 
