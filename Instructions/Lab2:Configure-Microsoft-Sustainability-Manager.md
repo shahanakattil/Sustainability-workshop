@@ -162,13 +162,13 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
 
     ![image](../media/lab01-18.png)
 
-1. Enter the following details. After you've entered the values, select Save.
+1. Enter the following details. After you've entered the values, select **Save**.
 
-      - Name - Enter Fiscal - 2023.
+      - Name - Enter **Fiscal - 2023**.
       
-      - Start date: 01/01/2023.
+      - Start date: **01/01/2023**.
       
-      - Year template - Annual.
+      - Year template - **Annual**.
 
       ![image](../media/lab01-19.png)
 
