@@ -83,44 +83,52 @@ In this task, We will add additional information to the Excel spreadsheet that A
 In this task, Reed imports the Excel spreadsheet provided by Alex, _Purchased electricity Wide World Importers 2022.xlsx_. This brings in the Electricity Purchased by Wide World Importers facilities for the year 2022 into the Purchased electricity activity data.
 
 1.  In the left navigation pane, under **Data**, select **Imports** and select **New**
-   
-5. On the **Imports**, select **POWER QUERY GUIDED EXPERIENCE**.
 
-   ![image](../media/ima8.png)
+     ![image](../media/lab01-33.png)
+
+1. On the **Imports**, select **POWER QUERY GUIDED EXPERIENCE**.
+
+   ![image](../media/lab01-35.png)
+
+1. Under **Carbon activities**, Select **Add**, next to **Purchased electricity** under Category name then click on **Next**.
+
+    ![image](../media/lab01-36.png)
  
-6. Under **Carbon activities**, Select **Add**, next to **Purchased electricity** under Category name
+1. On **Choose data source** window click on **View more**.
 
-    ![image](../media/ima9.png)
- 
-7. Select **Next**.
-   
-8. Review the large list of connectors by selecting the **Excel workbook**, as the Data source.
- 
-    ![image](../media/ima10.png)
+    ![image](../media/lab01-37.png)
 
-9. A new dialog will open for Power Query. Select the **Upload file** option and then select **Browse**.
+1. On the **New source** window select **Azure SQL database**.
 
-    ![image](../media/ima11.png)
-    
-    Note - You can also choose to import an existing file that's located in OneDrive. For simplicity of this exercise, you'll use the Upload file functionality.
- 
-10. On the file selection window, browse to the location of the Excel files that were downloaded.
-    
-    1.	Select the **Purchased electricity Wide World Importers 2022.xlsx file**.
+    ![image](../media/lab01-38.png)
 
-    2.	Select **Open**.
 
-    ![image](../media/ima12.png)
- 
-11. After the file has successfully uploaded, you might be required to select **Sign in** to create a new connection credential.
+1. On the **Connect to data source** under **Connection settings** provide following details
 
-    ![image](../media/ima13.png)
- 
-12. An Office 365 Sign-in dialog will appear. Reed will select their user from the list. In this exercise, select your  user account from the list.
+   - **Server** : 
 
-13. After the sign-in process is complete, the new connection will be selected automatically. Select **Next**.
+   - **Authentication Kind** : Basic
 
-     **Note** - If you receive an error after uploading the Excel file, check your browser cookie settings.
+   - **Username** : SQLUSER
+
+   - **Password** : 
+
+   - Select the checkbox next to **Use encrypted connection**
+
+      ![image](../media/lab01-34.png)
+     
+
+
+
+
+
+
+
+
+
+
+
+     
 
 14. On the Choose data page of the Power Query wizard:
 
