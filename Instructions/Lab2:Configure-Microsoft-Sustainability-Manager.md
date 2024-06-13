@@ -183,7 +183,7 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
 
  In this we'll be adding User to Sustainability trial environment and we'll be assisgning security role to user1. 
 
-1. Fetch User1 email address by navigating to **Environment details** tab.
+1. Fetch User1@otuwamocxxxxxxx.onmicrosoft.com email address by navigating to **Environment details** tab.
 
 2. Open InPrivate Windown. Go to the [Microsoft Sustainability Manager free trial page](https://dynamics.microsoft.com/en-us/sustainability/sustainability/free-trial/)
 
