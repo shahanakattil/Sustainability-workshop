@@ -52,7 +52,7 @@ In this task, We will add additional information to the Excel spreadsheet that A
 
     ![image](../media/lab01-29.png)
  
-5.	Enter the details as follows: 
+1.	Enter the details as follows: 
 
   	 - Logical name - Product
    
@@ -64,7 +64,7 @@ In this task, We will add additional information to the Excel spreadsheet that A
 
       ![image](../media/lab01-30.png)
  
-6.	Repeat the previous steps to create another custom dimension metadata as follows 
+1.	Repeat the previous steps to create another custom dimension metadata as follows 
 
       -	Logical name - Model
       
@@ -176,27 +176,26 @@ In this task, Reed imports the Excel spreadsheet provided by Alex, _Purchased el
  
     ![image](../media/lab01-47.png)
  
-1. Go to **Carbon Activities** on the left navigation pane under **Data management**.
+1. Go to **Carbon Activities** on the left navigation pane under **Data management**. Select **Purchased electricity** in the **Scope 2: Indirect emissions** section.
 
-1. Find **Purchased electricity** in the **Scope 2: Indirect emissions** section and then select **View**.
-
-      ![image](../media/ima25.png)
+      ![image](../media/lab01-48.png)
  
 1. The Purchased electricity view shows all purchased electricity activity data that has been imported.
-
-   ![image](../media/ima26.png)
  
-1. Filter the view by selecting the **Organizational Unit** dropdown menu and then selecting **Filter By**.
+1. Filter the view by selecting the **Organizational Unit** dropdown menu and then selecting **Edit Filter**.
 
-1. Select **Wide World Importers** from the **Filter By** dialog.
+    ![image](../media/lab01-49.png)
+    
+1. Select Organization unit > **Wide World Importers** from the **Edit filters: Purchased energy** dialog.
 
+    ![image](../media/lab01-50.png)
+    
 1. Select **Apply** to apply the filter to the column.
-
-     ![image](../media/ima27.png)
  
-After a few moments, the view will refresh and the activity data records that were imported during this exercise will be displayed.
+1. After a few moments, the view will refresh and the activity data records that were imported during this exercise will be displayed.
 
- ![image](../media/ima28.png)
+    ![image](../media/lab01-52.png)
+
 
 You've now completed the data import of 2022 Purchased Electricity for Wide World Importers. This step is imperative in realizing the goal of recording, reporting, and reducing carbon emissions. Next, you'll import the 2022 Miles Driven for Wide World Importers fleet of electric vehicles.
 
