@@ -104,13 +104,15 @@ Great job, by completing these steps, you have completed the organizational setu
 
 In this task, Reed will set up the reference data for contractual instrument types in Microsoft Sustainability Manager. Contractual instrument types are different types of contractual agreements that a firm has with their providers and suppliers.
 
-1. In the left navigation pane, select Data > Reference data.
+1. In the left navigation pane, select **Data** > **Reference data**.
 
 2. Select Contractual instrument types and then select View.
 
     ![image](../media/report11.png)
 
-3. Under Active contractual instrument types, select + New to create new contractual types.
+3. Under Active contractual instrument types, select **+ New** to create new contractual types.
+
+   ![image](../media/lab01-15.png)
 
 4. Create a new contractual instrument with the following details and then select Save & Close.
 
