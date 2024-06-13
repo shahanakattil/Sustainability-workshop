@@ -426,8 +426,7 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
    >**Note**: You've now created an estimation factor. Estimation factors are important to be able to convert from one unit type to another when an estimate is appropriate, such as estimated fuel or battery economy of vehicles or when estimating gas and electric usage during hotel stays.
 
 ## Task 5: Set up calculation models
- 
- 
+  
 In this exercise, you learn about the steps that Alex takes to define calculation models that Microsoft Sustainability Manager uses to calculate emissions. Calculation models are the instruction sets, or recipes, that define the steps and values to use during the emission calculations. Microsoft Sustainability Manager provides several calculation models.
 
 Take the opportunity to review some prebuilt models. They're excellent sources of information when you're creating new calculation models. You can also use calculation models as a template for new models. This exercise and the next discuss the algorithm that's used to calculate emissions. For more information, see Overview of Calculation models. 
@@ -435,17 +434,13 @@ Take the opportunity to review some prebuilt models. They're excellent sources o
  
 ## Task 6: Create a purchased electricity model
  
-1. Select Calculations > Models on the left navigation pane.
+1. Select Calculations > Models on the left navigation pane. Select + New to create a new calculation model.
 
-2. Select + New to create a new calculation model.
+   ![image](../media/lab01-70.png)
 
-   ![](../media/image17.png)
+1. A new page opens, where you can set up the new calculation model. A Source action is added by default.
 
-3. A new page opens, where you can set up the new calculation model. A Source action is added by default.
-
-   ![](../media/image18.png)
- 
-4. Populate the Source Details pane with the following data:
+1. Populate the Source Details pane with the following data and select Save to save the record.
 
    Category name - Purchased Electricity: Contractual Instrument Based - 2022
    
@@ -457,48 +452,43 @@ Take the opportunity to review some prebuilt models. They're excellent sources o
    
    Documentation reference - https://www.epa.gov/sites/default/files/2020-12/documents/electricityemissions.pdf
 
-The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+   ![image](../media/lab01-71.png)
 
-      The Category name identifies the calculation model in the list.
+1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+
+      - The Category name identifies the calculation model in the list.
       
-      The Module is used to identify which data types should appear in the Activity data field.
+      - The Module is used to identify which data types should appear in the Activity data field.
       
-      The Activity data identifies which type of activity data that the model processes.
+      - The Activity data identifies which type of activity data that the model processes.
       
-      Use the Calculation method to roughly estimate what the calculation does.
+      - Use the Calculation method to roughly estimate what the calculation does.
       
-      The Documentation reference identifies the documentation that's used to create the calculation model.
+      - The Documentation reference identifies the documentation that's used to create the calculation model.
       
-      You can select Save to save the record.
 
-   ![](../media/image19.png)
+1. Select the plus (+) icon to add a new action to the calculation model.
 
+    ![image](../media/lab01-72.png)
 
-4. Select the plus (+) icon to add a new action to the calculation model.
+1. Select Report on the Available actions screen.   
 
-    ![](../media/image20.png)
-
-5. Select Report on the Available actions screen.   
-
-   ![](../media/image21.png)
+   ![image](../media/lab01-73.png)
  
-6. A new Report action is added to the calculation model. Select that action to edit it.
-
-    ![](../media/image22.png)
+1. A new Report action is added to the calculation model. Select that action to edit it.
 
 
- You can use the Report action to calculate and report carbon emissions to the emissions table. This action uses the emission factor or factor mapping to identify the emission factor to be used based on the Emission factor dropdown list. In this exercise, the action uses a contractual instrument type field to identify the factor mapping and emission factor to use in the calculation.
+   - You can use the Report action to calculate and report carbon emissions to the emissions table. This action uses the emission factor or factor mapping to identify the emission factor to be used based on the Emission factor dropdown list. In this exercise, the action uses a contractual instrument type field to identify the factor mapping and emission factor to use in the calculation.
 
-After you've determined the emission factor for the activity data line, the activity data quantity and quantity unit will be converted to the same unit type as the emission factor. In this exercise, the kilowatt-hours (kWh) from the activity data are converted to megawatt-hours (MWh).
+   - After you've determined the emission factor for the activity data line, the activity data quantity and quantity unit will be converted to the same unit type as the emission factor. In this exercise, the kilowatt-hours (kWh) from the activity data are converted to megawatt-hours (MWh).
 
-After the quantity has been converted, the converted value will be multiplied against each gas that's listed in the emission factor, determining the volume of gases produced.
+   - After the quantity has been converted, the converted value will be multiplied against each gas that's listed in the emission factor, determining the volume of gases produced.
 
-To determine the CO2E (carbon dioxide equivalency), the gases produced are multiplied against their Global Warming Potential (GWP) factor, which is stored in the Greenhouse Gases Dataverse table and are added together.
+   - To determine the CO2E (carbon dioxide equivalency), the gases produced are multiplied against their Global Warming Potential (GWP) factor, which is stored in the Greenhouse Gases Dataverse table and are added together.
 
-The Report action stores the gases produced values, CO2E value, and other identifying information about the activity data row in the emissions table.
+   - The Report action stores the gases produced values, CO2E value, and other identifying information about the activity data row in the emissions table.
 
-
-7. Populate the Report action with the following data:
+1. Populate the Report action with the following data and select Save to save the record.
 
       Category name - Electricity * EF (Contractual Instrument Type)
       
@@ -511,30 +501,27 @@ The Report action stores the gases produced values, CO2E value, and other identi
       Emission factor library - EPA 2022 - eGRID
       
       Emission factor - FRCC (FRCC All)
-      
-   The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
-   The Category name identifies the action in the calculation model.
-      
-   Use the Description to roughly note what the calculation does.
-      
-   The Emission report value identifies which field from the activity data type should be used to retrieve the value that's used in the emission calculation.
-      
-   The Unit identifies the field from the activity data type to be used to retrieve the unit type of the value. Alternatively, you can specify a unit to always be used in the action, regardless of which unit is specified on the activity date type.
-      
-   The Emission factor library identifies which factor library is used to identify the emission factor.
-      
-   The Emission factor identifies which emission factor or factor mapping to use to calculate the emissions. Choosing a factor mapping allows multiple reference data values to map to an emission factor, allowing for a calculation model to not be bound to a single emission factor.
-      
-   You can select Save to save the record.
+      ![image](../media/lab01-74.png)
 
-   ![](../media/image23.png)
+1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+
+    - The Category name identifies the action in the calculation model.
+      
+    - Use the Description to roughly note what the calculation does.
+      
+    - The Emission report value identifies which field from the activity data type should be used to retrieve the value that's used in the emission calculation.
+      
+    - The Unit identifies the field from the activity data type to be used to retrieve the unit type of the value. Alternatively, you can specify a unit to always be used in the action, regardless of which unit is specified on the activity date type.
+      
+    - The Emission factor library identifies which factor library is used to identify the emission factor.
+      
+    - The Emission factor identifies which emission factor or factor mapping to use to calculate the emissions. Choosing a factor mapping allows multiple reference data values to map to an emission factor, allowing for a calculation model to not be bound to a single emission factor.
+      
 
 8. Select the back arrow on the record to return to the list of calculation models.
 
-   The new calculation model should appear in the list. 
-
-    ![](../media/image24.png)
+    The new calculation model should appear in the list. 
  
     Now, you've created a new calculation model. In this calculation model you've used factor mappings, an important differentiator for Microsoft Cloud for Sustainability. 
     Factor mappings allow the calculation models to be more dynamic by mapping reference data to emission factors, allowing you to have one model that can calculate multiple 
