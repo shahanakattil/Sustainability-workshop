@@ -348,7 +348,7 @@ In this task, Alex will create an estimation factor library to define the estima
 
      ![image](../media/lab01-64.png)
 
-3. Use the following information to populate the fields on the New Factor library page and select **Save & Close** to save the record.
+1. Use the following information to populate the fields on the New Factor library page and select **Save & Close** to save the record.
 
      - Name - Electric Vehicle Estimation Library
    
@@ -364,38 +364,32 @@ In this task, Alex will create an estimation factor library to define the estima
 
      ![image](../media/lab01-65.png)
    
-   The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
    
-   The Name of the factor library identifies the factor library in the list.
+    - The Name of the factor library identifies the factor library in the list.
    
-   The Description of the factor library provides more information about the factor library for others.
+    - The Description of the factor library provides more information about the factor library for others.
    
-   The Module is the data type that should appear in the Activity data.
+    - The Module is the data type that should appear in the Activity data.
    
-   The Documentation reference for the factor library identifies the documentation that's used to generate the factor library.
+    - The Documentation reference for the factor library identifies the documentation that's used to generate the factor library.
    
-   The Type of factor library identifies if it's a Custom, Demo (sample), or Standard (preloaded based on EPA libraries) type. For more information, see Emission factors.
+    - The Type of factor library identifies if it's a Custom, Demo (sample), or Standard (preloaded based on EPA libraries) type. For more information, see Emission factors.
    
-   The Library Type of the factor library switches the library type between Emission or Estimation library. Emission libraries calculate emission gases. Estimation libraries create estimated conversions from one unit type to another, such as 100 miles driven to kWh.
-   
-   
+    - The Library Type of the factor library switches the library type between Emission or Estimation library. Emission libraries calculate emission gases. Estimation libraries create estimated conversions from one unit type to another, such as 100 miles driven to kWh.
+      
 ## Task 4: Create an estimation factor
 In this task, Alex will create the estimation factor for estimating the kilowatt-hours (kWh) that are used for every mile driven. The EPA estimates electric vehicle efficiency in kilowatt-hours (kWh) for every 100 miles. Alex will use this same metric in the estimation factor to ensure that the estimation factor is consistent with the EPA.
 
 1. Scroll down on the Factor library view and select Electric Vehicle Estimation Library (it will be near the bottom of your page) under Estimation factors.
 
-    ![](../media/image12.png)
+    ![image](../media/lab01-66.png)
 
-2. Select the Estimation Factors tab.
+1. Select the Estimation Factors tab then click on  **+ New Estimation factor**.
 
-   ![](../media/image13.png)
+    ![image](../media/lab01-67.png)
 
-3. Select + New Estimation factor.
- 
-  ![](../media/image14.png)
-
-
-4. Review the Fabrikam Electric truck details on the EPA website and then enter the following information on the New Estimation factor screen:
+1. Review the Fabrikam Electric truck details on the EPA website and then enter the following information on the New Estimation factor screen and select Save & Close to save the record.
 
       Name - Fabrikam Electric Truck - EPA Estimate
       
@@ -409,30 +403,27 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
       
       Factor value unit - kWh
 
-      The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+      ![image](../media/lab01-68.png)
 
-      The Name identifies the emission factor in the list.
-      
-      The Documentation reference identifies the documentation that's used to generate the estimation factor.
-      
-      The Factor library links the estimation factor to the factor library. This value will default if you select New Estimation factor while you're in a factor library.
-      
-      The Unit identifies what unit will be converted.
-      
-      The Factor value determines the amount to be estimated according to the Factor value unit.
-      
-      The Factor value unit specifies the unit type to be converted to.
-      
-      You can select Save & Close to save the record.
+1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
-      ![](../media/image15.png)
+      - The Name identifies the emission factor in the list.
+      
+      - The Documentation reference identifies the documentation that's used to generate the estimation factor.
+      
+      - The Factor library links the estimation factor to the factor library. This value will default if you select New Estimation factor while you're in a factor library.
+      
+      - The Unit identifies what unit will be converted.
+      
+      - The Factor value determines the amount to be estimated according to the Factor value unit.
+      
+      - The Factor value unit specifies the unit type to be converted to.
+      
+1. The new emission factor is estimating that every 100 miles is equivalent to 49 kWh.
 
-5. The new emission factor is estimating that every 100 miles is equivalent to 49 kWh.
+     ![image](../media/lab01-69.png)
 
-     ![](../media/image16.png)
-
-
-    You've now created an estimation factor. Estimation factors are important to be able to convert from one unit type to another when an estimate is appropriate, such as estimated fuel or battery economy of vehicles or when estimating gas and electric usage during hotel stays.
+   >**Note**: You've now created an estimation factor. Estimation factors are important to be able to convert from one unit type to another when an estimate is appropriate, such as estimated fuel or battery economy of vehicles or when estimating gas and electric usage during hotel stays.
 
 ## Task 5: Set up calculation models
  
