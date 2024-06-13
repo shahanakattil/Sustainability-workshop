@@ -257,31 +257,19 @@ In this exercise, you will learn about the steps that Alex takes to define the f
 
 Wide World Importers may not know exactly how much electricity was purchased for charging the Electric Trucks, which grids the electricity came from, or what the energy source is. However, Wide World Importers can estimate the amount of electricity purchased by identifying how many kilowatt hours (kWh) are used per 100 miles, based on EPA vehicle efficiency data. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of Emission factors** at https://docs.microsoft.com/en-us/industry/sustainability/calculate-emission-factors.
 
-1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
-
-2. Open a new browser window and navigate to https://make.powerapps.com.
-
-3. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
-
-4. If needed, change the environment to your trial on the top bar.
-
-5. Open the **Sustainability Manager** Application by clickin on Play button.
-
-
 **Important** Please make sure that you have completed the previous lab to create Activity Data. **The emissions calculations require all the Data Ingestion processes from the previous lab to be completed.** Failure to do so will result in errors or incorrect values during the calculations
 
 
 ## Task 2 : Add eGRID factor mappings
 In this task, Alex will create factor mappings to map the contractual instrument types for Wide World Importers that Reed previously added to the respective electric grid emission factor. This process allows Microsoft Sustainability Manager to find the correct electric grid for a given contractual instrument type. This type can be expanded to map other reference data to specific emission factors, avoiding the need to create calculation models that are for specific emission factors.
 
+1. In the left navigation pane, select **Calculations** > **Factor libraries**.
 
-1. In the left navigation pane, select Calculations > Factor libraries.
+1. Select the EPA 2022 - eGRID factor library to open it.
 
-2. Select the EPA 2022 - eGRID factor library to open it.
+     ![image](../media/lab01-53.png)
 
-     ![](../media/image1.png)
-
-3. Explore the EPA 2022 - eGRID factor library. The General tab includes the following identifying information about the factor library:
+1. Explore the EPA 2022 - eGRID factor library. The General tab includes the following identifying information about the factor library:
 
    - Name - Identifies the factor library in the list.
       
@@ -295,11 +283,11 @@ In this task, Alex will create factor mappings to map the contractual instrument
    - Library type - This functionally switches the library type between Emission or Estimation library. Emission libraries calculate emission gases. Estimation libraries create 
        estimated conversions from one unit type to another, such as night stays at a hotel to kWh used.   
      
-      ![](../media/image2.png)
+      ![image](../media/lab01-54.png)
 
 4. Select the Emission factors tab to view a list of emission factors in the factor library.
 
-5. The Emission factors list displays the name of the emission factor, the unit type, sub type, documentation reference, and gases generated. Because Wide World Importers is a Florida-based business and is connected to the FRCC electrical grid, select FRCC (FRCC All) from the list of emission factors.
+5. The Emission factors list displays the name of the emission factor, the unit type, sub type, documentation reference, and gases generated. Because Wide World Importers is a Florida-based business and is connected to the FRCC electrical grid, select **FRCC (FRCC All)** from the list of emission factors.
 
     ![](../media/image3.png)
 
@@ -309,11 +297,11 @@ In this task, Alex will create factor mappings to map the contractual instrument
 
    ![](../media/image4.png)
 
-6. Return to EPA 2022 - eGRID by selecting the back arrow. Select the Factors mapping tab.
+6. Select the Factors mapping tab.
 
    ![](../media/image5.png)
 
-7. Create factor mappings for the two contractual instrument types that were created in previous exercise and then associate them with the FRCC (FRCC All) emission factor. Each contractual instrument is a local power provider in Florida, and they're part of the FRCC electric grid. Select + New Factor mapping.
+7. Create factor mappings for the two contractual instrument types that were created in previous exercise and then associate them with the FRCC (FRCC All) emission factor. Each contractual instrument is a local power provider in Florida, and they're part of the FRCC electric grid. Select **+ New Factor mapping**.
 
     ![](../media/image6.png)
 
@@ -324,6 +312,8 @@ In this task, Alex will create factor mappings to map the contractual instrument
       Reference data - VanArsdel Ltd
       
       Factor - FRCC (FRCC All)
+
+   
    
    The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
    
@@ -337,11 +327,11 @@ In this task, Alex will create factor mappings to map the contractual instrument
 
       ![](../media/image7.png)
 
-9. Select + New Factor mapping.
+10. Select + New Factor mapping.
 
      ![](../media/image8.png)
 
-10. Use the following information to populate the fields on the New Factor mapping screen:
+11. Use the following information to populate the fields on the New Factor mapping screen:
 
          Name - FRCC - Purchased Electricity - Adatum Corp
          
