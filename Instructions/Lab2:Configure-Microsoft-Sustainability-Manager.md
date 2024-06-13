@@ -8,51 +8,48 @@
 In this task, you will set up the Company profile, hierarchy, and facilities for the Wide World Importers organization in Microsoft Sustainability Manager.
 
 1. In the left navigation pane, Select **Company profile** under **Settings** .
-
+   
+      ![image](../media/lab01-4.png)
+    
 1. The Company profile page includes basic information about the organization, such as name, address, company logo, the annual reporting period, and relevant industries. Additionally, there are tabs at the top of the page for setting up organization structure and facilities, both will be covered in this exercise.
-
-   ![image](../media/s4.png)
 
 1. On the **Company profile** page, select the **Industries** tab. Microsoft Sustainability Manager includes a selection of pre-defined industries and sub-verticals based on NACE standards, see NACE Code at https://nacev2.com/en. Select **+Add**.
 
-   ![image](../media/s5.png)
+   ![image](../media/lab01-5.png)
 
 1. Select **Transportation and storage**.
 
-   ![image](../media/s6.png)
+   ![image](../media/lab01-6.png)
 
 1. In the next screen, select **Land transport and transport via pipelines** and select **Add**.
 
-   ![image](../media/s7.png)
+   ![image](../media/lab01-7.png)
 
 1. **Land transport and transport via pipelines** is now visible in the **Industries** section at the bottom of the **Company profile** page.
 
-1. In the **Company profile** page, switch to the **Structure** tab.
+      ![image](../media/lab01-8.png)
+      
+1. In the **Company profile** page, switch to the **Structure** tab. 1. Select **Contoso USA** and select **Add** to add a new organizational unit under it.
 
-   ![image](../media/s8.png)
-
-1. Select **Contoso USA** and select **Add** to add a new organizational unit under it.
-
-   ![image](../media/s9.png)
-
+    ![image](../media/lab01-9.png)
 
 1. Enter the following data for organizational unit and select **Save** in the button pane:
 
     * **Name**: Wide World Importers
     * **Organizational unit type**: Department
 
-      ![image](../media/s10.png)
+      ![image](../media/lab01-10.png)
 
-1. In the **Organizational hierarchies** section, which appears after selecting **Save**, select **+ New Organizational hierarchy**.
+1. In the **Organizational hierarchies** section ( you may need to scroll down), select Three ellipcs option then from the list choose **+ New Organizational hierarchy**.
 
-    ![image](../media/s11.png)
+     ![image](../media/lab01-11.png)
 
 1. Set the following values and select **Save & Close**:
 
-    * **Parent**: Contoso USA
+    * **Parent**: Remove the existing one click on **Search** icon then select **Contoso USA** 
     * **Effective start date**: The first day of the current month (MM/DD/YYYY)
 
-      ![image](../media/S12.png)
+      ![image](../media/lab01-12.png)
 
 1. After being returned to the **Organizational Unit**, select **Save & Close** to return to the **Company profile**.
 
@@ -60,7 +57,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 
 1. If necessary, navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
 
-   ![image](../media/s14.png)
+    ![image](../media/lab01-13.png)
 
 15. Create a new Facility with the following details. Once the values are entered, select **Save & Close**:
 
@@ -75,6 +72,8 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
     1. **Latitude**: 25.774320
     1. **Longitude**: -80.187720
 
+    ![image](../media/lab01-14.png)
+    
 >**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
    ![image](../media/s15.png)
