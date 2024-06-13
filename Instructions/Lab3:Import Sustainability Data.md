@@ -344,21 +344,25 @@ By creating these factor mappings, you can choose contractual instrument types a
 
 In this task, Alex will create an estimation factor library to define the estimation factor for estimating the kilowatt-hours (kWh) that are used for each mile driven. While electric vehicles don't have Scope 1, direct tailpipe emissions, they do need to be charged while transporting goods across the US, resulting in Scope 2 purchased electricity. Wide World Importers don't know the exact amount of electricity purchased, what grid the electricity came from, or the energy source; however, they can estimate the amount of purchased electricity by identifying the number of kilowatt-hours (kWh) that are used every 100 miles based on EPA vehicle efficiency.
 
-1. Go to Factor libraries on the left navigation pane and select New to create a new library.
+1. Go to Factor libraries on the left navigation pane and select **+ New** to create a new library.
 
-2. Use the following information to populate the fields on the New Factor library page:
+     ![image](../media/lab01-64.png)
 
-   Name - Electric Vehicle Estimation Library
+3. Use the following information to populate the fields on the New Factor library page and select **Save & Close** to save the record.
+
+     - Name - Electric Vehicle Estimation Library
    
-   Description - Scope 2 Emissions from Electric Vehicles
+     - Description - Scope 2 Emissions from Electric Vehicles
    
-   Module - Select Carbon activities
+     - Documentation reference - https://fueleconomy.gov/feg/byfuel/EV2022.shtml
+
+     - Module - Select Carbon activities
+
+     - Type - Custom
    
-   Documentation reference - https://fueleconomy.gov/feg/byfuel/EV2022.shtml
-   
-   Type - Custom
-   
-   Library Type - Estimation factor library
+     - Library Type - Estimation factor library
+
+     ![image](../media/lab01-65.png)
    
    The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
    
@@ -374,10 +378,7 @@ In this task, Alex will create an estimation factor library to define the estima
    
    The Library Type of the factor library switches the library type between Emission or Estimation library. Emission libraries calculate emission gases. Estimation libraries create estimated conversions from one unit type to another, such as 100 miles driven to kWh.
    
-   You can select Save & Close to save the record.
-
-   ![](../media/image11.png)
-
+   
 ## Task 4: Create an estimation factor
 In this task, Alex will create the estimation factor for estimating the kilowatt-hours (kWh) that are used for every mile driven. The EPA estimates electric vehicle efficiency in kilowatt-hours (kWh) for every 100 miles. Alex will use this same metric in the estimation factor to ensure that the estimation factor is consistent with the EPA.
 
