@@ -102,19 +102,17 @@ Great job, by completing these steps, you have completed the organizational setu
 
 ## Task 1.2 : Set up reference data
 
-In this task, Reed will set up the reference data for contractual instrument types in Microsoft Sustainability Manager. Contractual instrument types are different types of contractual agreements that a firm has with their providers and suppliers.
+In this task, we will set up the reference data for contractual instrument types in Microsoft Sustainability Manager. Contractual instrument types are different types of contractual agreements that a firm has with their providers and suppliers.
 
-1. In the left navigation pane, select **Data** > **Reference data**.
-
-2. Select Contractual instrument types and then select View.
+1. In the left navigation pane, select **Data** > **Reference data** then choose Contractual instrument types and then select View.
 
     ![image](../media/report11.png)
 
-3. Under Active contractual instrument types, select **+ New** to create new contractual types.
+1. Under Active contractual instrument types, select **+ New** to create new contractual types.
 
    ![image](../media/lab01-15.png)
 
-4. Create a new contractual instrument with the following details and then select Save & Close.
+1. Create a new contractual instrument with the following details and then select Save & Close.
 
       - Name - VanArsdel Ltd
       
@@ -122,7 +120,7 @@ In this task, Reed will set up the reference data for contractual instrument typ
 
         ![image](../media/report12.png)
 
-5. In the same way, create a new contractual instrument with the following details and then select Save & Close.
+1. In the same way, create a new contractual instrument with the following details and then select Save & Close.
 
       - Name - Adatum Corp
       
@@ -130,10 +128,7 @@ In this task, Reed will set up the reference data for contractual instrument typ
 
         ![image](../media/report13.png)
    
-    By completing these steps, you've added contractual instrument types.
- 
-Many types of reference data are available. You can explore the other reference data types, which will be used throughout Microsoft Cloud for Sustainability and Microsoft Sustainability Manager.
-
+        >**Note**: Many types of reference data are available. You can explore the other reference data types, which will be used throughout Microsoft Cloud for Sustainability and Microsoft Sustainability Manager.
 
 ## Task 1.3 : Set up unit conversion factor
 
