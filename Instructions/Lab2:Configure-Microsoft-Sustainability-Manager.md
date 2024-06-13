@@ -181,42 +181,28 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
 
 ## Task 3 : Access/Permissions 
 
- In this we'll be adding User to Sustainability trial environment and we'll be assisgning security role to user1. 
-
-1. Fetch User1@otuwamocxxxxxxx.onmicrosoft.com email address by navigating to **Environment details** tab.
-
-1. Open InPrivate Windown. Go to the [Microsoft Sustainability Manager free trial page](https://dynamics.microsoft.com/en-us/sustainability/sustainability/free-trial/)
-
-1. Login with Alexwilber@otuwamocXXXXXX.onmicrosoft.com email address.
-
-    ![](../media/lab01-21.png)
-
-1. On **Tell us about yourself** window provide the contact details.
-
-     - First name : Alex
-
-     - Last name : wilber
-
-     - Country/region : Select your country name
-
-     - Phone number : Enter your phone number
-
-     - Select the checkboxes and click on **Submit**.
-
-       ![](../media/lab01-22.png)
-
-1. You will be redirected to the Sustainability Manager page, where you can start using the trial version of Microsoft Sustainability Manager then.
-
-   ![](../media/lab01-3.png)
+In this task  we'll be assisgning **Basic User** and **Sustainablilty all - reports - full access Role** to Alex wilber. 
 
 1. In edge browser for https://admin.powerplatform.microsoft.com/ and login with  - **Email/Username:** <inject key="AzureAdUserEmail"></inject>  - **Password:** <inject key="AzureAdUserPassword"></inject> account.
 
 1. From the left navigation pane select **Environment** and **Sustainablity trail**.
 
+     ![image](../media/lab01-23.png)
+
 1. Select **Settings** from menu bar then expand **Users + Permissions** and click on **Users**.
 
-1. Select **+ Add Users** from left top menu bar and on the **Add user** window search for User1 and click on **Add**. 
+    ![image](../media/lab01-24.png)
+   
+    ![image](../media/lab01-25.png)
 
-1. On the **Manage security roles** blade select the **Basic User** and **Sustainablilty all - reports - full access Role**.
+1. Select **+ Add Users** from left top menu bar and on the **Add user** window search and Alex wilber and click on **Add**. 
 
-1. Click on **Save**. 
+    ![image](../media/lab01-26.png)
+
+1. On the **Manage security roles** blade select the **Basic User** and **Sustainablilty all - reports - full access Role** then click on **Save**.
+
+    ![image](../media/lab01-27.png)
+
+    ![image](../media/lab01-28.png)
+
+
