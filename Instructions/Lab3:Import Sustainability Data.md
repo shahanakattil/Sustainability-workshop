@@ -50,7 +50,7 @@ In this task, We will add additional information to the Excel spreadsheet that A
 
 1.	Select the **Custom dimensions** tab under **Data** then select **+ New** on the top right on the Active Custom dimensions page.
 
-   ![image](../media/lab01-29.png)
+    ![image](../media/lab01-29.png)
  
 5.	Enter the details as follows: 
 
