@@ -95,7 +95,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 
      ![image](../media/lab01-16.png)
     
->**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
+      >**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
 Great job, by completing these steps, you have completed the organizational setup in Microsoft Sustainability Manager for Wide World of Importers. This included the Company profile, hierarchy, and facilities. Organizational structure and facility management will be linked to activity and emission data to group emissions by Organization, facility, and even regions. This is an important part of carbon emission reporting and organization disclosures. **Please continue to the next task.**
 
@@ -132,7 +132,7 @@ In this task, we will set up the reference data for contractual instrument types
 
 ## Task 1.3 : Set up unit conversion factor
 
-In this task, Reed will set up a unit conversion factor in Microsoft Sustainability Manager. While Alex is reviewing the inventory management plan, Alex identifies a missing unit of distance that's needed to calculate emissions for the fleet of electric vehicles. Alex asks Reed to add a new unit to the Length/Distance unit group.
+In this task, we will setting up a unit conversion factor in Microsoft Sustainability Manager. Which is needed to calculate emissions for the fleet of electric vehicles.
 
 You can use unit groups to group units together and define a base unit that you can use to convert unit types. For example, the Length/Distance unit group contains units for length and distance, with a base unit of meter (m). The units within the Length/Distance unit group have conversions between the unit type and meter, such as miles convert to 1,609.344 meters.
 
@@ -152,13 +152,11 @@ You can use unit groups to group units together and define a base unit that you 
 
        ![image](../media/report16.png)
        
-By completing these steps, you've finished the organizational and reference data setup.
-
-Organization and reference data is the foundation for Microsoft Cloud for Sustainability and Microsoft Sustainability Manager. This data is used throughout the tools, so make sure that your organization and reference data is set up correctly.
+     >**Note**: Organization and reference data is the foundation for Microsoft Cloud for Sustainability and Microsoft Sustainability Manager. This data is used throughout the tools, so make sure that your organization and reference data is set up correctly.
 
 ## Task 1.4 : Create a reporting year
 
-Alex and Reed will set up the reporting years in Microsoft Sustainability Manager. Alex will name the reporting year, set up the start date and use a template to create more than one period.
+In this task, we will be setting up the reporting years in Microsoft Sustainability Manager and name the reporting year, set up the start date and use a template to create more than one period.
 
 1. In the left navigation pane, select the **Settings** > **Company profile** then select the Reporting years tab and choose Create reporting year.
 
@@ -166,9 +164,9 @@ Alex and Reed will set up the reporting years in Microsoft Sustainability Manage
 
 4. Enter the following details. After you've entered the values, select Save.
 
-      - Name - Enter Fiscal - 2022.
+      - Name - Enter Fiscal - 2023.
       
-      - Start date: 01/01/2022.
+      - Start date: 01/01/2023.
       
       - Year template - Annual.
 
@@ -177,7 +175,6 @@ Alex and Reed will set up the reporting years in Microsoft Sustainability Manage
    >**Note**: This name appears on the Insights page in Microsoft Sustainability Manager.
 
 5. Select Close. The reporting year will generate with the first period starting on the Start date and the last period ending one year from the Start date.
-
 
 ## Task 3 : Access/Permissions 
 
