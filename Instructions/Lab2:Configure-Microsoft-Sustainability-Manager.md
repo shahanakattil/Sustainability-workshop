@@ -203,6 +203,6 @@ In this task  we'll be assisgning **Basic User** and **Sustainablilty all - repo
 
     ![image](../media/lab01-27.png)
 
-    ![image](../media/lab01-28.png)
+    ![image](../media/lab01-(28).png)
 
 
