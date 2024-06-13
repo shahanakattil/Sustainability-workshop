@@ -289,13 +289,13 @@ In this task, Alex will create factor mappings to map the contractual instrument
 
 5. The Emission factors list displays the name of the emission factor, the unit type, sub type, documentation reference, and gases generated. Because Wide World Importers is a Florida-based business and is connected to the FRCC electrical grid, select **FRCC (FRCC All)** from the list of emission factors.
 
-    ![](../media/image3.png)
+    ![image](../media/lab01-58.png)
 
     The FRCC (FRCC All) emission factor shows the carbon emissions that have been produced, 861 lb of CO2, 0.055 lb of CH4, and 0.007 lb of N2O, for each megawatt-hour (MWh) of energy consumed.
 
     This information is important to understand how the final CO2E (carbon dioxide equivalent) will be calculated later. When creating a new emission factor, you'll want to define how much of each gas is produced for a given unit. Several other gas types can be tracked, as shown on the screen, depending on the scenario. Some or all gas types might be used.
 
-   ![](../media/image4.png)
+   ![image](../media/lab01-59.png)
 
 6. Select the Factors mapping tab.
 
@@ -312,8 +312,6 @@ In this task, Alex will create factor mappings to map the contractual instrument
       Reference data - VanArsdel Ltd
       
       Factor - FRCC (FRCC All)
-
-   
    
    The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
    
