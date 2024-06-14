@@ -159,7 +159,7 @@ In this task, We will imports the Excel spreadsheet provided by Alex, _Purchased
 
 1. Now that we have reviewed our field mappings, toggle **Ready to Import** as yes. Click the back arrow. Click on **Done**.
 
-     ![image](../media/lab01-45.png)
+     ![image](../media/lab01-(45).png)
 
 1. Click on **Done**.
 
@@ -817,7 +817,9 @@ In this task, Alex creates a calculation profile for the electricity that Wide W
      - Use the Automatically run this calculation when data is refreshed filter to automatically trigger calculations when the matching activity data is refreshed.
       
 1. On the Preview page of the New calculation profile wizard, the emissions are calculated for the first row of data that matches the Activity data to include filter. In this scenario, 
-   the values that are shown in the preview might differ from the following image.
+   the values that are shown in the preview might differ from the following image. Select Save to save your calculation profile.
+
+     ![image](../media/lab01-(77).png)
 
    These values were determined by converting the consumed kilowatt-hours (kWh) to megawatt-hours (MWh): 3519.038/1000 = 3.519038 MWh
    
@@ -839,11 +841,7 @@ In this task, Alex creates a calculation profile for the electricity that Wide W
    
    CO2E: 3,029.892 + 4.85 + 7.45 = 3,042.19 lb
 
-4. Select Save to save your calculation profile.
-
-    ![image](../media/lab01-77.png)
-
-5. Select Done.
+1. Select Done.
 
    ![image](../media/lab01-78.png)
 
