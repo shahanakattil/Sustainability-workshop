@@ -761,47 +761,43 @@ In this exercise, you learn about the steps that Alex takes to define and run ca
 ## Task 1 : Create a purchased electricity calculation profile
 In this task, Alex creates a calculation profile for the electricity that Wide World Importers purchased for their facilities in 2022. Alex uses the calculation model that was previously defined in this exercise. Alex filters the profile to only activity data for the Wide World Importers organizational unit and where the unit type is kilowatt-hours (kWh). These filters ensure that only the purchased electricity for Wide World Importers is included in the calculation job. This task excludes the miles driven by the fleet of electric vehicles, which is covered in the next task.
 
-1. Go to Calculation profiles on the left navigation pane.
+1. Go to Calculation profiles on the left navigation pane. Select + New to create a new calculation profile
 
-    ![](../media/image35.png)
+     ![image](../media/lab01-75.png)
 
-2. Select + New Calculation profile to create a new calculation profile
+1. Populate the following information on the New calculation profile wizard.
 
-   ![](../media/image36.png)
+      Calculation profile name - **Purchased Electricity: Contractual Instrument Based 2022 Wide World Importers**
+      
+      Module - Select **Carbon activities**
+      
+      Emissions source - **Purchased electricity**
+      
+      Activity data to include in calculation - Select **Add** > **Add row** and select **Organizational Unit** equals **Wide World Importers** then  select **Add** > **Add row** and **Quantity unit** equals **kWh**
+      
+      Calculation model - Select **Purchased Electricity: Contractual Instrument Based - 2022** from the dropdown list
+      
+      Schedule - Select the **Automatically run this calculation when data is refreshed** checkbox
 
-3. Populate the following information on the New calculation profile wizard.
+      Select **Next**.
 
-      Calculation profile name - Purchased Electricity: Contractual Instrument Based 2022 Wide World Importers
-      
-      Module - Select Carbon activities
-      
-      Emissions source - Purchased electricity
-      
-      Activity data to include in calculation - Select add > add row and select Organizational Unit equals Wide World Importers and Quantity unit equals kWh
-      
-      Calculation model - Select Purchased Electricity: Contractual Instrument Based - 2022 from the dropdown list
-      
-      Schedule - Select the Automatically run this calculation when data is refreshed checkbox
-      
-      The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
-      
-      The Calculation profile identifies the calculation profile in the list.
-      
-      The Module is used to identify which data types should appear in the Activity data field.
-      
-      The Emissions source identifies which activity data type should be used in the calculation.
-      
-      Use Activity data to include in calculation to filter activity data to a specific subset of the activity data type.
-      
-      The Calculation model identifies which calculation model should be used for the calculation. Be sure to choose the calculation model from the dropdown list.
-      
-      Use the Automatically run this calculation when data is refreshed filter to automatically trigger calculations when the matching activity data is refreshed.
-      
-      The form should resemble the following image. Select Next.
+      ![image](../media/lab01-76.png)
 
-   ![](../media/image37.png)
-
-   On the Preview page of the New calculation profile wizard, the emissions are calculated for the first row of data that matches the Activity data to include filter. In this scenario, 
+1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+      
+     - The Calculation profile identifies the calculation profile in the list.
+      
+     - The Module is used to identify which data types should appear in the Activity data field.
+      
+     - The Emissions source identifies which activity data type should be used in the calculation.
+      
+     - Use Activity data to include in calculation to filter activity data to a specific subset of the activity data type.
+      
+     - The Calculation model identifies which calculation model should be used for the calculation. Be sure to choose the calculation model from the dropdown list.
+      
+     - Use the Automatically run this calculation when data is refreshed filter to automatically trigger calculations when the matching activity data is refreshed.
+      
+1. On the Preview page of the New calculation profile wizard, the emissions are calculated for the first row of data that matches the Activity data to include filter. In this scenario, 
    the values that are shown in the preview might differ from the following image.
 
    These values were determined by converting the consumed kilowatt-hours (kWh) to megawatt-hours (MWh): 3519.038/1000 = 3.519038 MWh
@@ -826,10 +822,10 @@ In this task, Alex creates a calculation profile for the electricity that Wide W
 
 4. Select Save to save your calculation profile.
 
-    ![](../media/image38.png)
+    ![image](../media/lab01-77.png)
 
 5. Select Done.
-
+   ![image](../media/lab01-78.png)
 
 ## Task: Create an electric vehicle miles driven calculation profile
 
