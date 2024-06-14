@@ -1,4 +1,4 @@
-## Emission Calculations
+# Lab 3.2: Emission Calculations
 
 ## Overview
 
