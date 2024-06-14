@@ -501,7 +501,7 @@ In this task, Alex creates a calculation profile for the electricity that Wide W
 1. On the Preview page of the New calculation profile wizard, the emissions are calculated for the first row of data that matches the Activity data to include filter. In this scenario, 
    the values that are shown in the preview might differ from the following image. Select Save to save your calculation profile.
 
-     ![image](../media/lab01-(77).png)
+     ![image](../media/lab01-1(77).png)
 
    These values were determined by converting the consumed kilowatt-hours (kWh) to megawatt-hours (MWh): 3519.038/1000 = 3.519038 MWh
    
