@@ -606,7 +606,7 @@ In this task, Alex runs the newly created calculation profiles for the electrici
 
        ![image](../media/lab01-118.png)
       
-2. To run the calculation profile for Electric Vehicle Miles Driven 2022, follow these steps:
+1. To run the calculation profile for Electric Vehicle Miles Driven 2022, follow these steps:
 
     - Select Electric Vehicle Miles Driven 2022 in the list.
 
@@ -614,18 +614,22 @@ In this task, Alex runs the newly created calculation profiles for the electrici
 
       ![image](../media/lab01-119.png)
    
-4. After several minutes (approximately six minutes), both calculation jobs should be completed. Select the Refresh button on the command bar to check the status of the calculation jobs. The two calculation profiles should now have a Status of Succeeded.
+1. After several minutes (approximately six minutes), both calculation jobs should be completed. Select the Refresh button on the command bar to check the status of the calculation jobs. The two calculation profiles should now have a Status of Succeeded.
 
-5. In the lower-left corner, change the area to Analytics.
+    ![image](../media/lab01-120.png)
 
-6. Go to All emissions on the left side of the page.
+1. Go to All emissions on the left side of the page under **Data** section.
 
-7. The All emissions view shows all emissions that have been calculated or directly imported.
+1. The All emissions view shows all emissions that have been calculated or directly imported.
 
-8. Filter the view by selecting the down arrow next to the Organizational Unit column. Select Filter By. Select Wide World Importers. Select Apply.
+1. Select Filter icon click on  **Add** > **Add row** >  **Organizational Unit** equal **Wide World Importers**. Select Apply.
 
-9. After a few moments, the view refreshes. The calculated emissions data for each activity data record that was imported in previous exercises is shown. Scroll to the right to view the CO2E carbon emission values.
+    ![image](../media/lab01-121.png)
 
+1. After a few moments, the view refreshes. The calculated emissions data for each activity data record that was imported in previous exercises is shown. Scroll to the right to view the CO2E carbon emission values.
+
+    ![image](../media/lab01-122.png)
+   
 You've now created and run calculation profiles. Calculation profiles are the final step in calculating and recording your carbon emissions in Microsoft Cloud for Sustainability. Now, you'll be able to report and reduce your carbon emissions, which are discussed in the next exercises. It might take 30 minutes for your emissions to appear in the reporting areas.
 
 ## Exercise 3 : Create allocation profiles and run calculations
