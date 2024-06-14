@@ -11,8 +11,8 @@ In this lab, you will complete the following tasks:
 
 - Task 1 : Prepare Business Units and Hierarchy  
 - Task 2 : Set up reference data
-- Task 3 :
-- Task 4 :
+- Task 3 : Set up unit conversion factor
+- Task 4 : Create a reporting year
 - Task 5 : Access/Permissions
 
 ### Task 1 : Prepare Business Units and Hierarchy  
