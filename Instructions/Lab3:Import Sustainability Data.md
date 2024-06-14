@@ -825,6 +825,7 @@ In this task, Alex creates a calculation profile for the electricity that Wide W
     ![image](../media/lab01-77.png)
 
 5. Select Done.
+
    ![image](../media/lab01-78.png)
 
 ## Task: Create an electric vehicle miles driven calculation profile
