@@ -1,7 +1,5 @@
 # Lab 3.2: Emission Calculations
 
-## Overview
-
 ## Lab Overview
 
 In this exercise, you will learn about the steps to define the factor mappings for Purchased electricity, and an estimation factor library for estimating the amount of electricity purchased based on the Miles driven by Wide World Importers fleet of electric trucks. While electric vehicles do not have Scope 1, direct tailpipe emissions, they do have to be charged while transporting goods, in this case - across the USA. This charging of Electric trucks results in Scope 2 purchased electricity.
