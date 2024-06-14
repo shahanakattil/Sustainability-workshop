@@ -259,99 +259,26 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
 
     2. Select **Connect**.
 
-    ![image](../media/lab01-42.png)
- 
 1. Next, you'll need to map your source data to the data model. Data will not appear until this step is complete. Select on **Map fields**.
-
-      ![image](../media/lab01-43.png)
  
 1. Select the **Data source** to map, in this exercise select **Purchased electricity** under **Carbon Activities.** Select **Auto Map** for the solution to automatically map the file’s source fields with the destination fields, for any field that is not an exact match the best match will be found and highlighted in blue, make sure to review them. Review the custom dimensions to ensure Model and Product are added as part of mapping. Remove the unnecessary custom dimensions if they are added When you are done with the mapping, toggle **Ready to Import** as yes and click on **Save**.
 
-      ![image](../media/lab01-44.png)
  
      >**Note**: In this scenario, we will need to map the columns from the spreadsheet to the columns in Microsoft Sustainability Manager. 
 
 1. Now that we have reviewed our field mappings, toggle **Ready to Import** as yes. Click the back arrow. Click on **Done**.
 
-     ![image](../media/lab01-45.png)
-
 1. Click on **Done**.
-
-   ![image](../media/lab01-46.png)
-   
+ 
 1. You will be navigated back to **Data imports** where you can view the import you created.
 
 1. The **Data Import** job will run, and the status will display **Scheduled** and then in a moment it switches to **Processing**. You might need to refresh your page to view the change.
 
 1. After a minute or two select **Refresh** above the list to view the updated status, which should be **Complete**.
  
-    ![image](../media/lab01-47.png)
- 
 1. Go to **Carbon Activities** on the left navigation pane under **Data management**. Select **Purchased electricity** in the **Scope 2: Indirect emissions** section.
 
-      ![image](../media/lab01-48.png)
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-You've now completed the data import of 2022 Purchased Electricity for Wide World Importers. This step is imperative in realizing the goal of recording, reporting, and reducing carbon emissions. Next, you'll import the 2022 Miles Driven for Wide World Importers fleet of electric vehicles.
+You've now completed the data import of 2022 Purchased Electricity for Wide World Importers and Fleet vechicles Miles Driven Wide World Importers 2022. This step is imperative in realizing the goal of recording, reporting, and reducing carbon emissions. Next, you'll import the 2022 Miles Driven for Wide World Importers fleet of electric vehicles.
 
 ## Exercise 2 : Emission Calculations
 
