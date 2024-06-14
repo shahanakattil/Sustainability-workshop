@@ -2,29 +2,21 @@
 
 ## Overview
 
-### Background
+## Lab Overview
 
-In the previous two labs, we laid the foundation for emission calculations by setting up the organization, reference data such as Contractual instrument types and ingesting the Activity data. Now that the groundwork and data has been laid for emission calculations, this lab will focus on performing the emission calculations using a combination of factor libraries, emission factors, estimation factors and calculation profiles. Once the calculations are performed, we will review the emission calculations output.
+In this exercise, you will learn about the steps to define the factor mappings for Purchased electricity, and an estimation factor library for estimating the amount of electricity purchased based on the Miles driven by Wide World Importers fleet of electric trucks. While electric vehicles do not have Scope 1, direct tailpipe emissions, they do have to be charged while transporting goods, in this case - across the USA. This charging of Electric trucks results in Scope 2 purchased electricity.
 
-### Learning Objectives
+Wide World Importers may not know exactly how much electricity was purchased for charging the Electric Trucks, which grids the electricity came from, or what the energy source is. However, Wide World Importers can estimate the amount of electricity purchased by identifying how many kilowatt hours (kWh) are used per 100 miles, based on EPA vehicle efficiency data. 
 
-In this lab, you will do the following:
-
--   Review the Microsoft Sustainability Manager’s Dynamic calculation capabilities using Factor libraries, Emission factors and more.
--   Review the existing “EPA 2022 - eGRID” factor library and emission factors
--   Create a new custom factor library for estimating miles to kilowatt hours (kWh)
--   Create new calculation models and new calculation profiles for calculation jobs
--   The emissions calculated during this lab exercise will be utilized in the remaining scenarios (reporting and goals) in the upcoming lab exercises.
-
-### Prerequisites
-
--   Microsoft Sustainability manager environment is set up with sample data
--   Lab 01 organization and reference data is entered
--   Lab 02 activity data is ingested
-
-### Solution Focus Area
+## Lab scenario
 
 In the Emission calculations focus area calculation models are designed to calculate the emissions produced by the ingested activity data. The setup of the calculations breaks it down into two concepts: factor mappings and calculation models. Currently, Sustainability Manager has been verified with EPA default calculations and factor sets only. Additional factor sets will be available over time. Any factor set can easily be added or created by organizations based on their own business needs and regional requirements.
+
+## Lab Objectives
+
++ Task 1 : Add eGRID factor mappings
+
+### Learning Objectives
 
 The following terminologies will be used throughout the configuration of Emission Calculations:
 
@@ -37,26 +29,9 @@ The following terminologies will be used throughout the configuration of Emissio
 -   **Allocation Profile**: An allocation profile configures methods to distribute emissions from a source (like a facility) to specific entities based on chosen parameters. It allows visualization of emissions distribution without altering default reporting, offering insights into how emissions are divided.
 -   **Custom dimensions**: Custom dimensions can be used in emission calculation models, for example, in condition, calculation, and reporting actions.
 
-   
-### Personas and Scenarios
 
-In this lab, Alex Serra – Emissions Analyst for Wide World Importers sets up factor mappings for Purchased electricity for facilities, mapping Contractual instrument types to the Florida electric grid (FRCC).
 
-Alex also creates a new estimation factor library for estimating miles driven to kilowatt hours (kWh) for Fabrikam electric trucks. Alex then creates calculation models for calculating the carbon emissions produced per the facility’s purchased electricity. Post that, Alex creates a calculation model for estimated carbon emissions produced by the purchased electricity for charging Fabrikam Electric trucks (based on the kWh per mile driven estimate).
-
-Finally, Alex creates and runs calculation profiles, filtering to Wide World Importers activity data. Post running the Calculation profile, Alex reviews the calculated emissions data before notifying Amber Rodriguez – Sustainability specialist that the emission calculations are complete.
-
-In this lab exercise, we will focus on the scenarios illustrated below:
-
-## Task  1: Set up Factor Libraries
-
-In this exercise, you will learn about the steps that Alex takes to define the factor mappings for Purchased electricity, and an estimation factor library for estimating the amount of electricity purchased based on the Miles driven by Wide World Importers fleet of electric trucks. While electric vehicles do not have Scope 1, direct tailpipe emissions, they do have to be charged while transporting goods, in this case - across the USA. This charging of Electric trucks results in Scope 2 purchased electricity.
-
-Wide World Importers may not know exactly how much electricity was purchased for charging the Electric Trucks, which grids the electricity came from, or what the energy source is. However, Wide World Importers can estimate the amount of electricity purchased by identifying how many kilowatt hours (kWh) are used per 100 miles, based on EPA vehicle efficiency data. You can explore this functionality in deeper detail on Microsoft Docs, please visit **Overview of Emission factors** at https://docs.microsoft.com/en-us/industry/sustainability/calculate-emission-factors.
-
-**Important** Please make sure that you have completed the previous lab to create Activity Data. **The emissions calculations require all the Data Ingestion processes from the previous lab to be completed.** Failure to do so will result in errors or incorrect values during the calculations
-
-## Task 2 : Add eGRID factor mappings
+## Task 1 : Add eGRID factor mappings
 In this task, Alex will create factor mappings to map the contractual instrument types for Wide World Importers that Reed previously added to the respective electric grid emission factor. This process allows Microsoft Sustainability Manager to find the correct electric grid for a given contractual instrument type. This type can be expanded to map other reference data to specific emission factors, avoiding the need to create calculation models that are for specific emission factors.
 
 1. In the left navigation pane, select **Calculations** > **Factor libraries**.
@@ -137,7 +112,7 @@ You've completed adding the factor mappings for your purchased electricity activ
 
 By creating these factor mappings, you can choose contractual instrument types as emission factors during your calculation model creation. This information tells Microsoft Sustainability Manager to map the contractual instrument type on an activity data record to the emission factor that's listed in the factor mapping. Now, you can create more dynamic calculations rather than calculations that are specific to a given emission factor.
 
-## Task 3: Create an estimation factor library
+## Task 2: Create an estimation factor library
 
 In this task, Alex will create an estimation factor library to define the estimation factor for estimating the kilowatt-hours (kWh) that are used for each mile driven. While electric vehicles don't have Scope 1, direct tailpipe emissions, they do need to be charged while transporting goods across the US, resulting in Scope 2 purchased electricity. Wide World Importers don't know the exact amount of electricity purchased, what grid the electricity came from, or the energy source; however, they can estimate the amount of purchased electricity by identifying the number of kilowatt-hours (kWh) that are used every 100 miles based on EPA vehicle efficiency.
 
@@ -175,7 +150,7 @@ In this task, Alex will create an estimation factor library to define the estima
    
     - The Library Type of the factor library switches the library type between Emission or Estimation library. Emission libraries calculate emission gases. Estimation libraries create estimated conversions from one unit type to another, such as 100 miles driven to kWh.
       
-## Task 4: Create an estimation factor
+## Task 3: Create an estimation factor
 In this task, Alex will create the estimation factor for estimating the kilowatt-hours (kWh) that are used for every mile driven. The EPA estimates electric vehicle efficiency in kilowatt-hours (kWh) for every 100 miles. Alex will use this same metric in the estimation factor to ensure that the estimation factor is consistent with the EPA.
 
 1. Scroll down on the Factor library view and select Electric Vehicle Estimation Library (it will be near the bottom of your page) under Estimation factors.
@@ -222,14 +197,14 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
 
    >**Note**: You've now created an estimation factor. Estimation factors are important to be able to convert from one unit type to another when an estimate is appropriate, such as estimated fuel or battery economy of vehicles or when estimating gas and electric usage during hotel stays.
 
-## Task 5: Set up calculation models
+## Task 4: Set up calculation models
   
 In this exercise, you learn about the steps that Alex takes to define calculation models that Microsoft Sustainability Manager uses to calculate emissions. Calculation models are the instruction sets, or recipes, that define the steps and values to use during the emission calculations. Microsoft Sustainability Manager provides several calculation models.
 
 Take the opportunity to review some prebuilt models. They're excellent sources of information when you're creating new calculation models. You can also use calculation models as a template for new models. This exercise and the next discuss the algorithm that's used to calculate emissions. For more information, see Overview of Calculation models. 
  
  
-## Task 6: Create a purchased electricity model
+## Task 5: Create a purchased electricity model
  
 1. Select Calculations > Models on the left navigation pane. Select + New to create a new calculation model.
 
@@ -325,7 +300,7 @@ Take the opportunity to review some prebuilt models. They're excellent sources o
     with Microsoft Cloud for Sustainability based on EPA calculations. Occasionally, these included models might not match your unique customer needs, so you need to create new 
     models to provide custom calculations. Make sure that you review the included models to view other types of complex calculation models.
 
- ## Task 7: Create an electric vehicle miles driven model
+ ## Task 6: Create an electric vehicle miles driven model
 
 In this task, Alex creates a new calculation model to calculate carbon emissions for miles driven by electric vehicles. This exercise uses the estimation factor library that was created in the previous exercise to estimate the kilowatt-hours (kWh) that are used by an electric vehicle and then calculate the carbon emissions for that electricity based on the US Average emission factor.
 
@@ -460,7 +435,7 @@ In this task, Alex creates a new calculation model to calculate carbon emissions
   included models might not match your unique customer needs, so you need to create new models to provide custom calculations. Make sure that you review the included models to 
   view other types of complex calculation models.
 
-## Exercise - Run calculations
+## Exercise 2  - Run calculations
 
 In this exercise, you learn about the steps that Alex takes to define and run calculation profiles. Microsoft Sustainability Manager uses calculation profiles to define the parameters and scheduling of calculation jobs. Calculation profiles allow an organization to define what activity data to calculate emissions for, the filters on that data, which calculation model to use, and if the calculation should be redone whenever the chosen activity data changes. Calculation profiles use the parameters to create calculation jobs. These calculation jobs are the background worker jobs that iterate over an organization's activity data. The calculations determine the carbon emissions based on the calculation model that's defined in the calculation profile. 
 
@@ -532,7 +507,7 @@ In this task, Alex creates a calculation profile for the electricity that Wide W
 
    ![image](../media/lab01-78.png)
 
-## Task: Create an electric vehicle miles driven calculation profile
+## Task 2 : Create an electric vehicle miles driven calculation profile
 
 In this task, Alex creates a calculation profile for the miles driven by Wide World Importers' fleet of electric vehicles for 2022. Alex uses the calculation model that was previously defined in this exercise. Additionally, Alex filters the profile to only activity data for the Wide World Importers organizational unit and where the unit type is mile. These filters ensure that only the miles driven for Wide World Importers' fleet of electric vehicles are included in the calculation job. This task excludes the purchased electricity, which was covered in the previous task.
 
@@ -603,7 +578,7 @@ In this task, Alex creates a calculation profile for the miles driven by Wide Wo
 
    ![image](../media/lab01-117.png)
 
-## Task: Run calculation profiles
+## Task 3 : Run calculation profiles
  
 In this task, Alex runs the newly created calculation profiles for the electricity that Wide World Importers purchased and for miles that Wide World Importers' fleet of electric vehicles drove. This task creates a calculation job that iterates over each activity data row that matches the calculation profile filter criteria. Additionally, it uses the calculation models that you created previously in this exercise to calculate the carbon emissions for each row. The results are placed in the emissions table, which Alex will review after the calculations are complete.
 
@@ -619,9 +594,7 @@ In this task, Alex runs the newly created calculation profiles for the electrici
 
     - Select Run calculation on the command bar.
 
-
 3. After several minutes (approximately six minutes), both calculation jobs should be completed. Select the Refresh button on the command bar to check the status of the calculation jobs. The two calculation profiles should now have a Status of Succeeded.
-
 
 4. In the lower-left corner, change the area to Analytics.
 
@@ -633,14 +606,13 @@ In this task, Alex runs the newly created calculation profiles for the electrici
 
 8. After a few moments, the view refreshes. The calculated emissions data for each activity data record that was imported in previous exercises is shown. Scroll to the right to view the CO2E carbon emission values.
 
-   
 You've now created and run calculation profiles. Calculation profiles are the final step in calculating and recording your carbon emissions in Microsoft Cloud for Sustainability. Now, you'll be able to report and reduce your carbon emissions, which are discussed in the next exercises. It might take 30 minutes for your emissions to appear in the reporting areas.
 
-## Exercise - Create allocation profiles and run calculations
+## Exercise 3 : Create allocation profiles and run calculations
 
 In this exercise, you learn about the steps that Alex takes to create the allocation method, method details and an allocations profile. Allocations help visualize how your emissions are generated in multiple methods without impacting the default emissions reporting. With allocations, you can visualize how your emissions are distributed based on a parameter.
 
-## Task: Create allocation methods
+## Task 1 : Create allocation methods
 
 In this task, Alex creates an allocation method called Headcount to understand the emissions distributed based on the purchased electricity.
 
@@ -654,7 +626,7 @@ In this task, Alex creates an allocation method called Headcount to understand t
 
      ![image](../media/lab01-87.png)
 
-## Task: Create the allocation method details
+## Task 2 : Create the allocation method details
 
 In this task, Alex creates the allocation method details by importing an excel file with the details. You must download the sample data - Allocation Method Details.zip for this task.
 
@@ -684,7 +656,7 @@ In this task, Alex creates the allocation method details by importing an excel f
 
     ![image](../media/lab01-85.png)
 
-## Task: Create an allocation profile
+## Task 3 : Create an allocation profile
 
 1. Expand **Calculations** from the left navigation pane then select Allocation profile(preview) and click on **New**
 
