@@ -285,8 +285,7 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
 
     ![image](../media/lab01-52.png)
 
-You've now completed the data import of 2022 Purchased Electricity for Wide World Importers and Fleet vechicles Miles Driven Wide World Importers 2022. This step is imperative in realizing the goal of recording, reporting, and reducing carbon emissions. Next, you'll import the 2022 Miles Driven for Wide World Importers fleet of electric vehicles.
-
+You've now completed the data import of 2022 Purchased Electricity for Wide World Importers and Fleet vechicles Miles Driven Wide World Importers 2022. This step is imperative in realizing the goal of recording, reporting, and reducing carbon emissions.
 ## Review 
 
 ## You have successfully completed the lab. Click on Next >>.
