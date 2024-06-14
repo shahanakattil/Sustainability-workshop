@@ -1,4 +1,4 @@
-# Lab 3: Import Sustainability Data 
+# Lab 3.1: Import Sustainability Data 
 
 ### Learning Objectives
 
