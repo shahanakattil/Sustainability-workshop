@@ -81,19 +81,19 @@ In this task, Alex will create factor mappings to map the contractual instrument
 
     ![image](../media/lab01-58.png)
 
-    The FRCC (FRCC All) emission factor shows the carbon emissions that have been produced, 861 lb of CO2, 0.055 lb of CH4, and 0.007 lb of N2O, for each megawatt-hour (MWh) of energy consumed.
+    - The FRCC (FRCC All) emission factor shows the carbon emissions that have been produced, 861 lb of CO2, 0.055 lb of CH4, and 0.007 lb of N2O, for each megawatt-hour (MWh) of energy consumed.
 
-    This information is important to understand how the final CO2E (carbon dioxide equivalent) will be calculated later. When creating a new emission factor, you'll want to define how much of each gas is produced for a given unit. Several other gas types can be tracked, as shown on the screen, depending on the scenario. Some or all gas types might be used.
+    - This information is important to understand how the final CO2E (carbon dioxide equivalent) will be calculated later. When creating a new emission factor, you'll want to define how much of each gas is produced for a given unit. Several other gas types can be tracked, as shown on the screen, depending on the scenario. Some or all gas types might be used.
 
-   ![image](../media/lab01-59.png)
+      ![image](../media/lab01-59.png)
 
 1. Click on back arrow which navigate to **EPA 2022 - eGRID** and select the **Factors mapping** tab.
 
-   ![image](../media/lab01-56.png)
+    ![image](../media/lab01-56.png)
 
 1. Create factor mappings for the two contractual instrument types that were created in previous exercise and then associate them with the FRCC (FRCC All) emission factor. Each contractual instrument is a local power provider in Florida, and they're part of the FRCC electric grid. Select **+ New Factor mapping**.
 
-    ![image](../media/lab01-57.png)
+     ![image](../media/lab01-57.png)
 
 1. Use the following information to populate the fields on the New Factor mapping screen and select the **Save & Close** button to save the record.
 
@@ -105,7 +105,7 @@ In this task, Alex will create factor mappings to map the contractual instrument
       
      - Factor - FRCC (FRCC All)
 
-      ![image](../media/lab01-60.png)
+       ![image](../media/lab01-60.png)
       
 1. Select **+ New Factor mapping**.
 
@@ -121,15 +121,15 @@ In this task, Alex will create factor mappings to map the contractual instrument
          
       - Factor - FRCC (FRCC All)
 
-      ![image](../media/lab01-62.png)
+        ![image](../media/lab01-62.png)
 
 1. Now, you have two additional factor mappings, one for each contractual instrument that was added in previous step.
 
     ![image](../media/lab01-63.png)
 
-You've completed adding the factor mappings for your purchased electricity activity data. This step is important toward the creation of calculation models that will calculate emissions for multiple emission factors based on reference data, such as contractual instrument types or facilities.
+   You've completed adding the factor mappings for your purchased electricity activity data. This step is important toward the creation of calculation models that will calculate emissions for multiple emission factors based on reference data, such as contractual instrument types or facilities.
 
-By creating these factor mappings, you can choose contractual instrument types as emission factors during your calculation model creation. This information tells Microsoft Sustainability Manager to map the contractual instrument type on an activity data record to the emission factor that's listed in the factor mapping. Now, you can create more dynamic calculations rather than calculations that are specific to a given emission factor.
+   By creating these factor mappings, you can choose contractual instrument types as emission factors during your calculation model creation. This information tells Microsoft Sustainability Manager to map the contractual instrument type on an activity data record to the emission factor that's listed in the factor mapping. Now, you can create more dynamic calculations rather than calculations that are specific to a given emission factor.
 
 ## Task 2: Create an estimation factor library
 
@@ -153,7 +153,7 @@ In this task, Alex will create an estimation factor library to define the estima
    
      - Library Type - Estimation factor library
 
-     ![image](../media/lab01-65.png)
+       ![image](../media/lab01-65.png)
    
 1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
    
@@ -183,19 +183,19 @@ In this task, Alex will create the estimation factor for estimating the kilowatt
 
 1. Review the Fabrikam Electric truck details on the EPA website and then enter the following information on the New Estimation factor screen and select Save & Close to save the record.
 
-      Name - Fabrikam Electric Truck - EPA Estimate
+     - Name - Fabrikam Electric Truck - EPA Estimate
       
-      Documentation reference - https://fueleconomy.gov/feg/noframes/45318.shtml
+     - Documentation reference - https://fueleconomy.gov/feg/noframes/45318.shtml
       
-      Factor Library - Electric Vehicle Estimation Library
+     - Factor Library - Electric Vehicle Estimation Library
       
-      Unit - 100 Mile
+     - Unit - 100 Mile
       
-      Factor value - 49.00
+     - Factor value - 49.00
       
-      Factor value unit - kWh
+     - Factor value unit - kWh
 
-      ![image](../media/lab01-68.png)
+       ![image](../media/lab01-68.png)
 
 1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
@@ -223,28 +223,27 @@ In this exercise, you learn about the steps that Alex takes to define calculatio
 
 Take the opportunity to review some prebuilt models. They're excellent sources of information when you're creating new calculation models. You can also use calculation models as a template for new models. This exercise and the next discuss the algorithm that's used to calculate emissions. For more information, see Overview of Calculation models. 
  
- 
 ### Task 4.1: Create a purchased electricity model
  
 1. Select Calculations > Models on the left navigation pane. Select + New to create a new calculation model.
 
-   ![image](../media/lab01-70.png)
+    ![image](../media/lab01-70.png)
 
 1. A new page opens, where you can set up the new calculation model. A Source action is added by default.
 
 1. Populate the Source Details pane with the following data and select Save to save the record.
 
-   Category name - Purchased Electricity: Contractual Instrument Based - 2022
+    - Category name - Purchased Electricity: Contractual Instrument Based - 2022
    
-   Module - Carbon Activities
+    - Module - Carbon Activities
    
-   Activity data - Purchased electricity
+    - Activity data - Purchased electricity
    
-   Calculation method - EPA Equation 1: Electricity (MWh) * EF
+    - Calculation method - EPA Equation 1: Electricity (MWh) * EF
    
-   Documentation reference - https://www.epa.gov/sites/default/files/2020-12/documents/electricityemissions.pdf
+    - Documentation reference - https://www.epa.gov/sites/default/files/2020-12/documents/electricityemissions.pdf
 
-   ![image](../media/lab01-71.png)
+      ![image](../media/lab01-71.png)
 
 1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
@@ -258,7 +257,6 @@ Take the opportunity to review some prebuilt models. They're excellent sources o
       
       - The Documentation reference identifies the documentation that's used to create the calculation model.
       
-
 1. Select the plus (+) icon to add a new action to the calculation model.
 
     ![image](../media/lab01-72.png)
@@ -268,7 +266,6 @@ Take the opportunity to review some prebuilt models. They're excellent sources o
    ![image](../media/lab01-73.png)
  
 1. A new Report action is added to the calculation model. Select that action to edit it.
-
 
    - You can use the Report action to calculate and report carbon emissions to the emissions table. This action uses the emission factor or factor mapping to identify the emission factor to be used based on the Emission factor dropdown list. In this exercise, the action uses a contractual instrument type field to identify the factor mapping and emission factor to use in the calculation.
 
@@ -282,19 +279,19 @@ Take the opportunity to review some prebuilt models. They're excellent sources o
 
 1. Populate the Report action with the following data and select Save to save the record.
 
-      Category name - Electricity * EF (Contractual Instrument Type)
+     - Category name - Electricity * EF (Contractual Instrument Type)
       
-      Description - EPA Equation 1: Electricity (MWh) * EF
+     - Description - EPA Equation 1: Electricity (MWh) * EF
       
-      Emission report value - Quantity
+     - Emission report value - Quantity
       
-      Unit - Quantity unit
+     - Unit - Quantity unit
       
-      Emission factor library - EPA 2022 - eGRID
+     - Emission factor library - EPA 2022 - eGRID
       
-      Emission factor - FRCC (FRCC All)
+     - Emission factor - FRCC (FRCC All)
 
-      ![image](../media/lab01-74.png)
+       ![image](../media/lab01-74.png)
 
 1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
@@ -328,17 +325,17 @@ In this task, we will creates a new calculation model to calculate carbon emissi
 
 1. Populate the Source Details pane with the following data and select Save to save the record.
       
-      Category name - Electric Vehicle Miles Driven - 2022
+      - Category name - Electric Vehicle Miles Driven - 2022
       
-      Module - Carbon Activities
+      - Module - Carbon Activities
       
-      Activity data - Purchased electricity
+      - Activity data - Purchased electricity
       
-      Calculation method - Miles Driven to kWh * EF
+      - Calculation method - Miles Driven to kWh * EF
       
-      Documentation reference - https://fueleconomy.gov/feg/byfuel/EV2022.shtml
+      - Documentation reference - https://fueleconomy.gov/feg/byfuel/EV2022.shtml
 
-      ![image](../media/lab01-104.png)
+        ![image](../media/lab01-104.png)
 
 1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
@@ -375,19 +372,19 @@ In this task, we will creates a new calculation model to calculate carbon emissi
 
 1. Populate the Estimation factor Details pane with the following data and select **Save** to save the record.
 
-   Category name - Estimate kWh/100 Mile
+    - Category name - Estimate kWh/100 Mile
    
-   Estimation value - Quantity
+    - Estimation value - Quantity
    
-   Unit - Quantity unit
+    - Unit - Quantity unit
    
-   Estimation factor library - Electric Vehicle Estimation Library
+    - Estimation factor library - Electric Vehicle Estimation Library
    
-   Estimation factor - Fabrikam Electric Truck - EPA Estimate
+    - Estimation factor - Fabrikam Electric Truck - EPA Estimate
    
-   Output variable name - kWhQuantity
+    - Output variable name - kWhQuantity
 
-   ![image](../media/lab01-108.png)
+      ![image](../media/lab01-108.png)
 
 1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
@@ -410,7 +407,6 @@ In this task, we will creates a new calculation model to calculate carbon emissi
 
      ![image](../media/lab01-109.png)
 
- 
 1. Select Report on the Available actions list.
 
     ![image](../media/lab01-110.png)
@@ -468,21 +464,21 @@ In this task, Alex creates a calculation profile for the electricity that Wide W
 
 1. Populate the following information on the New calculation profile wizard.
 
-      Calculation profile name - **Purchased Electricity: Contractual Instrument Based 2022 Wide World Importers**
+     - Calculation profile name - **Purchased Electricity: Contractual Instrument Based 2022 Wide World Importers**
       
-      Module - Select **Carbon activities**
+     - Module - Select **Carbon activities**
       
-      Emissions source - **Purchased electricity**
+     - Emissions source - **Purchased electricity**
       
-      Activity data to include in calculation - Select **Add** > **Add row** and select **Organizational Unit** equals **Wide World Importers** then  select **Add** > **Add row** and **Quantity unit** equals **kWh**
+     - Activity data to include in calculation - Select **Add** > **Add row** and select **Organizational Unit** equals **Wide World Importers** then  select **Add** > **Add row** and **Quantity unit** equals **kWh**
       
-      Calculation model - Select **Purchased Electricity: Contractual Instrument Based - 2022** from the dropdown list
+     - Calculation model - Select **Purchased Electricity: Contractual Instrument Based - 2022** from the dropdown list
       
-      Schedule - Select the **Automatically run this calculation when data is refreshed** checkbox
+     - Schedule - Select the **Automatically run this calculation when data is refreshed** checkbox
 
-      Select **Next**.
+     - Select **Next**.
 
-      ![image](../media/lab01-76.png)
+       ![image](../media/lab01-76.png)
 
 1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
       
