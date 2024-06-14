@@ -933,40 +933,45 @@ In this exercise, you learn about the steps that Alex takes to create the alloca
 
 In this task, Alex creates an allocation method called Headcount to understand the emissions distributed based on the purchased electricity.
 
-1. Select Data on the left navigation pane.
+1. Select Data on the left navigation pane. Select Reference data and click on View for (Preview) Allocation methods.
 
-2. Select Reference data.
+    ![image](../media/lab01-86.png)
 
-3. Select View for (Preview) Allocation methods.
+1. Select New.
 
-4. Select New under Active Allocation methods.
+1. Enter the Name as **Headcount** and select **Save & Close**. The allocation method is created.
 
-5. Enter the Name as Headcount and select Save & Close. The allocation method is created.
-
+     ![image](../media/lab01-87.png)
 
 ## Task: Create the allocation method details
 
 In this task, Alex creates the allocation method details by importing an excel file with the details. You must download the sample data - Allocation Method Details.zip for this task.
 
+1. Expand **Data** from left navigation pane, then select **Reference data**. Click View for (Preview) Allocation method details.
 
-1. Select Reference data on the left navigation pane.
+    ![image](../media/lab01-79.png)
 
-2. Select View for (Preview) Allocation method details.
+1. Select the three horizontal dots and select Import from Excel.
 
-3. Select New.
+    ![image](../media/lab01-80.png)
 
-4. Select the three horizontal dots and select Import from Excel.
+1. Select Choose File and then upload the **Allocation method details** sample data.
 
-5. Select Choose File and then upload the allocation method details sample data.
+    ![image](../media/lab01-81.png)
 
-6. Select the allocation method details sample data.
+    ![image](../media/lab01-82.png)
+    
+1. Once **Allocation method details** is uploaded select **Next**.
 
-7. Select Next.
+     ![image](../media/lab01-83.png)
 
-8. Select Finish Import.
+1. Select Finish Import.
 
-9. Select Done. The data is imported successfully.
+    ![image](../media/lab01-84.png)
 
+1. Select Done. The data is imported successfully.
+
+    ![image](../media/lab01-85.png)
 
 ## Task: Create an allocation profile
 
