@@ -181,13 +181,11 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
 
 1. Enter the following details. After you've entered the values, select **Save**.
 
-      - Name - Enter **Fiscal - 2023**.
+      - Name - Enter **Fiscal - 2022**.
       
-      - Start date: **01/01/2023**.
+      - Start date: **01/01/2022**.
       
       - Year template - **Annual**.
-
-      ![image](../media/lab01-19.png)
 
 1. This name appears on the Insights page in Microsoft Sustainability Manager.
 
