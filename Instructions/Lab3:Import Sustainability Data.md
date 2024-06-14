@@ -220,7 +220,6 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
 
     ![image](../media/lab01-38.png)
 
-
 1. On the **Connect to data source** under **Connection settings** provide following details
 
    - **Server** : 
@@ -237,9 +236,13 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
      
 
 1. On the **Choose data** window expand **Fleetvechicles** and select **Fleet vechicles Miles Driven Wide World Importers 2022** then click on **Transform data**.
-  
+    
+      ![image](../media/lab01-98.png)
+
 1. You can complete various data and column transformations on the **Transform data** page of the Power Query wizard. As a result, you can adjust data types, update column mappings, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Microsoft Power BI datasets. For this exercise, do not apply any transformations, click **Create**.
 
+      ![image](../media/lab01-99.png)
+   
     >**Note** - Wait for the transformations to be applied properly, before you click **Create**, else you may get an error.
     
 1. The **New data connection** wizard will now be on the **Schedule data** **import** page, where you'll complete the following actions:
@@ -252,31 +255,62 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
          this scenario of importing historical data, leave both options turned off.
 
       - Select **Next** when finished.
- 
+
+          ![image](../media/lab01-41.png)
+
 1. On the Review and finish page, complete the following tasks:
     
     1. Enter a name for the new connection, such as **Wide World Importers Electric Vehicle Miles Driven 2022**
 
     2. Select **Connect**.
 
+          ![image](../media/lab01-100.png)
+
 1. Next, you'll need to map your source data to the data model. Data will not appear until this step is complete. Select on **Map fields**.
- 
-1. Select the **Data source** to map, in this exercise select **Purchased electricity** under **Carbon Activities.** Select **Auto Map** for the solution to automatically map the file’s source fields with the destination fields, for any field that is not an exact match the best match will be found and highlighted in blue, make sure to review them. Review the custom dimensions to ensure Model and Product are added as part of mapping. Remove the unnecessary custom dimensions if they are added When you are done with the mapping, toggle **Ready to Import** as yes and click on **Save**.
 
- 
-     >**Note**: In this scenario, we will need to map the columns from the spreadsheet to the columns in Microsoft Sustainability Manager. 
+    ![image](../media/lab01-43.png)
+   
+1. Select the **Data source** to map, in this exercise select **Purchased electricity** under **Carbon Activities.** Select **Auto Map** for the solution to automatically map the file’s source fields with the destination fields, for any field that is not an exact match the best match will be found and highlighted in blue, make sure to select **Energy Provider Name** to **Provider** from the drop down and review them. Review the custom dimensions to ensure Model and Product are added as part of mapping. Toggle **Ready to Import** as yes and click on **Save**.
+           
+   ![image](../media/lab01-101.png)
 
-1. Now that we have reviewed our field mappings, toggle **Ready to Import** as yes. Click the back arrow. Click on **Done**.
+   >**Note**: In this scenario, we will need to map the columns from the spreadsheet to the columns in Microsoft Sustainability Manager. 
+
+1. Now that we have reviewed our field mappings, toggle **Ready to Import** as yes. Click the back arrow.
+
+    ![image](../media/lab01-102.png)
 
 1. Click on **Done**.
- 
+   
+    ![image](../media/lab01-46.png)
+   
 1. You will be navigated back to **Data imports** where you can view the import you created.
 
 1. The **Data Import** job will run, and the status will display **Scheduled** and then in a moment it switches to **Processing**. You might need to refresh your page to view the change.
 
 1. After a minute or two select **Refresh** above the list to view the updated status, which should be **Complete**.
- 
+
+   ![image](../media/lab01-103.png)
+
 1. Go to **Carbon Activities** on the left navigation pane under **Data management**. Select **Purchased electricity** in the **Scope 2: Indirect emissions** section.
+
+      ![image](../media/lab01-48.png)
+ 
+1. The Purchased electricity view shows all purchased electricity activity data that has been imported.
+ 
+1. Filter the view by selecting the **Organizational Unit** dropdown menu and then selecting **Edit Filter**.
+
+    ![image](../media/lab01-49.png)
+    
+1. Select Organization unit > **Wide World Importers** from the **Edit filters: Purchased energy** dialog.
+
+    ![image](../media/lab01-50.png)
+    
+1. Select **Apply** to apply the filter to the column.
+ 
+1. After a few moments, the view will refresh and the activity data records that were imported during this exercise will be displayed.
+
+    ![image](../media/lab01-52.png)
 
 You've now completed the data import of 2022 Purchased Electricity for Wide World Importers and Fleet vechicles Miles Driven Wide World Importers 2022. This step is imperative in realizing the goal of recording, reporting, and reducing carbon emissions. Next, you'll import the 2022 Miles Driven for Wide World Importers fleet of electric vehicles.
 
