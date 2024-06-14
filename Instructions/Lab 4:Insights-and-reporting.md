@@ -329,4 +329,33 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 Great job, you have helped Jessie successfully generate an emissions report. Emissions reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for partners to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a partner solution. This report can be used in conjunction with the activity report, which will be generated in the next task. **Please continue to the next task.**
 
 
+## Sustainability scorecards and goals
+
+Scorecards and Goals allow organizations to monitor progress against data-driven goals. They can help you curate sustainability metrics and track them against your company's key business objectives. After you’ve created a scorecard that includes some goals, you can periodically check on the scorecard’s progress and make required adjustments.
+
+Additionally, you can have manual goals with the ability to connect to data and set rules for automatic status updates. You can enable several scorecards and goals and subgoals.
+
+Scorecards and goals are manually updated or connected to data for automatic check-ins with optional Microsoft Teams collaboration.
+
+### Scorecards
+
+
+1. When goals are connected to data, the service will run periodically and manage updates.
+
+1. The status updates can be data-driven and dynamic, and they’ll continue to adjust if you connect goals to data and set rules to determine the status as data is collected. You can compare the goals and progress on the Scorecards page.
+
+### Goals
+
+1. Review the details of the goal. As you review the details of the goal, you can add notes to record your observations. This step is useful for stakeholders when they’re reviewing goals to help understand why they might be behind and to inform them of what they should do next.
+
+1. You can use the Microsoft Teams for collaboration and chat feature to allow primary Sustainability Manager users, such as facility managers to CFOs, to collaborate with anyone who contributes to sustainability goals. This feature allows stakeholders to communicate and make decisions about data or insights.
+
+1. The Microsoft Teams integration feature also tracks and stores the conversation in context for ease of reference later. The integration feature is built on Microsoft Dynamics 365 capabilities, and it was made available in preview when Microsoft Sustainability Manager was released in GA (general availability).
+
+1. You can enable the Microsoft Teams integration feature in Settings. You can also select the type of records for which you want to enable Teams collaboration, such as the Emissions data record.
+
+1. To initiate a conversation, create a new linked chat, find the team member that you want to contact, and then add a message.
+
+1. This record will be tracked in Teams, so whenever you open a linked record, the conversation will be available. All participants have access to the specific record in context.
+
 **Congratulations!** Amber is now comfortable using the dashboards to gain insights into the emissions data. She can use these insights to drive business decisions and use the information to create scorecards and goals to track progress. In addition, Jessie can now build the emission and activity reports and include them in the sustainability reporting procedures for Contoso Corp. These reports will help develop goals that can be tracked using Scorecards, which will be created in the next lab.
