@@ -1,61 +1,18 @@
 # Lab 4: Using Reporting
 
-## Overview
+## Lab Overview
 
 In the previous lab, the ingested Activity data was taken through calculation designs using calculation models and the output was reviewed in terms of CO<sub>2</sub>E unit. In this lab, we will perform a set of activities to generate emissions reports, activity reports, and review Power BI dashboards.
 
 Finally, this lab will help us gain insights into the emission activity trends and identify the opportunities to set scorecards and carbon reduction goals that are detailed in the next lab.
 
+##  Lab Scenarios
 
-###  Lab Scenarios
+In this lab, Sustainability specialist for Contoso Corp reviews the data in the Insights section of Microsoft Sustainability Manager, noticing that Wide World Importers was a large contributor to Scope 2 emissions in 2022. Amber informs Jessie Irwin - Sustainability lead for Contoso Corp that the Activity and Emission Reports are available for review. Jessie opens the reporting section and creates a new Activity report and a new Emissions report. Jessie reviews the generated report and includes the report in the sustainability reporting procedures for Contoso Corp.
 
-In this lab, Amber Rodriguez – Sustainability specialist for Contoso Corp reviews the data in the Insights section of Microsoft Sustainability Manager, noticing that Wide World Importers was a large contributor to Scope 2 emissions in 2022. Amber informs Jessie Irwin - Sustainability lead for Contoso Corp that the Activity and Emission Reports are available for review. Jessie opens the reporting section and creates a new Activity report and a new Emissions report. Jessie reviews the generated report and includes the report in the sustainability reporting procedures for Contoso Corp.
-
-
-### Learning Objectives
-
-In this lab, you will do the following:
-
--  Executive Dashboard  
-
--  Emission Insights 
-
--  Waste Insights 
-
--  Other Reporting 
-
-### Prerequisites
-
--   Microsoft Sustainability manager environment is set up with sample data
--   Lab 1 organization and reference data is entered
--   Lab 2 activity data is ingested
--   Lab 3 emissions are calculated
-
-### Solution Focus Area
-
-Analytics reports present calculated emissions in an organized way to detect trends and perform further exploration of data. These reports are updated soon (within approximately 30 minutes) after the calculations are run and allow the users to review the outcome of calculations in an aggregated format. Data can also be exported in predefined report formats that include groupings for emissions and activity, and other dimensions. These formats can be used to do deeper analysis and prepare many different types of reports.
-
-![image](./Images/Lab04/image1.svg)
-
-In this lab exercise, we will focus on the scenarios illustrated below:
-
-![image](./Images/Lab04/image3.svg)
+## Lab objectives
 
 ## Exercise 1: Sustainability Dashboards
-
-In this exercise, you will take on the persona of Amber Rodriguez – Sustainability Specialist for Contoso Corp. utilizing the various Sustainability Dashboards to gain insights into the organization.
-
-1. Log into the virtual machine using the virtual machine credentials located on the **Resources** tab above.
-
-2. Open a new browser window and navigate to https://make.powerapps.com.
-
-3. Log into your Microsoft 365 tenant using the credentials for the tenant located on the **Resources** tab above.
-
-4. If needed, change the environment to your trial on the top bar.
-
-5. Open the **Sustainability Manager** Application by clickin on Play button.
-
-**Important** Please make sure that you have completed the previous labs to ensure that the dashboards and reports show meaningful data.
 
 ## Task 1 :  Executive dashboard
 
@@ -96,7 +53,7 @@ Renewable energy: This tab has a toggle that lets you view either renewable ener
 Water production intensity: This tab shows values for water production intensity consumed, discharged, and withdrawn. Water production intensity is the total amount of water used in relation to the total weight of products produced.
 
 
-### Task 2: Explore Emission Insights 
+## Task 2: Explore Emission Insights 
 
 In this task, Amber explores the various **Sustainability** dashboards which provide an overview of total emissions, revenue intensity, and renewable energy broken down by scope, geography, organizational unit, and facility.
 
@@ -329,7 +286,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 Great job, you have helped Jessie successfully generate an emissions report. Emissions reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for partners to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a partner solution. This report can be used in conjunction with the activity report, which will be generated in the next task. **Please continue to the next task.**
 
 
-## Sustainability scorecards and goals
+## Task 5: Sustainability scorecards and goals
 
 Scorecards and Goals allow organizations to monitor progress against data-driven goals. They can help you curate sustainability metrics and track them against your company's key business objectives. After you’ve created a scorecard that includes some goals, you can periodically check on the scorecard’s progress and make required adjustments.
 
