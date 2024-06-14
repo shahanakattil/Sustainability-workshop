@@ -13,6 +13,9 @@ In this lab, for Wide World Importers utilizes the activity data Excel spreadshe
 
 In this lab, you will complete the following tasks:
 
+- Task 1: Add custom dimension metadata
+- Task 2: Import 2022 data for “Purchased Electricity“ for Facilities
+- Task 3: Import 2022 Miles Driven data for electric trucks
 
 ### Task 1: Add custom dimension metadata
 
