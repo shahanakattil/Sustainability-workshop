@@ -649,7 +649,7 @@ In this task, Alex creates a new calculation model to calculate carbon emissions
 
 1. Select + New again to create another new calculation model. A new page opens, where you can set up the calculation model. A Source action is added by default.
 
-2. Populate the Source Details pane with the following data and select Save to save the record.
+1. Populate the Source Details pane with the following data and select Save to save the record.
       
       Category name - Electric Vehicle Miles Driven - 2022
       
@@ -696,7 +696,7 @@ In this task, Alex creates a new calculation model to calculate carbon emissions
    
      - After the quantity has been converted, the converted value will be multiplied against the Factor quantity and stored in the output variable. The output variable is only accessible within the calculation model, available for use by actions further down the chain. The estimated value isn't stored in a table.
 
-6. Populate the Estimation factor Details pane with the following data and select **Save** to save the record.
+1. Populate the Estimation factor Details pane with the following data and select **Save** to save the record.
 
    Category name - Estimate kWh/100 Mile
    
@@ -710,7 +710,7 @@ In this task, Alex creates a new calculation model to calculate carbon emissions
    
    Output variable name - kWhQuantity
 
-  ![image](../media/lab01-108.png)
+   ![image](../media/lab01-108.png)
 
 1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
@@ -729,21 +729,20 @@ In this task, Alex creates a new calculation model to calculate carbon emissions
    - Use the Output variable name to name the output of the estimation factor calculation for use in actions further down the chain.
 
   
- 7. Select the plus (+) icon to add a new action to the calculation model.
+1. Select the plus (+) icon to add a new action to the calculation model.
 
-    ![](../media/image30.png)
+     ![image](../media/lab01-109.png)
 
  
- 8. Select Report on the Available actions list.
+1. Select Report on the Available actions list.
 
-   ![](../media/image31.png)
+    ![image](../media/lab01-110.png)
 
-9. A new action is added to the calculation model. Select that action to edit it.
+1. A new action is added to the calculation model. Select that action to edit it.
 
-    ![](../media/image32.png)
+    ![image](../media/lab01-111.png)
 
-
-10. Populate the Report Details pane with the following data:
+1. Populate the Report Details pane with the following data and select Save to save the record.
 
       Category name - kWh * EF
       
@@ -755,7 +754,9 @@ In this task, Alex creates a new calculation model to calculate carbon emissions
       
       Emission factor - US Average
 
-  The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+     ![image](../media/lab01-112.png)
+    
+1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
      - The Category name identifies the action in the calculation model.
       
@@ -765,23 +766,17 @@ In this task, Alex creates a new calculation model to calculate carbon emissions
 
      - The Emission factor identifies which emission factor or factor mapping is used to calculate the emissions. In this scenario, Alex and Wide World Importers might not know which electric grid that a vehicle was charged on or the energy source, so Alex chooses the US Average emission factor to provide the estimated emissions.
 
-     - You can select Save to save the record.
-
-   ![](../media/image33.png)
-
-
 11. Select the back arrow on the record to return to the list of calculation models.
 
    The new calculation model should now appear in the list.
 
-   ![](../media/image34.png)
+   ![image](../media/lab01-113.png)
 
   You've now created a new calculation model. This calculation model includes an estimation factor, which allows you to calculate emissions in areas where you might not know 
   the exact quantity of an emission source but still need to account for the carbon emissions. Calculation models are the instruction sets that Microsoft Cloud for 
   Sustainability uses to calculate emissions. Several calculation models are included with Microsoft Cloud for Sustainability based on EPA calculations. Occasionally, these 
   included models might not match your unique customer needs, so you need to create new models to provide custom calculations. Make sure that you review the included models to 
   view other types of complex calculation models.
-
 
 ## Exercise - Run calculations
 
@@ -863,21 +858,25 @@ In this task, Alex creates a calculation profile for the miles driven by Wide Wo
 
 1. Select + New Calculation profile to create a new calculation profile.
 
-    Populate the following information on the New calculation profile wizard.
+   ![image](../media/lab01-114.png)
 
-     - Calculation profile name - Electric Vehicle Miles Driven 2022
+1. Populate the following information on the New calculation profile wizard.
 
-     - Module - Carbon activities
+     - Calculation profile name - **Electric Vehicle Miles Driven 2022**
 
-     - Emissions source - Purchased electricity
+     - Module - **Carbon activities**
 
-     - Activity data to include in calculation - Select add > add row and select Organizational Unit equals Wide World Importers and Quantity unit equals mile
+     - Emissions source - **Purchased electricity**
 
-     - Calculation model - Select Electric Vehicle Miles Driven - 2022 from the dropdown list
+     - Activity data to include in calculation - Select **Add** > **Add row** and select **Organizational Unit** equals** Wide World Importers** and select **Add** > **Add row** **Quantity unit** equals **mile**.
 
-     - Schedule - Select the Automatically run this calculation when data is refreshed checkbox
+     - Calculation model - Select **Electric Vehicle Miles Driven - 2022** from the dropdown list
 
-2. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+     - Schedule - Select the **Automatically run this calculation when data is refreshed** checkbox
+
+        ![image](../media/lab01-115.png)
+       
+1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
       The Calculation profile name identifies the calculation profile in the list.
       
@@ -893,7 +892,10 @@ In this task, Alex creates a calculation profile for the miles driven by Wide Wo
       
       The form should resemble the following image. Select Next.
 
-3. The Preview page of the New calculation profile wizard shows the emissions that were calculated for the first row of data that matches your Activity data to include filter. In this scenario, the values that are shown in the preview might differ from the following image.
+1. The Preview page of the New calculation profile wizard shows the emissions that were calculated for the first row of data that matches your Activity data to include filter. In this scenario, the values that are shown in the preview might differ from the following image and select Save to save your calculation profile.
+
+
+     ![image](../media/lab01-116.png)
 
     These values were determined by converting the miles driven to kWh: (7484.724 / 100) * 49 = 3667.515 kWh
     
@@ -917,10 +919,9 @@ In this task, Alex creates a calculation profile for the miles driven by Wide Wo
     
     CO2E: 3,001.127 + 5.95 + 9.834 = 3,016.911 lb
 
-4. Select Save to save your calculation profile.
-
 5. Select Done.
 
+   ![image](../media/lab01-117.png)
 
 ## Task: Run calculation profiles
  
