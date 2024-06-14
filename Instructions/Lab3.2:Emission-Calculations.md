@@ -14,7 +14,7 @@ In the Emission calculations focus area calculation models are designed to calcu
 
 ## Lab Objectives
 
-+ Task 1 : Add eGRID factor mappings
+
 
 ### Learning Objectives
 
@@ -30,8 +30,13 @@ The following terminologies will be used throughout the configuration of Emissio
 -   **Custom dimensions**: Custom dimensions can be used in emission calculation models, for example, in condition, calculation, and reporting actions.
 
 
+## Exercise 1 -  Set up Factor Libraries
 
-## Task 1 : Add eGRID factor mappings
+In this exercise, you will learn about the steps that takes to define the factor mappings for Purchased electricity, and an estimation factor library for estimating the amount of electricity purchased based on the Miles driven by Wide World Importers fleet of electric trucks. While electric vehicles do not have Scope 1, direct tailpipe emissions, they do have to be charged while transporting goods, in this case - across the USA. This charging of Electric trucks results in Scope 2 purchased electricity.
+
+
+### Task 1 : Add eGRID factor mappings
+
 In this task, Alex will create factor mappings to map the contractual instrument types for Wide World Importers that Reed previously added to the respective electric grid emission factor. This process allows Microsoft Sustainability Manager to find the correct electric grid for a given contractual instrument type. This type can be expanded to map other reference data to specific emission factors, avoiding the need to create calculation models that are for specific emission factors.
 
 1. In the left navigation pane, select **Calculations** > **Factor libraries**.
@@ -151,6 +156,7 @@ In this task, Alex will create an estimation factor library to define the estima
     - The Library Type of the factor library switches the library type between Emission or Estimation library. Emission libraries calculate emission gases. Estimation libraries create estimated conversions from one unit type to another, such as 100 miles driven to kWh.
       
 ## Task 3: Create an estimation factor
+
 In this task, Alex will create the estimation factor for estimating the kilowatt-hours (kWh) that are used for every mile driven. The EPA estimates electric vehicle efficiency in kilowatt-hours (kWh) for every 100 miles. Alex will use this same metric in the estimation factor to ensure that the estimation factor is consistent with the EPA.
 
 1. Scroll down on the Factor library view and select Electric Vehicle Estimation Library (it will be near the bottom of your page) under Estimation factors.
@@ -204,7 +210,7 @@ In this exercise, you learn about the steps that Alex takes to define calculatio
 Take the opportunity to review some prebuilt models. They're excellent sources of information when you're creating new calculation models. You can also use calculation models as a template for new models. This exercise and the next discuss the algorithm that's used to calculate emissions. For more information, see Overview of Calculation models. 
  
  
-## Task 5: Create a purchased electricity model
+### Task 4.1: Create a purchased electricity model
  
 1. Select Calculations > Models on the left navigation pane. Select + New to create a new calculation model.
 
@@ -300,11 +306,11 @@ Take the opportunity to review some prebuilt models. They're excellent sources o
     with Microsoft Cloud for Sustainability based on EPA calculations. Occasionally, these included models might not match your unique customer needs, so you need to create new 
     models to provide custom calculations. Make sure that you review the included models to view other types of complex calculation models.
 
- ## Task 6: Create an electric vehicle miles driven model
+### Task 4.2: Create an electric vehicle miles driven model
 
-In this task, Alex creates a new calculation model to calculate carbon emissions for miles driven by electric vehicles. This exercise uses the estimation factor library that was created in the previous exercise to estimate the kilowatt-hours (kWh) that are used by an electric vehicle and then calculate the carbon emissions for that electricity based on the US Average emission factor.
+In this task, we will creates a new calculation model to calculate carbon emissions for miles driven by electric vehicles. This exercise uses the estimation factor library that was created in the previous exercise to estimate the kilowatt-hours (kWh) that are used by an electric vehicle and then calculate the carbon emissions for that electricity based on the US Average emission factor.
 
-1. Select + New again to create another new calculation model. A new page opens, where you can set up the calculation model. A Source action is added by default.
+1. Select **+ New** again to create another new calculation model. A new page opens, where you can set up the calculation model. A Source action is added by default.
 
 1. Populate the Source Details pane with the following data and select Save to save the record.
       
@@ -401,15 +407,15 @@ In this task, Alex creates a new calculation model to calculate carbon emissions
 
 1. Populate the Report Details pane with the following data and select Save to save the record.
 
-      Category name - kWh * EF
+      - Category name - kWh * EF
       
-      Emission report value - kWhQuantity
+      - Emission report value - kWhQuantity
       
-      Unit - kWh
+      - Unit - kWh
       
-      Emission factor library - EPA 2022 - eGrid
+      - Emission factor library - EPA 2022 - eGrid
       
-      Emission factor - US Average
+      - Emission factor - US Average
 
      ![image](../media/lab01-112.png)
     
