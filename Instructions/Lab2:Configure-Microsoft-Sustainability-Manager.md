@@ -2,7 +2,7 @@
 
 ## Lab Overview
 
-In this lab, you will be sets up the Company profile, hierarchy, and facilities for the Wide World Importers organization in Microsoft Sustainability Manager.
+You will set up the organizational structure, reference data, unit conversion factors, and reporting periods in Microsoft Sustainability Manager, as well as assign user roles and permissions. This comprehensive setup ensures accurate carbon emission tracking and reporting for the Wide World Importers organization.
 
 ## Lab scenario
 
@@ -119,7 +119,7 @@ Great job, by completing these steps, you have completed the organizational setu
 
 ## Task 2 : Set up reference data
 
-In this task, we will set up the reference data for contractual instrument types in Microsoft Sustainability Manager. Contractual instrument types are different types of contractual agreements that a firm has with their providers and suppliers.
+You will configure reference data by adding contractual instrument types used for managing agreements with providers and suppliers. This ensures accurate and standardized data for sustainability reporting, aligning with organizational needs.
 
 1. In the left navigation pane, select **Data** > **Reference data** then choose Contractual instrument types and then select View.
 
@@ -157,11 +157,11 @@ You can use unit groups to group units together and define a base unit that you 
 
     ![image](../media/report14.png)
 
-2. Scroll down and select + New Unit to create a new unit.
+1. Scroll down and select + New Unit to create a new unit.
 
    ![image](../media/report15.png)
 
-5. Enter the following details for the new unit and then select Save & Close.
+1. Enter the following details for the new unit and then select Save & Close.
 
      - Name - 100 mile
       
@@ -197,7 +197,7 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
 
 ## Task 5 : Access/Permissions 
 
-In this task  we'll be assisgning **Basic User** and **Sustainablilty all - reports - full access Role** to Alex wilber. 
+In this task, you'll assign specific roles and permissions to users, ensuring they have the appropriate access to Microsoft Sustainability Manager features necessary for their responsibilities. This ensures secure and efficient use of the platform.
 
 1. In edge browser for https://admin.powerplatform.microsoft.com/ and login with  - **Email/Username:** <inject key="AzureAdUserEmail"></inject>  - **Password:** <inject key="AzureAdUserPassword"></inject> account.
 
@@ -222,3 +222,8 @@ In this task  we'll be assisgning **Basic User** and **Sustainablilty all - repo
     ![image](../media/lab01-(28).png)
 
 
+## Review
+
+Completing the lab, you will have gained practical knowledge on configuring Microsoft Sustainability Manager, including setting up organizational hierarchies, reference data, and unit conversion factors. Additionally, you will understand how to create reporting periods and assign user roles and permissions, essential for accurate carbon emission tracking and reporting.
+
+## You have successfully completed the lab. Click on Next >>.
