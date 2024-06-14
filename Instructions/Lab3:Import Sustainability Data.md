@@ -633,7 +633,6 @@ Take the opportunity to review some prebuilt models. They're excellent sources o
       
     - The Emission factor identifies which emission factor or factor mapping to use to calculate the emissions. Choosing a factor mapping allows multiple reference data values to map to an emission factor, allowing for a calculation model to not be bound to a single emission factor.
       
-
 8. Select the back arrow on the record to return to the list of calculation models.
 
     The new calculation model should appear in the list. 
@@ -650,7 +649,7 @@ In this task, Alex creates a new calculation model to calculate carbon emissions
 
 1. Select + New again to create another new calculation model. A new page opens, where you can set up the calculation model. A Source action is added by default.
 
-2. Populate the Source Details pane with the following data:
+2. Populate the Source Details pane with the following data and select Save to save the record.
       
       Category name - Electric Vehicle Miles Driven - 2022
       
@@ -662,45 +661,42 @@ In this task, Alex creates a new calculation model to calculate carbon emissions
       
       Documentation reference - https://fueleconomy.gov/feg/byfuel/EV2022.shtml
 
-  The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+      ![image](../media/lab01-104.png)
 
-   The Category name identifies the calculation model in the list.
-   
-   The Module is used to identify which data types should appear in the Activity data field.
-   
-   The Activity data identifies which type of activity data that the model processes.
-   
-   Use the Calculation method to roughly note what the calculation is doing.
-   
-   The Documentation reference identifies the documentation that's used to create the calculation model.
-   
-   You can select Save to save the record.
+1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
 
-
-   ![](../media/image25.png)
-
- 3. Select the plus (+) icon to add a new action to the calculation model.
+    - The Category name identifies the calculation model in the list.
+   
+    - The Module is used to identify which data types should appear in the Activity data field.
+   
+    - The Activity data identifies which type of activity data that the model processes.
+   
+    - Use the Calculation method to roughly note what the calculation is doing.
+   
+    - The Documentation reference identifies the documentation that's used to create the calculation model.
+   
+ 1. Select the plus (+) icon to add a new action to the calculation model.
  
-     ![](../media/image26.png)
+     ![image](../media/lab01-105.png)
 
- 4. Select Estimation factor on the list of Available actions.
+ 1. Select Estimation factor on the list of Available actions.
 
-    ![](../media/image27.png)
- 
- 5. A new action is added to the calculation model. Select that action to edit it.
+    ![image](../media/lab01-106.png)
 
-    ![](../media/image28.png)
+ 1. A new action is added to the calculation model.
 
-    You can use the Estimation factor action to create an estimated value for converting one unit type to another in a different unit group, such as converting night stays to 
+    ![image](../media/lab01-107.png)
+
+     - You can use the Estimation factor action to create an estimated value for converting one unit type to another in a different unit group, such as converting night stays to 
     kilowatt-hours (kWh) used. This action is beneficial when it might be difficult to determine the exact amount of a given emission source that's used. In this exercise, the 
     action is used to convert miles driven by the fleet of electric vehicles to kWh used. This approach helps Wide World Importers estimate the carbon emissions for their fleet 
     of electric vehicles that are driving across the US and might be charging various amounts and on different grids and energy sources.
 
-    The activity data quantity and quantity unit are converted to the same unit type as the estimation factor. In this exercise, the mile unit from the activity data is converted to 100-mile units.
+     - The activity data quantity and quantity unit are converted to the same unit type as the estimation factor. In this exercise, the mile unit from the activity data is converted to 100-mile units.
    
-    After the quantity has been converted, the converted value will be multiplied against the Factor quantity and stored in the output variable. The output variable is only accessible within the calculation model, available for use by actions further down the chain. The estimated value isn't stored in a table.
+     - After the quantity has been converted, the converted value will be multiplied against the Factor quantity and stored in the output variable. The output variable is only accessible within the calculation model, available for use by actions further down the chain. The estimated value isn't stored in a table.
 
-6. Populate the Estimation factor Details pane with the following data:
+6. Populate the Estimation factor Details pane with the following data and select **Save** to save the record.
 
    Category name - Estimate kWh/100 Mile
    
@@ -714,26 +710,25 @@ In this task, Alex creates a new calculation model to calculate carbon emissions
    
    Output variable name - kWhQuantity
 
- The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+  ![image](../media/lab01-108.png)
 
-   The Category name identifies the action in the calculation model.
+1. The fields and their values are defined as follows (numbers corresponding to numerals in the ensuing screenshot):
+
+   - The Category name identifies the action in the calculation model.
    
-   The Estimation value identifies which field from the activity data type should be used to retrieve the value that's used in the estimation calculation.
+   - The Estimation value identifies which field from the activity data type should be used to retrieve the value that's used in the estimation calculation.
     
-  The Unit identifies the field from the activity data type that should be used to retrieve the unit type of the value. Alternatively, you can specify a unit to always be used 
+   - The Unit identifies the field from the activity data type that should be used to retrieve the unit type of the value. Alternatively, you can specify a unit to always be used 
   in the action, regardless of which unit is specified on the activity date type.
 
-  The Estimation factor library identifies which factor library is used to identify the estimation factor.
+   - The Estimation factor library identifies which factor library is used to identify the estimation factor.
 
-  The Estimation factor identifies which estimation factor or factor mapping is used calculate the estimation. In this scenario, only one estimation factor has been created, so 
+   - The Estimation factor identifies which estimation factor or factor mapping is used calculate the estimation. In this scenario, only one estimation factor has been created, so 
   it doesn't make sense to select a factor mapping currently.
 
-  Use the Output variable name to name the output of the estimation factor calculation for use in actions further down the chain.
+   - Use the Output variable name to name the output of the estimation factor calculation for use in actions further down the chain.
 
-  You can select Save to save the record.
-
-   ![](../media/image29.png)
-
+  
  7. Select the plus (+) icon to add a new action to the calculation model.
 
     ![](../media/image30.png)
