@@ -12,6 +12,22 @@ In the Emission calculations focus area calculation models are designed to calcu
 
 ## Lab Objectives
 
+- Exercise 1 - Set up Factor Libraries
+   + Task 1 : Add eGRID factor mappings
+   + Task 2: Create an estimation factor library
+   + Task 3: Create an estimation factor
+   + Task 4: Set up calculation models
+
+- Exercise 2 - Run calculations
+   + Task 1 : Create a purchased electricity calculation profile
+   + Task 2 : Create an electric vehicle miles driven calculation profile
+   + Task 3 : Run calculation profiles
+
+- Exercise 3 : Create allocation profiles and run calculations
+
+   + Task 1 : Create allocation methods
+   + Task 2 : Create the allocation method details
+   + Task 3 : Create an allocation profile
 
 
 ### Learning Objectives
