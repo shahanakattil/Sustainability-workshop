@@ -975,26 +975,44 @@ In this task, Alex creates the allocation method details by importing an excel f
 
 ## Task: Create an allocation profile
 
-1. Select Calculations from the left navigation pane.
+1. Expand **Calculations** from the left navigation pane then select Allocation profile(preview) and click on **New**
 
-2. Select Allocation profile(preview).
+   ![image](../media/lab01-88.png)
 
-3. Select New.
+1. On the **Create new allocation profiles** blade, from the **Emission source** drop down select **Purchased electricity (Emission)**.
 
-4. Select Next.
+   - Start date : 1/1/2022.
 
-5. Select the Profile method as Headcount that you created in the previous task and Profile period as Yearly.
+   - End date : 31/1/2022
 
-6. Select Next.
+     ![image](../media/lab01-89.png)
 
-7. Enter the Allocation profile name as Headcount and select Done.
+     ![image](../media/lab01-90.png)
 
-8. Select Continue.
+1. Under **Set up allocation type** sepcify the following details and click on **Next**.
 
-9. Select OK. The allocation profile is created successfully.
+      - Profile method **Headcount**.
+      - Profile period **Yearly**.
 
-10. In the Active Allocation Profile page, select the profile and select Run allocation for the profile created.
+   ![image](../media/lab01-91.png)
 
-11. Refresh the page and select the Allocation profile to view the status of the calculation.
+
+1. Enter the Allocation profile name as Headcount and select Done.
+
+    ![image](../media/lab01-92.png)
+
+1. Select Continue.
+
+    ![image](../media/lab01-93.png)
+   
+1. Select OK. The allocation profile is created successfully.
+
+    ![image](../media/lab01-94.png)
+   
+1. In the Active Allocation Profile page, select the profile and select Run allocation for the profile created.
+
+    ![image](../media/lab01-95.png)
+    
+1. Refresh the page and select the Allocation profile to view the status of the calculation.
 
 You created the allocation methods and set up the allocation profile with this method. Now, you'll be able to visualize how your emissions are generated using these methods without impacting the default emissions reporting. 
