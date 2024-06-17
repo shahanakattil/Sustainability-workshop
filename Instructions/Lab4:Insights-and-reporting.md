@@ -301,6 +301,17 @@ Scorecards and goals are manually updated or connected to data for automatic che
 ### Scorecards
 
 
+1. From the lefy navigation pane select **Scorecards**.
+
+1. Select Add Scorecard to create a scorecard.
+1. In the Name field, enter the name of the scorecard.
+1. In the Description field, enter a description for the scorecard. The description should describe the goals to associate with the scorecard.
+1. In the Owner field, select a contact person to assign to the scorecard. The contact person can be either the person who is responsible for the scorecard, or the person who is creating and managing it.
+1. Select Save to save the scorecard. You can now start to enter the associated goals as described in the next section.
+
+
+
+
 1. When goals are connected to data, the service will run periodically and manage updates.
 
 1. The status updates can be data-driven and dynamic, and they’ll continue to adjust if you connect goals to data and set rules to determine the status as data is collected. You can compare the goals and progress on the Scorecards page.
