@@ -302,30 +302,30 @@ Scorecards and goals are manually updated or connected to data for automatic che
 
 1. From the lefy navigation pane select **Scorecards & goals** then select **+ Add Scorecard** to create a scorecard.
 
-   ![](../media/lab-01-125.png)
+   ![](../media/lab01-125.png)
    
     - In the Name field, enter the name **Wide World Importers Reduction Plan - 2024** of the scorecard.
 
     - In the Owner field, search and select ODl to assign to the scorecard. Select Save to save the scorecard. You can now start to enter the associated goals as described in the next section.
 
-      ![](../media/lab-01-126.png)
+      ![](../media/lab01-126.png)
 
 1. Your new Scorecard will open automatically.
 
-   ![](../media/lab-01-127.png)
+   ![](../media/lab01-127.png)
 
 
 ### Task 2 : Create a goal
 
 1. Select the **+ Add goal** button to create a new goal.
 
-     ![](../media/lab-01-128.png)
+     ![](../media/lab01-128.png)
 
 1. Use the following information to populate the fields on the New goal page:
 
     - **Goal name** - **Reduce Scope 2 Emissions - 2023**
 
-    - **Owner** - Allen Contoso
+    - **Owner** - ODL User
 
     - **Scorecard** - **Wide World Importers Reduction Plan - 2024**
 
@@ -348,12 +348,12 @@ Scorecards and goals are manually updated or connected to data for automatic che
        c) Select **+ Add** > **Add row** then choose **Organizational unit** equals **Wide World Importers**.
        d) At the top of the form, select **Calculate** for a preview of the data that would be used for the current value check-in. Copy this value. The value that's calculated might differ from what's shown in the following image.
 
-         ![](../media/lab-01-129.png)
-         ![](../media/lab-01-130.png)
+         ![](../media/lab01-129.png)
+         ![](../media/lab01-130.png)
 
       e) Click on **Confirm** from the buttom of the page.
 
-         ![](../media/lab-01-131.png)
+         ![](../media/lab01-131.png)
 
 1. Back on **Add a goal** page
 
@@ -361,24 +361,25 @@ Scorecards and goals are manually updated or connected to data for automatic che
 
    - Use Status update method to specify how the status of the goal check-ins will be set. You can enter the Status update method manually or set it to update automatically. In this scenario, you'll set the status for goal check-ins automatically based on a set of rules. Select Automatic and then select +Set up status rules.
 
-     ![](../media/lab-01-132.png)
+      ![](../media/lab01-132.png)
     
    - Select **+ Add Rule** to start a new rule for the Status.
-      ![](../media/lab-01-133.png)
+      ![](../media/lab01-133.png)
+
    - In the Operator dropdown menu, select is **greater than**.
    - In the Value field, which currently shows 0, enter **600**. Select **At risk** from the Set status to dropdown menu.
    - In the Otherwise, set status to dropdown menu, select **On track**.
    - The status rules should resemble the following image. Select **Confirm**.
 
-       ![](../media/lab-01-134.png)
+       ![](../media/lab01-134.png)
      
 3.  Back on **Add a goal** page then click on **Save**.
 
-      ![](../media/lab-01-135.png)
+      ![](../media/lab01-135.png)
 
 1. The new goal should be visible in the list of goals for the scorecard.
 
-     ![](../media/lab-01-136.png)
+     ![](../media/lab01-136.png)
 
    >**Note**: You've now created a goal for your scorecard. Goals are beneficial for keeping track of an organization's progress toward reducing their carbon footprint. Any goals that you have with a current value that's connected to data will have check-ins created approximately every 24 hours. Next, you'll create your first check-in manually so that you're familiar with the check-in data.
 
@@ -386,7 +387,7 @@ Scorecards and goals are manually updated or connected to data for automatic che
 ### Task: Create a goal check-in
 
 1. Open the goal that was created in the previous task by selecting the goal name from the list in the scorecard.
-    ![](../media/lab-01-136.png)
+    ![](../media/lab01-136.png)
 
 1. Review the following information for the goal:
 
@@ -394,11 +395,11 @@ Scorecards and goals are manually updated or connected to data for automatic che
  
     - The Goal details
     
-      ![](../media/lab-01-137.png)
+      ![](../media/lab01-137.png)
 
 1. In the History section, select  check-in to  create a new goal check-in for the first check-in.
 
-   ![](../media/lab-01-138.png)
+   ![](../media/lab01-138.png)
 
 1. A New check-in dialog will appear.
 
@@ -412,14 +413,14 @@ Scorecards and goals are manually updated or connected to data for automatic che
 
    - Click on **Save**
     
-     ![](../media/lab-01-139.png)
+     ![](../media/lab01-139.png)
 
 
 1. Now, the Progress section should show as updated with the latest check-in value and status, as well its plot on the graph. Additionally, the History section should show the recently created check-in with the status automatically set based on the goal rules. Check-ins will be shown in the order of newest to oldest.    
 
-   ![](../media/lab-01-140.png)
+   ![](../media/lab01-140.png)
    
-   ![](../media/lab-01-141.png)
+   ![](../media/lab01-141.png)
     
   >**Note**: The following list provides descriptions Use Update for to identify what date the check-in was for. This date might be the current date or a date in the past. Use New value to specify the current value of the goal check-in. This value will be used on the Progress chart.
 
