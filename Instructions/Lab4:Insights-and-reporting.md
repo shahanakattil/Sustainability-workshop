@@ -290,7 +290,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 Great job, you have helped Jessie successfully generate an emissions report. Emissions reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for partners to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a partner solution. This report can be used in conjunction with the activity report, which will be generated in the next task. **Please continue to the next task.**
 
 
-## Task 5: Sustainability scorecards and goals
+## Execise :  Sustainability scorecards and goals
 
 Scorecards and Goals allow organizations to monitor progress against data-driven goals. They can help you curate sustainability metrics and track them against your company's key business objectives. After you’ve created a scorecard that includes some goals, you can periodically check on the scorecard’s progress and make required adjustments.
 
@@ -298,8 +298,7 @@ Additionally, you can have manual goals with the ability to connect to data and 
 
 Scorecards and goals are manually updated or connected to data for automatic check-ins with optional Microsoft Teams collaboration.
 
-### Scorecards
-
+### Task 1 : Create a new scorecard
 
 1. From the lefy navigation pane select **Scorecards & goals** then select **+ Add Scorecard** to create a scorecard.
 
@@ -314,6 +313,9 @@ Scorecards and goals are manually updated or connected to data for automatic che
 1. Your new Scorecard will open automatically.
 
    ![](../media/lab-01-127.png)
+
+
+### Task 2 : Create a goal
 
 1. Select the **+ Add goal** button to create a new goal.
 
@@ -380,18 +382,45 @@ Scorecards and goals are manually updated or connected to data for automatic che
 
    >**Note**: You've now created a goal for your scorecard. Goals are beneficial for keeping track of an organization's progress toward reducing their carbon footprint. Any goals that you have with a current value that's connected to data will have check-ins created approximately every 24 hours. Next, you'll create your first check-in manually so that you're familiar with the check-in data.
 
-### Goals 
 
-1. Review the details of the goal. As you review the details of the goal, you can add notes to record your observations. This step is useful for stakeholders when they’re reviewing goals to help understand why they might be behind and to inform them of what they should do next.
+### Task: Create a goal check-in
 
-1. You can use the Microsoft Teams for collaboration and chat feature to allow primary Sustainability Manager users, such as facility managers to CFOs, to collaborate with anyone who contributes to sustainability goals. This feature allows stakeholders to communicate and make decisions about data or insights.
+1. Open the goal that was created in the previous task by selecting the goal name from the list in the scorecard.
+    ![](../media/lab-01-136.png)
 
-1. The Microsoft Teams integration feature also tracks and stores the conversation in context for ease of reference later. The integration feature is built on Microsoft Dynamics 365 capabilities, and it was made available in preview when Microsoft Sustainability Manager was released in GA (general availability).
+1. Review the following information for the goal:
 
-1. You can enable the Microsoft Teams integration feature in Settings. You can also select the type of records for which you want to enable Teams collaboration, such as the Emissions data record.
+    - Progress toward the Reduce Scope 2 Emissions - 2023 goal
+ 
+    - The Goal details
+    
+      ![](../media/lab-01-137.png)
 
-1. To initiate a conversation, create a new linked chat, find the team member that you want to contact, and then add a message.
+1. In the History section, select  check-in to  create a new goal check-in for the first check-in.
 
-1. This record will be tracked in Teams, so whenever you open a linked record, the conversation will be available. All participants have access to the specific record in context.
+   ![](../media/lab-01-138.png)
+
+1. A New check-in dialog will appear.
+
+  Populate the New check-in dialog with the following data:
+
+   - Update for - **Use today's date.**
+
+   - New value - The preview value that you copied from the Source of current value connection screen. In this scenario, that value is 179.
+
+   - Add note - Enter **First check-in** in the field.
+
+   - Click on **Save**
+    
+     ![](../media/lab-01-139.png)
+
+
+1. Now, the Progress section should show as updated with the latest check-in value and status, as well its plot on the graph. Additionally, the History section should show the recently created check-in with the status automatically set based on the goal rules. Check-ins will be shown in the order of newest to oldest.    
+
+   ![](../media/lab-01-140.png)
+   
+   ![](../media/lab-01-141.png)
+    
+  >**Note**: The following list provides descriptions Use Update for to identify what date the check-in was for. This date might be the current date or a date in the past. Use New value to specify the current value of the goal check-in. This value will be used on the Progress chart.
 
 **Congratulations!** Amber is now comfortable using the dashboards to gain insights into the emissions data. She can use these insights to drive business decisions and use the information to create scorecards and goals to track progress. In addition, Jessie can now build the emission and activity reports and include them in the sustainability reporting procedures for Contoso Corp. These reports will help develop goals that can be tracked using Scorecards, which will be created in the next lab.
