@@ -290,7 +290,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 Great job, you have helped Jessie successfully generate an emissions report. Emissions reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for partners to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a partner solution. This report can be used in conjunction with the activity report, which will be generated in the next task. **Please continue to the next task.**
 
 
-## Task 5: Sustainability scorecards and goals
+## Task 5: Sustainability scorecards and goals (Read Only)
 
 Scorecards and Goals allow organizations to monitor progress against data-driven goals. They can help you curate sustainability metrics and track them against your company's key business objectives. After you’ve created a scorecard that includes some goals, you can periodically check on the scorecard’s progress and make required adjustments.
 
@@ -305,6 +305,10 @@ Scorecards and goals are manually updated or connected to data for automatic che
 
 1. The status updates can be data-driven and dynamic, and they’ll continue to adjust if you connect goals to data and set rules to determine the status as data is collected. You can compare the goals and progress on the Scorecards page.
 
+   ![](../media/lab01-123.png)
+
+   ![](../media/lab01-124.png)
+   
 ### Goals
 
 1. Review the details of the goal. As you review the details of the goal, you can add notes to record your observations. This step is useful for stakeholders when they’re reviewing goals to help understand why they might be behind and to inform them of what they should do next.
