@@ -290,7 +290,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 Great job, you have helped Jessie successfully generate an emissions report. Emissions reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for partners to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a partner solution. This report can be used in conjunction with the activity report, which will be generated in the next task. **Please continue to the next task.**
 
 
-## Task 5: Sustainability scorecards and goals (Read Only)
+## Task 5: Sustainability scorecards and goals
 
 Scorecards and Goals allow organizations to monitor progress against data-driven goals. They can help you curate sustainability metrics and track them against your company's key business objectives. After you’ve created a scorecard that includes some goals, you can periodically check on the scorecard’s progress and make required adjustments.
 
@@ -303,23 +303,84 @@ Scorecards and goals are manually updated or connected to data for automatic che
 
 1. From the lefy navigation pane select **Scorecards & goals** then select **+ Add Scorecard** to create a scorecard.
 
-1. In the Name field, enter the name of the scorecard.
-1. In the Description field, enter a description for the scorecard. The description should describe the goals to associate with the scorecard.
-1. In the Owner field, select a contact person to assign to the scorecard. The contact person can be either the person who is responsible for the scorecard, or the person who is creating and managing it.
-1. Select Save to save the scorecard. You can now start to enter the associated goals as described in the next section.
-
-
-
-
-1. When goals are connected to data, the service will run periodically and manage updates.
-
-1. The status updates can be data-driven and dynamic, and they’ll continue to adjust if you connect goals to data and set rules to determine the status as data is collected. You can compare the goals and progress on the Scorecards page.
-
-   ![](../media/lab01-123.png)
-
-   ![](../media/lab01-124.png)
+   ![](../media/lab-01-125.png)
    
-### Goals
+    - In the Name field, enter the name **Wide World Importers Reduction Plan - 2024** of the scorecard.
+
+    - In the Owner field, search and select ODl to assign to the scorecard. Select Save to save the scorecard. You can now start to enter the associated goals as described in the next section.
+
+      ![](../media/lab-01-126.png)
+
+1. Your new Scorecard will open automatically.
+
+   ![](../media/lab-01-127.png)
+
+1. Select the **+ Add goal** button to create a new goal.
+
+     ![](../media/lab-01-128.png)
+
+1. Use the following information to populate the fields on the New goal page:
+
+    - **Goal name** - **Reduce Scope 2 Emissions - 2023**
+
+    - **Owner** - Allen Contoso
+
+    - **Scorecard** - **Wide World Importers Reduction Plan - 2024**
+
+    - **Organizational unit** - **Wide World Importers**
+
+    - **Start date** - **12/31/2022**
+  
+    - **End date** - **12/31/2023**
+  
+    - **Unit of measure** - **mtCO2e**
+
+    - **Starting value** - **900**
+
+    - **Source of current value** - Select **Connect to data** from the drop down then select **Set up connection**.
+  
+    - On the **Set up connection: current value** blade, follow the below mentioned steps:
+
+       a) Select the check box next to **Track all carbon emissions**.
+       b) Value - Select **CO2E** from drop down.
+       c) Select **+ Add** > **Add row** then choose **Organizational unit** equals **Wide World Importers**.
+       d) At the top of the form, select **Calculate** for a preview of the data that would be used for the current value check-in. Copy this value. The value that's calculated might differ from what's shown in the following image.
+
+         ![](../media/lab-01-129.png)
+         ![](../media/lab-01-130.png)
+
+      e) Click on **Confirm** from the buttom of the page.
+
+         ![](../media/lab-01-131.png)
+
+1. Back on **Add a goal** page
+
+   - Use Source of target value to specify what the source of the target value is. You can connect the Source of target value to data or, in this scenario, you can enter it manually. Select Enter manually and then enter 600 to set your target of reducing annual emissions to 600 mtCO2E.
+
+   - Use Status update method to specify how the status of the goal check-ins will be set. You can enter the Status update method manually or set it to update automatically. In this scenario, you'll set the status for goal check-ins automatically based on a set of rules. Select Automatic and then select +Set up status rules.
+
+     ![](../media/lab-01-132.png)
+    
+   - Select **+ Add Rule** to start a new rule for the Status.
+      ![](../media/lab-01-133.png)
+   - In the Operator dropdown menu, select is **greater than**.
+   - In the Value field, which currently shows 0, enter **600**. Select **At risk** from the Set status to dropdown menu.
+   - In the Otherwise, set status to dropdown menu, select **On track**.
+   - The status rules should resemble the following image. Select **Confirm**.
+
+       ![](../media/lab-01-134.png)
+     
+3.  Back on **Add a goal** page then click on **Save**.
+
+      ![](../media/lab-01-135.png)
+
+1. The new goal should be visible in the list of goals for the scorecard.
+
+     ![](../media/lab-01-136.png)
+
+   >**Note**: You've now created a goal for your scorecard. Goals are beneficial for keeping track of an organization's progress toward reducing their carbon footprint. Any goals that you have with a current value that's connected to data will have check-ins created approximately every 24 hours. Next, you'll create your first check-in manually so that you're familiar with the check-in data.
+
+### Goals 
 
 1. Review the details of the goal. As you review the details of the goal, you can add notes to record your observations. This step is useful for stakeholders when they’re reviewing goals to help understand why they might be behind and to inform them of what they should do next.
 
