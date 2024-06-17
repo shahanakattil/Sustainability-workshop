@@ -301,9 +301,8 @@ Scorecards and goals are manually updated or connected to data for automatic che
 ### Scorecards
 
 
-1. From the lefy navigation pane select **Scorecards**.
+1. From the lefy navigation pane select **Scorecards & goals** then select **+ Add Scorecard** to create a scorecard.
 
-1. Select Add Scorecard to create a scorecard.
 1. In the Name field, enter the name of the scorecard.
 1. In the Description field, enter a description for the scorecard. The description should describe the goals to associate with the scorecard.
 1. In the Owner field, select a contact person to assign to the scorecard. The contact person can be either the person who is responsible for the scorecard, or the person who is creating and managing it.
