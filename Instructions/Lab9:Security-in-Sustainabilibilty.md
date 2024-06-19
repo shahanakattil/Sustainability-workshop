@@ -77,7 +77,7 @@ In this task, you will configure the Microsoft Entra ID data connector to ingest
 
 1. On the **Instructions** page, under configuration, select the required record types data to be collected and click on **Apply changes**
 
-   ![Picture 1](../media/s61.png)
+   ![Picture 1](../media/l9.9.png)
 
   >**Note**: Wait for atleast 15 mins and proceed to next task.
 
@@ -99,9 +99,9 @@ In this task, you will be checking the logs ingested to sentinel.
 
 1. In the query pane, run the default query, to view the activity data ingested into the workspace.
 
-   ![Picture 1](../media/s62.png)   
+   ![Picture 1](../media/l9.8.png)   
 
-  >**Note**: It might take upto **3hrs** to generate the activity logs. Please continue with the next lab. Additionally, remember to come back and check again later for the logs.
+  >**Note**: It might take upto **3hrs** to generate the activity logs.
 
 # Excercise 3 - Ingest Logs from Dynamics365
 
@@ -119,9 +119,9 @@ In this task, you will explore the Microsoft Sentinel in the Azure Portal and in
 
      ![Picture 1](../media/l9.3.png)
 
-1. Search and select the **Dynamics365** connector.
+1. Search and select the **Dynamics 365 - Connector Only** connector.
 
-   ![Picture 1](../media/image_45.png)
+   ![Picture 1](../media/l9.4.png)
 
 1. Click on **Install**.
 
@@ -132,13 +132,11 @@ In this task, you will configure the Dynamics365 data connector to ingest releva
 
 1. In Microsoft Sentinel, select Data connectors.
 
-1. Search for and select the **Dynamics365** connector.
+1. Search for and select the **Dynamics 365** connector.
 
 1. In the details pane for the connector, select Open connector page.
 
 1. On the **Instructions** page, under configuration, click on **Connect**
-
-   ![Picture 1](../media/s61.png)
 
   >**Note**: Wait for atleast 15 mins and proceed to next task.
 
@@ -154,15 +152,24 @@ In this task, you will be checking the logs ingested to sentinel.
 
 1. Review the Status of the data connector. It should be Connected.
 
-   ![Picture 1](../media/n785.png)   
+   ![Picture 1](../media/l9.5.png)   
 
 1. Scroll down and select **Go to log analytics**.
 
 1. In the query pane, run the default query, to view the activity data ingested into the workspace.
 
-   ![Picture 1](../media/s62.png)   
+   ![Picture 1](../media/l9.6.png)   
 
-  >**Note**: It might take upto **3hrs** to generate the activity logs. Please continue with the next lab. Additionally, remember to come back and check again later for the logs.
+  >**Note**: It might take upto **3hrs** to generate the activity logs.
 
+1. In the query pane, run the below query, to view the in detail logs for Dynamics 365 activities.
+
+```
+Dynamics365Activity
+
+```
+   ![Picture 1](../media/l9.7.png)   
+
+  >**Note**: It might take upto **3hrs** to generate the activity logs. 
 
 
