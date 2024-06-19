@@ -115,7 +115,7 @@ In this task, you will be checking the logs ingested to sentinel.
 
   >**Note**: It might take upto **3hrs** to generate the activity logs. Please continue with the next lab. Additionally, remember to come back and check again later for the logs.
 
-# Excercise 2 - Ingest Logs from Dynamics365
+# Excercise 3 - Ingest Logs from Dynamics365
 
 ### Task 1: Install Dynamics365 connector to Sentinel
 
