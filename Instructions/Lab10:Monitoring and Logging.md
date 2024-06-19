@@ -6,8 +6,8 @@
 
 1. Login to https://admin.powerplatform.microsoft.com/ with following credentials:
 
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
 
 1. From the left navigation pane select **Environments** > **Sustainability Trial**.
 
@@ -27,4 +27,21 @@
 
     ![image](../media/lab01-146.png) 
 
-1. On the **Audit** under **New search** tab select **Start date** and **End date** 
+1. On the **Audit** under **New search** tab specify the following:
+
+    - select **Start date** and **End date** 
+    - **Record Type** : **CRM** and **PowerPlatformAdministratorActivity**
+    - User : Search and select  **<inject key="AzureAdUserEmail"></inject>**
+    - Click on **Search**
+
+       ![image](../media/lab01-147.png)
+
+1. On the Audit Page refresh the page and monitor the status and wait until changes from **Queue > progress** to  **Completed**.
+
+    ![image](../media/lab01-148.png)
+
+    ![image](../media/lab01-149.png)
+
+1. Then click on **Completed** link and you can view all the record
+
+   ![image](../media/lab01-150.png) 
