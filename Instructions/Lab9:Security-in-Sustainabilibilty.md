@@ -15,7 +15,7 @@ In this task, you will create Microsoft Sentinel workspace where you will be mon
 
 1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
 
-    ![Picture 1](../media/image_7.png)
+    ![Picture 1](../media/l9.1.png)
 
 1. From the Microsoft Sentinel page, select **+ Create**.
 
@@ -26,18 +26,16 @@ In this task, you will create Microsoft Sentinel workspace where you will be mon
     | Setting | Action |
     | -- | -- |
     | Subscription |  Retain the default Subscription.  |
-    | Resource group | select ResourceGroup(sentinel-rg). |
-    | Name | Set the name to 'sentinelworkspace'. |
+    | Resource group | select **sustainability** |
+    | Name | Set the name to **sustainabilityworkspace**. |
     | Region | Retain the default region. |
     |||
 
-    ![Picture 1](../media/Log2.png)
+    ![Picture 1](../media/l9.2.png)
 
 1. Verify the information you entered then select **Create**.
 
 1. If you don’t see the new workspace listed, select **Refresh**, then select newly created workspace **sentinelworkspace** and click on **Add**.
-
-   ![Picture 1](../media/Log3t1.png)
 
 1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display., including that the Microsoft Sentinel free trial is activated. Select **OK**  Note the three steps listed on the Get started page.
 
@@ -53,20 +51,19 @@ In this task, you will explore the Microsoft Sentinel in the Azure Portal and in
 
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
 
-     ![Picture 1](../media/image_7.png)
+     ![Picture 1](../media/l9.1.png)
 
 1. Select **sentinelworkspace**.
 
-1. Select the **Data Connectors(1)** under **Configuration** and select **Go to content hub(2)**.
+1. Select the **Data Connectors(1)** under **Configuration** and select **Content hub(2)**.
 
-     ![Picture 1](../media/image_44.png)
+     ![Picture 1](../media/l9.3.png)
 
 1. Search and select the **Microsoft Entra ID** connector.
 
    ![Picture 1](../media/image_45.png)
 
 1. Click on **Install**.
-
 
 ### Task 2: Set up the data connector to ingest logs to workspace
 
@@ -114,13 +111,13 @@ In this task, you will explore the Microsoft Sentinel in the Azure Portal and in
 
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
 
-     ![Picture 1](../media/image_7.png)
+     ![Picture 1](../media/l9.1.png)
 
 1. Select **sentinelworkspace**.
 
-1. Select the **Data Connectors(1)** under **Configuration** and select **Go to content hub(2)**.
+1. Select the **Data Connectors(1)** under **Configuration** and select **content hub(2)**.
 
-     ![Picture 1](../media/image_44.png)
+     ![Picture 1](../media/l9.3.png)
 
 1. Search and select the **Dynamics365** connector.
 
