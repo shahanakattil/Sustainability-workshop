@@ -26,3 +26,5 @@
 1. Open another edge tab and beowser to https://compliance.microsoft.com/ then from the left navigation pane under solution select **Audit**.
 
     ![image](../media/lab01-146.png) 
+
+1. On the **Audit** under **New search** tab select **Start date** and **End date** 
