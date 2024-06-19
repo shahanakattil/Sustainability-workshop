@@ -1,5 +1,15 @@
 # Lab : Monitoring and Logging
 
+## Lab scenario
+
+
+## Lab Overview
+
+Monitoring and logging in a sustainability manager context, especially within Microsoft Cloud for Sustainability, involve tracking, managing, and analyzing data to ensure sustainable practices and compliance with environmental regulations. 
+
+## Lab Objectives
+
+
 
 ## Execirse 1 : Monitoring and Logging
 
