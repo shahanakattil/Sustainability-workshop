@@ -23,4 +23,6 @@
 
    ![image](../media/lab01-145.png) 
 
-1. 
+1. Open another edge tab and beowser to https://compliance.microsoft.com/ then from the left navigation pane under solution select **Audit**.
+
+    ![image](../media/lab01-146.png) 
