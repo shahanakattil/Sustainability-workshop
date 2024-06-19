@@ -23,9 +23,19 @@
 
    ![image](../media/lab01-145.png) 
 
+1. Back to **Settings** page, expand **Audit and logs** then select **Audit summary view** and review the data.
+
+    ![image](../media/lab01-152.png)
+
+    ![image](../media/lab01-153.png) 
+
 1. Open another edge tab and beowser to https://compliance.microsoft.com/ then from the left navigation pane under solution select **Audit**.
 
     ![image](../media/lab01-146.png) 
+
+1. Click on **Start recording user and admin activity** on **Audit** page.
+
+     ![image](../media/lab01-151.png) 
 
 1. On the **Audit** under **New search** tab specify the following:
 
@@ -44,4 +54,6 @@
 
 1. Then click on **Completed** link and you can view all the record
 
-   ![image](../media/lab01-150.png) 
+   ![image](../media/lab01-150.png)
+
+   
