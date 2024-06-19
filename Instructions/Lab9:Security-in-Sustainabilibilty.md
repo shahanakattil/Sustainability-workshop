@@ -7,7 +7,7 @@ In the initial phase of setting up the security infrastructure, the focus is on 
 In this lab, you will undertake the essential task of setting up Log Analytics, which provides a centralized location to store and query data, while Sentinel serves as the platform for advanced security analysis, also enabling proactive threat detection and incident response.
 
 
-## Excercise 1 - Create Microsoft Sentinel workspace
+## Excercise 1 - Setup Sentinel Workspace
 
 ### Task 1: Create Sentinel Workspace
 
