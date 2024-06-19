@@ -6,6 +6,9 @@ In the initial phase of setting up the security infrastructure, the focus is on 
 ## Lab scenario
 In this lab, you will undertake the essential task of setting up Log Analytics, which provides a centralized location to store and query data, while Sentinel serves as the platform for advanced security analysis, also enabling proactive threat detection and incident response.
 
+
+## Excercise 1 - Create Microsoft Sentinel workspace
+
 ### Task 1: Create Sentinel Workspace
 
 In this task, you will create Microsoft Sentinel workspace where you will be monitoring and analyzing security events in upcoming labs.
@@ -42,19 +45,7 @@ In this task, you will create Microsoft Sentinel workspace where you will be mon
    
    ![Picture 1](../media/image_9.png)
 
-# Excercise 2 - Ingest Logs from Microsoft Entra ID
-
-## Lab Overview
-Gain insights into Microsoft Entra ID by connecting Audit and Sign-in logs to Microsoft Sentinel to gather insights around Microsoft Entra ID scenarios. You can learn about app usage, conditional access policies, legacy auth relate details using our Sign-in logs. You can get information on your Self Service Password Reset (SSPR) usage, Microsoft Entra ID Management activities like user, group, role, app management using our Audit logs table.
-
-## Lab scenario
-Microsoft Entra ID is an integrated cloud identity and access solution. In this lab, you will enable the ingestion of logs from Microsoft Entra ID into Security Information and Event Management (SIEM) solution to enhance security monitoring and analytical capabilities.
-
-## Lab objectives 
-In this lab, you will complete the following tasks:
-- Task 1: Install Microsoft Entra ID data connector to Sentinel
-- Task 2: Set up the data connector to ingest logs to workspace
-- Task 3: View data ingested into Microsoft Sentinel
+## Excercise 2 - Ingest Logs from Microsoft Entra ID
 
 ### Task 1: Install Microsoft Entra ID data connector to Sentinel
 
