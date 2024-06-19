@@ -172,4 +172,5 @@ Dynamics365Activity
 
   >**Note**: It might take upto **3hrs** to generate the activity logs. 
 
-
+Reference Link:
+https://learn.microsoft.com/en-us/industry/sustainability/security-overview
