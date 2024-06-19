@@ -6,5 +6,5 @@
 
 1. Login to https://admin.powerplatform.microsoft.com/ with following credentials:
 
-   -
-   -
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
