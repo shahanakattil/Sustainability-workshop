@@ -1,18 +1,23 @@
 # Lab : Monitoring and Logging
 
 ## Lab scenario
-
+As a sustainability manager using Microsoft Cloud for Sustainability, you are tasked with ensuring that sustainable practices are adhered to and that the organization complies with environmental regulations. One critical aspect of this role is monitoring and logging activities within your cloud environment. This lab will guide you through the process of enabling auditing, reviewing logs, and using Microsoft Compliance Center to monitor user and admin activities. By the end of this lab, you will have a comprehensive understanding of how to implement and utilize these tools to support your sustainability initiatives.
 
 ## Lab Overview
 
-Monitoring and logging in a sustainability manager context, especially within Microsoft Cloud for Sustainability, involve tracking, managing, and analyzing data to ensure sustainable practices and compliance with environmental regulations. 
+This lab provides a hands-on experience in configuring and utilizing monitoring and logging features within the Microsoft Cloud for Sustainability platform. You will learn how to:
+
+   - Enable auditing to track activities within the environment.
+   - Access and review audit logs to understand user and system actions.
+   - Use Microsoft Compliance Center to conduct detailed audits and ensure compliance.
 
 ## Lab Objectives
 
+   - Task 1: Enable auditing and logging in Microsoft Cloud for Sustainability.
+   - Task 2: Review audit logs and summaries.
+   - Task 3: Use Microsoft Compliance Center to monitor user and admin activities.
 
-
-## Execirse 1 : Monitoring and Logging
-
+### Task 1: Enable auditing and logging in Microsoft Cloud for Sustainability.
 
 1. Login to https://admin.powerplatform.microsoft.com/ with following credentials:
 
@@ -33,11 +38,16 @@ Monitoring and logging in a sustainability manager context, especially within Mi
 
    ![image](../media/lab01-145.png) 
 
+### Task 2: Review audit logs and summaries
+
 1. Back to **Settings** page, expand **Audit and logs** then select **Audit summary view** and review the data.
 
     ![image](../media/lab01-152.png)
 
     ![image](../media/lab01-153.png) 
+
+
+### Task 3: Use Microsoft Compliance Center to monitor user and admin activities
 
 1. Open another edge tab and browser to https://compliance.microsoft.com/ then from the left navigation pane under solution select **Audit**.
 
