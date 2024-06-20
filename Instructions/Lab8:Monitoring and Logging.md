@@ -1,4 +1,4 @@
-# Lab : Monitoring and Logging
+# Lab 8 : Monitoring and Logging
 
 ## Lab scenario
 As a sustainability manager using Microsoft Cloud for Sustainability, you are tasked with ensuring that sustainable practices are adhered to and that the organization complies with environmental regulations. One critical aspect of this role is monitoring and logging activities within your cloud environment. This lab will guide you through the process of enabling auditing, reviewing logs, and using Microsoft Compliance Center to monitor user and admin activities. By the end of this lab, you will have a comprehensive understanding of how to implement and utilize these tools to support your sustainability initiatives.
