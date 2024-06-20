@@ -82,4 +82,8 @@ In this task, you will use the Microsoft Compliance Center to monitor user and a
 
    ![image](../media/lab01-150.png)
 
+## Review
+
 By following these steps, you will have successfully enabled monitoring and logging within Microsoft Cloud for Sustainability, reviewed audit summaries, and monitored user and admin activities.   
+
+## You have successfully completed the lab. Click on Next >>.
