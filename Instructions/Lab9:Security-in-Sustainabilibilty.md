@@ -1,4 +1,4 @@
-# Lab 09 - Security in Sustainability
+# Lab 9 : Security in Sustainability
 
 ## Lab scenario
 As an IT security specialist in a sustainability-driven organization, your role focuses on safeguarding environmental initiatives through robust security measures. This lab emphasizes setting up and configuring Microsoft Sentinel to monitor and analyze security events related to sustainability practices within the organization's cloud environment.
