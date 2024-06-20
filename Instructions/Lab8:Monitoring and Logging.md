@@ -19,6 +19,8 @@ This lab provides a hands-on experience in configuring and utilizing monitoring 
 
 ### Task 1: Enable auditing and logging in Microsoft Cloud for Sustainability.
 
+In this task, you will enable auditing and logging within the Microsoft Cloud for Sustainability platform to track and record various activities
+
 1. Login to https://admin.powerplatform.microsoft.com/ with following credentials:
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
@@ -40,6 +42,8 @@ This lab provides a hands-on experience in configuring and utilizing monitoring 
 
 ### Task 2: Review audit logs and summaries
 
+In this task, you will review audit logs and summaries within the Microsoft Cloud for Sustainability platform to understand user and system activities.
+
 1. Back to **Settings** page, expand **Audit and logs** then select **Audit summary view** and review the data.
 
     ![image](../media/lab01-152.png)
@@ -48,6 +52,8 @@ This lab provides a hands-on experience in configuring and utilizing monitoring 
 
 
 ### Task 3: Use Microsoft Compliance Center to monitor user and admin activities
+
+In this task, you will use the Microsoft Compliance Center to monitor user and admin activities. This involves starting recording activities, performing audit searches, and reviewing the audit logs.
 
 1. Open another edge tab and browser to https://compliance.microsoft.com/ then from the left navigation pane under solution select **Audit**.
 
