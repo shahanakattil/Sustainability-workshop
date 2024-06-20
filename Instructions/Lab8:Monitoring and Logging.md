@@ -39,7 +39,7 @@ Monitoring and logging in a sustainability manager context, especially within Mi
 
     ![image](../media/lab01-153.png) 
 
-1. Open another edge tab and beowser to https://compliance.microsoft.com/ then from the left navigation pane under solution select **Audit**.
+1. Open another edge tab and browser to https://compliance.microsoft.com/ then from the left navigation pane under solution select **Audit**.
 
     ![image](../media/lab01-146.png) 
 
@@ -66,4 +66,4 @@ Monitoring and logging in a sustainability manager context, especially within Mi
 
    ![image](../media/lab01-150.png)
 
-   
+By following these steps, you will have successfully enabled monitoring and logging within Microsoft Cloud for Sustainability, reviewed audit summaries, and monitored user and admin activities.   
