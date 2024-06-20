@@ -17,8 +17,8 @@ In this lab, you will complete the following tasks:
 ### Task 1: Deploy a Microsoft Sustainability Manager instance
 
 In this task, you will sign up for a trial version of Microsoft Sustainability Manager. Follow these steps to complete the signup process:
-
-1. Navigate to **Microsoft Sustainability Manager** using below link.
+  
+1. Use the below link to access the trial version of Microsoft Sustainability Manager.
 
    ```
     https://dynamics.microsoft.com/en-us/sustainability/sustainability/free-trial/
