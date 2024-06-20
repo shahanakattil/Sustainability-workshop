@@ -1,17 +1,31 @@
 # Lab 09 - Security in Sustainability
 
-## Lab overview
-In the initial phase of setting up the security infrastructure, the focus is on creating essential components to monitor and analyze security events. This involves establishing a Log Analytics workspace and integrating Microsoft Sentinel into the workspace, laying the foundation for subsequent security measures.
-
 ## Lab scenario
-In this lab, you will undertake the essential task of setting up Log Analytics, which provides a centralized location to store and query data, while Sentinel serves as the platform for advanced security analysis, also enabling proactive threat detection and incident response.
+As an IT security specialist in a sustainability-driven organization, your role focuses on safeguarding environmental initiatives through robust security measures. This lab emphasizes setting up and configuring Microsoft Sentinel to monitor and analyze security events related to sustainability practices within the organization's cloud environment.
 
+## Lab overview
+This lab provides hands-on experience in configuring Microsoft Sentinel to establish a centralized workspace for monitoring security events that impact sustainability efforts. You will install and configure data connectors to ingest logs from Microsoft Entra ID and Dynamics 365, ensuring comprehensive monitoring and compliance with environmental standards. By the end of this lab, you will understand how to leverage Microsoft Sentinel to enhance security monitoring and response capabilities in alignment with sustainability goals.
+
+## Lab objectives
+
+In this lab, you will perform the following tasks to enhance security monitoring within a sustainability context:
+
+- Exercise 1: Setup Sentinel Workspace
+  - Task 1: Create Sentinel Workspace
+- Exercise 2: Ingest Logs from Microsoft Entra ID
+  - Task 1: Install Microsoft Entra ID data connector to Sentinel
+  - Task 2: Set up the data connector to ingest logs to workspace
+  - Task 3: View data ingested into Microsoft Sentinel
+- Exercise 3: Ingest Logs from Dynamics 365
+  - Task 1: Install Dynamics 365 connector to Sentinel
+  - Task 2: Set up the data connector to ingest logs to workspace
+  - Task 3: View data ingested into Microsoft Sentinel
 
 ## Excercise 1 - Setup Sentinel Workspace
 
 ### Task 1: Create Sentinel Workspace
 
-In this task, you will create Microsoft Sentinel workspace where you will be monitoring and analyzing security events in upcoming labs.
+In this task, you will create a Microsoft Sentinel workspace where you will monitor and analyze security events.
 
 1.  On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
 
@@ -47,7 +61,7 @@ In this task, you will create Microsoft Sentinel workspace where you will be mon
 
 ### Task 1: Install Microsoft Entra ID data connector to Sentinel
 
-In this task, you will explore the Microsoft Sentinel in the Azure Portal and install the Microsoft Entra ID data connector.
+In this task, you will install the Microsoft Entra ID data connector in Microsoft Sentinel.
 
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
 
@@ -67,7 +81,7 @@ In this task, you will explore the Microsoft Sentinel in the Azure Portal and in
 
 ### Task 2: Set up the data connector to ingest logs to workspace
 
-In this task, you will configure the Microsoft Entra ID data connector to ingest relevant logs into your designated Log Analytics workspace
+In this task, you will configure the Microsoft Entra ID data connector to ingest logs into your Log Analytics workspace.
 
 1. In Microsoft Sentinel, select Data connectors.
 
@@ -83,7 +97,7 @@ In this task, you will configure the Microsoft Entra ID data connector to ingest
 
 ### Task 3: View data ingested into Microsoft Sentinel
 
-In this task, you will be checking the logs ingested to sentinel.
+In this task, you will verify the logs ingested from Microsoft Entra ID in the Sentinel workspace.
 
 1. In Microsoft Sentinel, select Data connectors.
 
@@ -107,7 +121,7 @@ In this task, you will be checking the logs ingested to sentinel.
 
 ### Task 1: Install Dynamics365 connector to Sentinel
 
-In this task, you will explore the Microsoft Sentinel in the Azure Portal and install the Dynamics365 data connector.
+In this task, you will install the Dynamics 365 data connector in Microsoft Sentinel.
 
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Microsoft Sentinel**, and then select **Microsoft Sentinel** under services.
 
@@ -128,7 +142,7 @@ In this task, you will explore the Microsoft Sentinel in the Azure Portal and in
 
 ### Task 2: Set up the data connector to ingest logs to workspace
 
-In this task, you will configure the Dynamics365 data connector to ingest relevant logs into your designated Log Analytics workspace
+In this task, you will configure the Dynamics 365 data connector to ingest logs into your Log Analytics workspace.
 
 1. In Microsoft Sentinel, select Data connectors.
 
@@ -142,7 +156,7 @@ In this task, you will configure the Dynamics365 data connector to ingest releva
 
 ### Task 3: View data ingested into Microsoft Sentinel
 
-In this task, you will be checking the logs ingested to sentinel.
+In this task, you will verify the logs ingested from Dynamics 365 in the Sentinel workspace.
 
 1. In Microsoft Sentinel, select Data connectors.
 
@@ -172,5 +186,11 @@ Dynamics365Activity
 
   >**Note**: It might take upto **3hrs** to generate the activity logs. 
 
-Reference Link:
+### Reference Link:
 https://learn.microsoft.com/en-us/industry/sustainability/security-overview
+
+## Review
+
+By completing these exercises, you have acquired practical skills in leveraging Microsoft Sentinel for security monitoring in alignment with sustainability objectives, ensuring proactive security measures and regulatory compliance within the organization.
+
+## You have successfully completed the lab.
