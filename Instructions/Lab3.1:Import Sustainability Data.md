@@ -47,9 +47,9 @@ In this task, We will add additional information to the Excel spreadsheet that A
       
       -	Display name – Vehicle Size
 
-        ![image](../media/lab01-31.png)
+   ![image](../media/lab01-31.png)
 
-        ![image](../media/lab01-32.png)
+   ![image](../media/lab01-32.png)
 
 ### Task 2: Import 2022 data for “Purchased Electricity“ for Facilities
 
