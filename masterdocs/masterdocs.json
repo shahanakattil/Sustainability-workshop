@@ -24,8 +24,12 @@
          "Order": 5
         },
         {
-         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab5%3A%20Reduce-Carbon-Emissions-for-Azure-Workloads.md",
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab8%3AMonitoring%20and%20Logging.md",
          "Order": 6
+        },
+        {
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab9%3ASecurity-in-Sustainabilibilty.md",
+         "Order": 7
         }
       ]  
     }
