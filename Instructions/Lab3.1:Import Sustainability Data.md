@@ -21,13 +21,13 @@ In this lab, you will complete the following tasks:
 
 In this task, We will add additional information to the Excel spreadsheet that Alex provided: **Purchased electricity Wide World Importers 2022.xlsx**. Reed will add custom dimensions metadata for the mapping before importing the data from the Excel spreadsheet. 
 
-1.	Select the **Custom dimensions** tab under **Data** then select **+ New** on the top right on the Active Custom dimensions page.
+1. Select the **Custom dimensions** tab under **Data** then select **+ New** on the top right on the Active Custom dimensions page.
 
-    ![image](../media/lab01-29.png)
+   ![image](../media/lab01-29.png)
  
-1.	Enter the details as follows: 
+1. Enter the details as follows: 
 
-  	 - Logical name - Product
+  	- Logical name - Product
    
     - Display name – Product
 
@@ -35,9 +35,9 @@ In this task, We will add additional information to the Excel spreadsheet that A
   	
     - Click **Save & Close**.
 
-      ![image](../media/lab01-30.png)
+   ![image](../media/lab01-30.png)
  
-1.	Repeat the previous steps to create another custom dimension metadata as follows 
+1. Repeat the previous steps to create another custom dimension metadata as follows 
 
       -	Logical name - Model
       
@@ -55,9 +55,9 @@ In this task, We will add additional information to the Excel spreadsheet that A
 
 In this task, We will imports the Excel spreadsheet provided by Alex, _Purchased electricity Wide World Importers 2022.xlsx_. This brings in the Electricity Purchased by Wide World Importers facilities for the year 2022 into the Purchased electricity activity data.
 
-1.  In the left navigation pane, under **Data**, select **Imports** and select **New**
+1. In the left navigation pane, under **Data**, select **Imports** and select **New**
 
-     ![image](../media/lab01-33.png)
+   ![image](../media/lab01-33.png)
 
 1. On the **Imports**, select **POWER QUERY GUIDED EXPERIENCE**.
 
