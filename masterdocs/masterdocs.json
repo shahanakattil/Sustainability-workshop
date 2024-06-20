@@ -4,40 +4,44 @@
      "Language": "English",
      "Files": [
         {
-         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Getting-started.md",
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Intro-to-Sustainability.md",
          "Order": 1
          }, 
         {
-         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab1%3ADeploy-a-Microsoft-Sustainability-Manager-instance.md",
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Getting-started.md",
          "Order": 2
-        },
+         }, 
         {
-         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab2%3AConfigure-Microsoft-Sustainability-Manager.md",
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab1%3ADeploy-a-Microsoft-Sustainability-Manager-instance.md",
          "Order": 3
         },
         {
-         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab3.1%3AImport%20Sustainability%20Data.md",
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab2%3AConfigure-Microsoft-Sustainability-Manager.md",
          "Order": 4
         },
         {
-         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab3.2%3AEmission-Calculations.md",
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab3.1%3AImport%20Sustainability%20Data.md",
          "Order": 5
         },
         {
-         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab4%3AInsights-and-reporting.md",
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab3.2%3AEmission-Calculations.md",
          "Order": 6
+        },
+        {
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab4%3AInsights-and-reporting.md",
+         "Order": 7
         },
         {
          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab6%3ABackup-and-restore-sustainability-environment.md",
-         "Order": 7
+         "Order": 8
         },
         {
          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab8%3AMonitoring%20and%20Logging.md",
-         "Order": 6
+         "Order": 9
         },
         {
          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab9%3ASecurity-in-Sustainabilibilty.md",
-         "Order": 7
+         "Order": 10
         }
       ]  
     }
