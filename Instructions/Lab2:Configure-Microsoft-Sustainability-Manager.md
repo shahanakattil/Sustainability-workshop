@@ -193,11 +193,14 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
 
 ## Task 5 : Access/Permissions 
 
-In this task, you'll assign specific roles and permissions to users, ensuring they have the appropriate access to Microsoft Sustainability Manager features necessary for their responsibilities. This ensures secure and efficient use of the platform.
+In this task, you'll assign specific roles and permissions to user, ensuring they have the appropriate access to Microsoft Sustainability Manager features necessary for their responsibilities. This ensures secure and efficient use of the platform.
 
-1. In edge browser for https://admin.powerplatform.microsoft.com/ and login with  - **Email/Username:** <inject key="AzureAdUserEmail"></inject>  - **Password:** <inject key="AzureAdUserPassword"></inject> account.
+1. In the Edge browser, navigate to https://admin.powerplatform.microsoft.com/ and log in with the following credentials:
 
-1. From the left navigation pane select **Environment** and **Sustainablity trail**.
+    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+    - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+1. From the left navigation pane, select Environment and then Sustainability trail.
 
      ![image](../media/lab01-23.png)
 
@@ -207,17 +210,21 @@ In this task, you'll assign specific roles and permissions to users, ensuring th
    
     ![image](../media/lab01-25.png)
 
-1. Select **+ Add Users** from left top menu bar and on the **Add user** window search and Alex wilber and click on **Add**. 
+1. Click on **+ Add Users** from the top-left menu bar. In the **Add user** window, search for and select **Alex Wilber**, then click **Add**.
 
     ![image](../media/lab01-26.png)
 
-1. On the **Manage security roles** blade select the **Basic User** and **Sustainablilty all - reports - full access Role** then click on **Save**.
+1. Navigate to the Manage security roles blade and select both the **Basic User role** and the **Sustainability All - Reports - Full Access Role**. After selecting these roles, proceed to click on Save to confirm your selections.
 
     ![image](../media/lab01-27.png)
 
     ![image](../media/lab01-(28).png)
 
 
+    >**Note**: Basic User: Provides fundamental access rights necessary for standard user functionality within the system/application.
+
+    >**Note**: Sustainability All - Reports - Full Access Role: Grants comprehensive access to all sustainability reports and full administrative capabilities related to sustainability management within the system/application.
+     
 ## Review
 
 Completing the lab, you will have gained practical knowledge on configuring Microsoft Sustainability Manager, including setting up organizational hierarchies, reference data, and unit conversion factors. Additionally, you will understand how to create reporting periods and assign user roles and permissions, essential for accurate carbon emission tracking and reporting.
