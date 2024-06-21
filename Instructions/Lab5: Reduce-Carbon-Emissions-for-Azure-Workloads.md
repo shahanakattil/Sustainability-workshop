@@ -55,9 +55,6 @@ The primary objective of this lab is to enable participants to understand and im
 ## Conclusion
 By following these steps, you'll learn how to assess and reduce the carbon emissions of your Azure workloads, helping your company achieve its sustainability goals and potentially reduce operational costs.
 
-
-
-
 ## Exercise 1 : Emission Impact Dashboard for Azure 
 
 The Emissions Impact Dashboard promotes transparency of information and provides insights that empower you to make effective decisions to reach your sustainability goals.
@@ -136,62 +133,5 @@ In this task, you sign in to the Microsoft Cloud Solution Center and deploy the 
 
 22. The Manage data page provides organizations the ability to delete their emissions data from the Emissions Impact Dashboard.
 
-
-## Task 2 : Emission Impact Dashboard for Micosodt 365
-
-In this task, you sign in to the Microsoft Cloud Solution Center and deploy the Microsoft Cloud for Sustainability dashboard solutions.
-
-1. Open a browser in InPrivate or Incognito mode and then go to https://solutions.microsoft.com.
-
-2. Use the credentials with your Power BI Pro license install.
-
-3. After sign-in is complete, on the Home page of Microsoft Cloud Solution Center, select View all solutions on the Microsoft Cloud for Sustainability tile.
-
-   ![](../media/report21.png)
-
-4. From the available capabilities, select Report impact and progress.
-
-5. From the available solutions list, select Emissions Impact Dashboard for Microsoft 365 and Emissions with the Added checkbox and then select Deploy.   
-
-   ![](../media/report28.png)
-
-6. Provide the name **Impact Dashboard for Microsoft 365** for your deployment, select the terms of service and then select Next.
-
-   ![](../media/report29.png)
-
-7. Verify that the pre-deployment dependencies are installed and set up. Select Deploy.
-
-     ![](../media/report30.png)
-
-8. Wait for the deployment to show as successful. You're notified about the deployment start and success through email. Select Close.
-
-9. Go to Microsoft [Power BI](https://app.powerbi.com/home?experience=power-bi), select the Apps on the left navigation pane. You see the Emissions Impact Dashboard for Microsoft 365 and select the Emissions Impact Dashboard for Azure listed on the Apps page.
-
-10. You will be navigated to **Emissions Impact Dashboard for M365**.
-
-    You successfully installed the Emissions Impact Dashboard for Azure and Emissions Impact Dashboard for Microsoft 365 applications.
-
-11. On the main page, the Emissions impact dashboard M365 provides insight
- 
-     - The emission impact dashboard for Microsoft 365 is a Power Bi Application which provides a transparent, quantitative picture of the greenhourse gas emissions associated with your organization's use of the Microsoft 365 cloud services like Teams calling and file storage in SharePoint.
-
-12. The dashboard shows the total monthly metric tons of emissions Microsoft produces on your organization's behalf, including segamentation by data center, region, and scope.
-
-13. The methodology that powers this data has been independently verified by a third party and includes all three scopes of the emissions as defined by the Greenhouse Gas protocol. Not Just the emissions aasociated with electricity consumption, but also emissions from the upstream supply chain for data center hardware.
-
-14. On the **Carbon intensity** tab, you can see the average monthly emission associated with a single Microsoft 365 user in your organizations.
-You can also compare that number to other common sources of the emissions, like driving a car or charging a smartphone.
-
-15. The **Emission Savings** tab  provides an estimate of the greenhouse gas emissions your organization has already avoided by using cloud instead of on premises versions of exchange and SharePoint.
-
-16. Research has shown that the  Microsoft cloud is up to 98% more Carbon efficient that on premises alternatives. You can customize the estimate by selecting the efficiency of your on premises alternative and volume of renewable energy your organization purchases.  
-
-
-
 ### Reference Link:
-
-  https://learn.microsoft.com/en-us/power-bi/connect-data/service-connect-to-emissions-impact-dashboard?toc=%2Findustry%2Fsustainability%2Ftoc.json&bc=%2Findustry%2Fbreadcrumb%2Ftoc.json
-
-## Review Emission Impact Dashboard for M365 
-
-https://learn.microsoft.com/en-us/power-bi/connect-data/service-connect-emissions-impact-dashboard-microsoft-365?toc=%2Findustry%2Fsustainability%2Ftoc.json&bc=%2Findustry%2Fbreadcrumb%2Ftoc.json
+https://learn.microsoft.com/en-us/power-bi/connect-data/service-connect-to-emissions-impact-dashboard?toc=%2Findustry%2Fsustainability%2Ftoc.json&bc=%2Findustry%2Fbreadcrumb%2Ftoc.json
