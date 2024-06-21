@@ -1,4 +1,4 @@
-# Lab 5: Reduce Carbon Emissions for Azure Workloads
+# Lab 8: Reduce Carbon Emissions for Azure Workloads
 
 ## Lab Scenario
 Your company wants to reduce its carbon footprint by optimizing its Azure cloud workloads. You'll review current deployments and analyze carbon emissions data to find ways to reduce emissions.
