@@ -19,9 +19,9 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Add custom dimension metadata
 
-In this task, We will add additional information to the Excel spreadsheet that Alex provided: **Purchased electricity Wide World Importers 2022.xlsx**. Reed will add custom dimensions metadata for the mapping before importing the data from the Excel spreadsheet. 
+In this task, we will enrich the Excel spreadsheet Purchased electricity Wide World Importers 2022.xlsx by adding custom dimensions metadata for mapping before importing the data.
 
-1. Select the **Custom dimensions** tab under **Data** then select **+ New** on the top right on the Active Custom dimensions page.
+1. From the left navigation pane select **Custom dimensions (1)** and navigate to the **Custom dimensions (2)** tab under **Data**, then click **+ New (3)** at the top right of the **Active Custom dimensions** page.
 
    ![image](../media/lab01-29.png)
  
