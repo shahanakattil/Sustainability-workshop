@@ -52,9 +52,7 @@ In this exercise, you will learn about the steps that takes to define the factor
 
 In this task, we will create factor mappings to link contractual instrument types for Wide World Importers with their corresponding electric grid emission factors. This ensures Microsoft Sustainability Manager accurately identifies the appropriate electric grid for each contractual instrument type. This approach can be extended to map other reference data to specific emission factors, streamlining calculation models.
 
-1. In the left navigation pane, select **Calculations** > **Factor libraries**.
-
-1. Select the EPA 2022 - eGRID factor library to open it.
+1. In the left navigation pane, select **Calculations (1)**, then **Factor libraries (2)**. Next, select the **EPA 2022 - eGRID (3)** factor library to open it.
 
      ![image](../media/lab01-53.png)
 
