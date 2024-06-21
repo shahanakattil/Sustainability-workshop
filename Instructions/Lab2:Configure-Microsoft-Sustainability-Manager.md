@@ -185,6 +185,8 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
       
       - **Year template** : **Annual**.
 
+      ![image](../media/lab01-19.png)
+   
 1. This name will be displayed on the Insights page in Microsoft Sustainability Manager.
 
      ![image](../media/lab01-20.png)
