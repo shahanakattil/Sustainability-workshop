@@ -497,24 +497,6 @@ In this task, Alex creates a calculation profile for the electricity that Wide W
      ![image](../media/lab01-1(77).png)
 
    These values were determined by converting the consumed kilowatt-hours (kWh) to megawatt-hours (MWh): 3519.038/1000 = 3.519038 MWh
-   
-   You determine the values of emissions gasses by multiplying the converted consumption by each greenhouse gas factor from the emission factor (FRCC) that's determined in the factor mapping:
-   
-   CO2: 3.519038 * 861 = 3,029.892 lb
-   
-   CH4: 3.519038 * .055 = 0.194 lb
-   
-   N20: 3.519038 * .007 = 0.025 lb
-   
-   Then, the greenhouse gases are multiplied by their Global Warming Potential (GWP) factor that's found in the Greenhouse gases table and then the values are added.
-   
-   CO2: 3,029.892 * 1 = 3,029.892 lb
-   
-   CH4: 0.194 * 25 = 4.85 lb
-   
-   N20: 0.025 * 298 = 7.45 lb
-   
-   CO2E: 3,029.892 + 4.85 + 7.45 = 3,042.19 lb
 
 1. Select Done.
 
@@ -569,24 +551,6 @@ In this task, Alex creates a calculation profile for the miles driven by Wide Wo
     
     The consumed kWh converted to MWh: 3667.515/1000 = 3.667515 MWh
     
-    Multiply the converted consumption by each greenhouse gas factor from the emission factor (FRCC) that was determined in the factor mapping:
-    
-    CO2: 3.667515 * 861 = 3,001.127 lb
-    
-    CH4: 3.667515 * .055 = 0.238 lb
-    
-    N20: 3.667515 * .007 = 0.033 lb
-    
-    Multiply the greenhouse gases by their GWP factor that's found in the Greenhouse gases table and then add the values:
-    
-    CO2: 3,001.127 * 1 = 3,001.127 lb
-    
-    CH4: 0.238 * 25 = 5.95 lb
-    
-    N20: 0.033 * 298 = 9.834 lb
-    
-    CO2E: 3,001.127 + 5.95 + 9.834 = 3,016.911 lb
-
 5. Select Done.
 
    ![image](../media/lab01-117.png)
