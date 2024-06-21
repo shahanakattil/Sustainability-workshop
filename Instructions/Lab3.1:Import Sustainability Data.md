@@ -19,7 +19,7 @@ In this lab, you will complete the following tasks:
 
 ### Task 1: Add custom dimension metadata
 
-In this task, we will enrich the Excel spreadsheet Purchased electricity Wide World Importers 2022.xlsx by adding custom dimensions metadata for mapping before importing the data.
+In this task, we will enrich the Excel spreadsheet Purchased electricity Wide World Importers 2023.xlsx by adding custom dimensions metadata for mapping before importing the data.
 
 1. From the left navigation pane select **Custom dimensions (1)** and navigate to the **Custom dimensions (2)** tab under **Data**, then click **+ New (3)** at the top right of the **Active Custom dimensions** page.
 
@@ -57,17 +57,17 @@ In this task, we will enrich the Excel spreadsheet Purchased electricity Wide Wo
 
 ### Task 2: Import 2022 data for “Purchased Electricity“ for Facilities
 
-In this task, We will imports the Excel spreadsheet provided by Alex, _Purchased electricity Wide World Importers 2022.xlsx_. This brings in the Electricity Purchased by Wide World Importers facilities for the year 2022 into the Purchased electricity activity data.
+In this task, we will import the Excel spreadsheet named Purchased electricity Wide World Importers 2023.xlsx. This spreadsheet contains data on the electricity purchased by Wide World Importers' facilities for the year 2023, which will be integrated into the Purchased electricity activity data.
 
-1. In the left navigation pane, under **Data**, select **Imports** and select **New**
+1. Navigate to **Data** in the left navigation pane, select **Imports (1)**, go to the **Data Import (2)** tab, and click **New (3)**.
 
    ![image](../media/lab01-33.png)
 
-1. On the **Imports**, select **POWER QUERY GUIDED EXPERIENCE**.
+1. On the **Imports** page, select **POWER QUERY GUIDED EXPERIENCE**.
 
    ![image](../media/lab01-35.png)
 
-1. Under **Carbon activities**, Select **Add**, next to **Purchased electricity** under Category name then click on **Next**.
+1. On the **Define Your Data** page, under **Scope 2: Indirect emissions**, click **Add** for **purchased electricity (1)**, then click **Next (2)**.
 
     ![image](../media/lab01-36.png)
  
@@ -82,20 +82,19 @@ In this task, We will imports the Excel spreadsheet provided by Alex, _Purchased
 
 1. On the **Connect to data source** under **Connection settings** provide following details
 
-   - **Server** : 
+   - **Server** :   **(1)**
 
-   - **Authentication Kind** : Basic
+   - **Authentication Kind** : Basic  **(2)**
 
-   - **Username** : SQLUSER
+   - **Username** : SQLUSER **(3)**
 
-   - **Password** : 
+   - **Password** :  **(4)**
 
-   - Select the checkbox next to **Use encrypted connection**
+   - Select the checkbox next to **Use encrypted connection (5)**
 
-      ![image](../media/lab01-34.png)
-     
+      ![image](../media/lab01-34.png)     
 
-1. On the **Choose data** window expand **sustainability** and select **Purchase electricity wide world importer 2022** then click on **Transform data**.
+1. On the **Choose data** window expand **sustainability** and select **Purchase electricity wide world importer 2023** then click on **Transform data**.
 
     ![image](../media/lab01-39.png)
 
