@@ -55,7 +55,7 @@ In this task, we will enrich the Excel spreadsheet Purchased electricity Wide Wo
 
         ![image](../media/lab01-32.png)
 
-### Task 2: Import 2022 data for “Purchased Electricity“ for Facilities
+### Task 2: Import 2023 data for “Purchased Electricity“ for Facilities
 
 In this task, we will import the Excel spreadsheet named Purchased electricity Wide World Importers 2023.xlsx. This spreadsheet contains data on the electricity purchased by Wide World Importers' facilities for the year 2023, which will be integrated into the Purchased electricity activity data.
 
@@ -169,7 +169,7 @@ In this task, we will import the Excel spreadsheet named Purchased electricity W
 
     ![image](../media/lab01-52.png)
 
-### Task 3: Import 2022 Miles Driven data for electric trucks
+### Task 3: Import 2023 Miles Driven data for electric trucks
 
 In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased electricity Wide World Importers 2022.xlsx_. This brings in the Electricity Purchased by Wide World Importers facilities for the year 2022 into the Purchased electricity activity data.
 
