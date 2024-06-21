@@ -25,31 +25,33 @@ In this task, we will enrich the Excel spreadsheet Purchased electricity Wide Wo
 
    ![image](../media/lab01-29.png)
  
-1. Enter the details as follows: 
+1. Please enter the following details to create custom dimension metadata
 
-  	- Logical name - Product
+    - **Logical name** - **Product (1)**
    
-    - Display name – Product
+    - **Display name** – **Product (2)**
 
-    - Description - Product (This is optional)
+    - **Description** - **Product (This is optional) (3)**
   	
-    - Click **Save & Close**.
+    - Click **Save & Close (4)**.
 
    ![image](../media/lab01-30.png)
  
-1. Repeat the previous steps to create another custom dimension metadata as follows 
+1. Repeat the previous steps to create two custom dimension metadata as follows 
 
-      -	Logical name - Model
+      -	**Logical name** - **Model (1)**
       
-      -	Display name - Model
-      
-      -	Logical name - Vehicle Size  
-      
-      -	Display name – Vehicle Size
+      -	**Display name** - **Model (2)**
 
-   ![image](../media/lab01-31.png)
+      -   Click **Save & Close (3)**
 
-   ![image](../media/lab01-32.png)
+           ![image](../media/lab01-31.png)
+     
+      -	**Logical name** - **Vehicle Size** 
+      
+      -	**Display name** – **Vehicle Size**
+
+          ![image](../media/lab01-32.png)
 
 ### Task 2: Import 2022 data for “Purchased Electricity“ for Facilities
 
