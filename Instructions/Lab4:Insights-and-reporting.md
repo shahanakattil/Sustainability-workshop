@@ -8,7 +8,7 @@ In the previous lab, the ingested Activity data was taken through calculation de
 
 In this lab, Sustainability specialist for Contoso Corp reviews the data in the Insights section of Microsoft Sustainability Manager, noticing that Wide World Importers was a large contributor to Scope 2 emissions in 2022. Sustainability lead for Contoso Corp that the Activity and Emission Reports are available for review. We will explore the reporting section and creates a new Activity report and a new Emissions report. Reviews the generated report and includes the report in the sustainability reporting procedures for Contoso Corp.
 
-## Lab objectives
+## Lab Objectives
 
   - Task 1 : Executive dashboard
   - Task 2 : Explore Emission Insights
