@@ -73,7 +73,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 
     ![image](../media/lab01-13.png)
 
-15. Enter the following details to create a **new facility**, then click **Save & Close**:
+1. Enter the following details to create a **new facility**, then click **Save & Close**:
 
     >**Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
@@ -94,7 +94,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 
     ![image](../media/lab01-15.png)
 
-17. Using the same steps, add another new **Facility**. Once the values are entered, select **Save & Close**.
+1. Using the same steps, add another new **Facility**. Once the values are entered, select **Save & Close**.
 
     >**Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
@@ -115,29 +115,29 @@ Excellent work! By finishing these steps, you have successfully set up the organ
 
 ## Task 2 : Set up reference data
 
-You will configure reference data by adding contractual instrument types used for managing agreements with providers and suppliers. This ensures accurate and standardized data for sustainability reporting, aligning with organizational needs.
+In the task You'll set up reference data by adding contractual instrument types used to manage agreements with providers and suppliers. This ensures data accuracy and standardization for sustainability reporting, meeting organizational requirements.
 
-1. In the left navigation pane, select **Data** > **Reference data** then choose Contractual instrument types and then select View.
+1. Navigate to **Data (1)** in the left navigation pane, then select **Reference data (2)**, and click on **View (3)** next to **Contractual instrument types**.
 
     ![image](../media/report11.png)
 
-1. Under Active contractual instrument types, select **+ New** to create new contractual types.
+1. Select **+ New** to create new contractual types.
 
    ![image](../media/lab01-17.png)
 
-1. Create a new contractual instrument with the following details and then select Save & Close.
+1. Create a new **contractual instrument** with the following details, and then click **Save & Close (3)**:
 
-      - Name - VanArsdel Ltd
+      - **Name** - **VanArsdel Ltd (1)**
       
-      - Energy source - Nuclear
+      - **Energy source** - **Nuclear (2)**
 
         ![image](../media/report12.png)
 
-1. In the same way, create a new contractual instrument with the following details and then select Save & Close.
+1. In the same way, create a new **contractual instrument** with the following details, and then select **Save & Close (3)**
 
-      - Name - Adatum Corp
+      - **Name** - **Adatum Corp (1)**
       
-      - Energy source - Other
+      - **Energy source** - **Other (2)**
 
         ![image](../media/report13.png)
    
@@ -145,23 +145,25 @@ You will configure reference data by adding contractual instrument types used fo
 
 ## Task 3 : Set up unit conversion factor
 
-In this task, we will setting up a unit conversion factor in Microsoft Sustainability Manager. Which is needed to calculate emissions for the fleet of electric vehicles.
+In this task, we will establish a unit conversion factor in Microsoft Sustainability Manager, which is essential for calculating emissions for our fleet of electric vehicles.
 
-You can use unit groups to group units together and define a base unit that you can use to convert unit types. For example, the Length/Distance unit group contains units for length and distance, with a base unit of meter (m). The units within the Length/Distance unit group have conversions between the unit type and meter, such as miles convert to 1,609.344 meters.
+Unit groups allow you to organize units and define a base unit for converting between different unit types. For instance, the Length/Distance unit group includes units like meters (m) and miles, with a conversion factor where 1 mile equals 1,609.344 meters.
 
-1. From the left navigation pane expand **Settings** and select **Application** > the choose the **Unit groups** from the menu bar. Under Active unit groups, select Length/distance and then open it.
+
+1. Expand **Settings (1)** in the left navigation pane, then select **Application (2)**. Next, choose **Unit groups (3)** from the menu bar. Under **Active unit groups**, select **Length/distance (4)** and open it.
+
 
     ![image](../media/report14.png)
 
-1. Scroll down and select + New Unit to create a new unit.
+1. Scroll down and click on **+ New Unit** to create a new unit.
 
    ![image](../media/report15.png)
 
-1. Enter the following details for the new unit and then select Save & Close.
+1. Enter the following details for the new unit, and then click **Save & Close (3)**
 
-     - Name - 100 mile
+    - **Name** - **100 mile (1)**
       
-     - Conversion factor - 160934.40
+    - **Conversion factor** - **160934.40 (2)**
 
        ![image](../media/report16.png)
        
