@@ -43,7 +43,6 @@ The following terminologies will be used throughout the configuration of Emissio
 -   **Allocation Profile**: An allocation profile configures methods to distribute emissions from a source (like a facility) to specific entities based on chosen parameters. It allows visualization of emissions distribution without altering default reporting, offering insights into how emissions are divided.
 -   **Custom dimensions**: Custom dimensions can be used in emission calculation models, for example, in condition, calculation, and reporting actions.
 
-
 ## Exercise 1 -  Set up Factor Libraries
 
 In this exercise, you will learn about the steps that takes to define the factor mappings for Purchased electricity, and an estimation factor library for estimating the amount of electricity purchased based on the Miles driven by Wide World Importers fleet of electric trucks. While electric vehicles do not have Scope 1, direct tailpipe emissions, they do have to be charged while transporting goods, in this case - across the USA. This charging of Electric trucks results in Scope 2 purchased electricity.
@@ -51,7 +50,7 @@ In this exercise, you will learn about the steps that takes to define the factor
 
 ### Task 1 : Add eGRID factor mappings
 
-In this task, Alex will create factor mappings to map the contractual instrument types for Wide World Importers that Reed previously added to the respective electric grid emission factor. This process allows Microsoft Sustainability Manager to find the correct electric grid for a given contractual instrument type. This type can be expanded to map other reference data to specific emission factors, avoiding the need to create calculation models that are for specific emission factors.
+In this task, we will create factor mappings to link contractual instrument types for Wide World Importers with their corresponding electric grid emission factors. This ensures Microsoft Sustainability Manager accurately identifies the appropriate electric grid for each contractual instrument type. This approach can be extended to map other reference data to specific emission factors, streamlining calculation models.
 
 1. In the left navigation pane, select **Calculations** > **Factor libraries**.
 
