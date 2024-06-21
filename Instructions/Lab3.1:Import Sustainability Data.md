@@ -25,7 +25,7 @@ In this task, we will enrich the Excel spreadsheet Purchased electricity Wide Wo
 
    ![image](../media/lab01-29.png)
  
-1. Please enter the following details to create custom dimension metadata
+1. Please enter the following details to create custom dimension metadata :
 
     - **Logical name** - **Product (1)**
    
@@ -37,7 +37,7 @@ In this task, we will enrich the Excel spreadsheet Purchased electricity Wide Wo
 
    ![image](../media/lab01-30.png)
  
-1. Repeat the previous steps to create two custom dimension metadata as follows 
+1. Repeat the previous steps to create two custom dimension metadata as follows.
 
       -	**Logical name** - **Model (1)**
       
@@ -80,7 +80,7 @@ In this task, we will import the Excel spreadsheet named Purchased electricity W
     ![image](../media/lab01-38.png)
 
 
-1. On the **Connect to data source** under **Connection settings** provide following details
+1. On the **Connect to data source** under **Connection settings** provide following details.
 
    - **Server** :   **(1)**
 
@@ -117,7 +117,7 @@ In this task, we will import the Excel spreadsheet named Purchased electricity W
  
 1. On the Review and finish page, complete the following tasks:
     
-    1. Enter a name for the new connection, such as **Wide World Importers Purchased Electricity 2023**
+    1. Enter a name for the new connection, such as **Wide World Importers Purchased Electricity 2023**.
 
     2. Select **Connect**.
  
@@ -171,7 +171,7 @@ In this task, we will import the Excel spreadsheet named Purchased electricity W
 
 In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased electricity Wide World Importers 2022.xlsx_. This brings in the Electricity Purchased by Wide World Importers facilities for the year 2022 into the Purchased electricity activity data.
 
-1.  In the left navigation pane, under **Data**, select **Imports** and select **New**
+1.  In the left navigation pane, under **Data**, select **Imports** and select **New**.
 
      ![image](../media/lab01-33.png)
 
@@ -191,7 +191,7 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
 
     ![image](../media/lab01-38.png)
 
-1. On the **Connect to data source** under **Connection settings** provide following details
+1. On the **Connect to data source** under **Connection settings** provide following details.
 
    - **Server** :  **(1)**
 
@@ -229,7 +229,7 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
 
 1. On the Review and finish page, complete the following tasks:
     
-    1. Enter a name for the new connection, such as **Wide World Importers Electric Vehicle Miles Driven 2023**
+    1. Enter a name for the new connection, such as **Wide World Importers Electric Vehicle Miles Driven 2023**.
 
     2. Select **Connect**.
 
@@ -280,6 +280,7 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
     ![image](../media/lab01-52.png)
 
 You've now completed the data import of 2022 Purchased Electricity for Wide World Importers and Fleet vechicles Miles Driven Wide World Importers 2022. This step is imperative in realizing the goal of recording, reporting, and reducing carbon emissions.
+
 ## Review 
 
 ## You have successfully completed the lab. Click on Next >>.
