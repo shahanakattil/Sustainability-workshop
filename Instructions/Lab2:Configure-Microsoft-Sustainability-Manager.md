@@ -152,8 +152,7 @@ Unit groups allow you to organize units and define a base unit for converting be
 
 1. Expand **Settings (1)** in the left navigation pane, then select **Application (2)**. Next, choose **Unit groups (3)** from the menu bar. Under **Active unit groups**, select **Length/distance (4)** and open it.
 
-
-    ![image](../media/report14.png)
+   ![image](../media/report14.png)
 
 1. Scroll down and click on **+ New Unit** to create a new unit.
 
