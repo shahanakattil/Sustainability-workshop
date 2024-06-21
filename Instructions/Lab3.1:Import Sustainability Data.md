@@ -96,9 +96,6 @@ In this task, we will import the Excel spreadsheet named Purchased electricity W
 
 1. On the **Choose data** window expand **sustainability** and select **Purchase electricity wide world importer 2023** then click on **Transform data**.
 
-    ![image](../media/lab01-39.png)
-
-
 1. You can complete various data and column transformations on the **Transform data** page of the Power Query wizard. As a result, you can adjust data types, update column mappings, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Microsoft Power BI datasets. For this exercise, do not apply any transformations, click **Create**.
 
     ![image](../media/lab01-40.png)
@@ -213,8 +210,6 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
 
 1. On the **Choose data** window expand **Fleetvechicles** and select **Fleet vechicles Miles Driven Wide World Importers 2022** then click on **Transform data**.
     
-      ![image](../media/lab01-98.png)
-
 1. You can complete various data and column transformations on the **Transform data** page of the Power Query wizard. As a result, you can adjust data types, update column mappings, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Microsoft Power BI datasets. For this exercise, do not apply any transformations, click **Create**.
 
       ![image](../media/lab01-99.png)
