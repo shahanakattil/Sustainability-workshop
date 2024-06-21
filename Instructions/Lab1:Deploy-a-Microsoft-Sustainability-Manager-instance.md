@@ -1,7 +1,7 @@
 # Lab 1: Deploy a Microsoft Sustainability Manager instance
 
 ## Lab Overview
-Deploy and configure a trial version of Microsoft Sustainability Manager to organizations monitor, manage, and reduce their environmental impact. By leveraging advanced  reporting tools, and integration capabilities, where sustainability supports companies in achieving their sustainability goals and regulatory compliance.
+In this lab, you will deploy an instance of Microsoft Sustainability Manager by signing up for a trial version. This hands-on exercise will guide you through the signup process, allowing you to explore the features and capabilities of the Microsoft Sustainability Manager.
 
 ## Lab Scenario:
 
