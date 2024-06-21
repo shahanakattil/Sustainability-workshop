@@ -117,11 +117,9 @@ In this task, we will import the Excel spreadsheet named Purchased electricity W
  
 1. On the Review and finish page, complete the following tasks:
     
-    1. Enter a name for the new connection, such as **Wide World Importers Purchased Electricity 2022**
+    1. Enter a name for the new connection, such as **Wide World Importers Purchased Electricity 2023**
 
     2. Select **Connect**.
-
-    ![image](../media/lab01-42.png)
  
 1. Next, you'll need to map your source data to the data model. Data will not appear until this step is complete. Select on **Map fields**.
 
@@ -195,20 +193,20 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
 
 1. On the **Connect to data source** under **Connection settings** provide following details
 
-   - **Server** : 
+   - **Server** :  **(1)**
 
-   - **Authentication Kind** : Basic
+   - **Authentication Kind** : Basic **(2)**
 
-   - **Username** : SQLUSER
+   - **Username** : SQLUSER **(3)**
 
-   - **Password** : 
+   - **Password** : **(4)**
 
-   - Select the checkbox next to **Use encrypted connection**
+   - Select the checkbox next to **Use encrypted connection (5)**
 
       ![image](../media/lab01-34.png)
      
 
-1. On the **Choose data** window expand **Fleetvechicles** and select **Fleet vechicles Miles Driven Wide World Importers 2022** then click on **Transform data**.
+1. On the **Choose data** window expand **Fleetvechicles** and select **Fleet vechicles Miles Driven Wide World Importers 2023** then click on **Transform data**.
     
 1. You can complete various data and column transformations on the **Transform data** page of the Power Query wizard. As a result, you can adjust data types, update column mappings, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Microsoft Power BI datasets. For this exercise, do not apply any transformations, click **Create**.
 
@@ -231,11 +229,9 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
 
 1. On the Review and finish page, complete the following tasks:
     
-    1. Enter a name for the new connection, such as **Wide World Importers Electric Vehicle Miles Driven 2022**
+    1. Enter a name for the new connection, such as **Wide World Importers Electric Vehicle Miles Driven 2023**
 
     2. Select **Connect**.
-
-          ![image](../media/lab01-100.png)
 
 1. Next, you'll need to map your source data to the data model. Data will not appear until this step is complete. Select on **Map fields**.
 
