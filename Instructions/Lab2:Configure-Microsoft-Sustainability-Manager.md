@@ -2,11 +2,11 @@
 
 ## Lab Overview
 
-You will set up the organizational structure, reference data, unit conversion factors, and reporting periods in Microsoft Sustainability Manager, as well as assign user roles and permissions. This comprehensive setup ensures accurate carbon emission tracking and reporting for the Wide World Importers organization.
+As an environmental consultant for Wide World Importers, we need to configure the organizational structure within Microsoft Sustainability Manager. This includes setting up the company profile, defining the organizational hierarchy, and adding facilities. These steps will help you categorize and manage sustainability data accurately, supporting your organization's efforts in carbon emission tracking and reporting for the Wide World Importers organization.
 
 ## Lab Scenario
 
-In this task, you will set up the company profile, organizational hierarchy, and facilities for the Wide World Importers organization in Microsoft Sustainability Manager. This includes adding industry classifications, creating organizational units, and defining facilities to ensure a structured and comprehensive setup for carbon emission tracking and reporting.
+In this lab, you will set up the company profile, organizational hierarchy, and facilities for the Wide World Importers organization in Microsoft Sustainability Manager. This includes adding industry classifications, creating organizational units, and defining facilities to ensure a structured and comprehensive setup for carbon emission tracking and reporting.
 
 
 ## Lab Objectives
@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you will set up the Company profile, hierarchy, and facilities for the Wide World Importers organization in Microsoft Sustainability Manager.
 
-1. In the left navigation pane, Select **Company profile** under **Settings** .
+1. In the left navigation pane, expand **Settings (1)** and select **Company profile (2)**.
    
       ![image](../media/lab01-4.png)
     
