@@ -1,12 +1,54 @@
-## Review an existing Azure deployment
+# Lab 5: Reduce Carbon Emissions for Azure Workloads
 
-Content not found
+## Lab Scenario
+Your company wants to reduce its carbon footprint by optimizing its Azure cloud workloads. You'll review current deployments and analyze carbon emissions data to find ways to reduce emissions.
 
-## Connect to MSM 
-Content not found
+## Lab Overview
+In this lab, you will review your current Azure deployments to understand their configurations and usage patterns. You will then use tools like the Carbon optimization to view and analyze carbon emissions data. Based on this analysis, you will identify opportunities for optimization and generate reports to visualize the impact of these changes.
 
-## Review actions to optimize the carbon emissions.  
-Content not found
+## Lab Objective
+The primary objective of this lab is to enable participants to understand and implement strategies for reducing carbon emissions associated with Azure workloads. By the end of this lab, participants will be able to:
+
+   - Review and assess existing Azure deployments to understand their current state and resource utilization.
+   - Analyze and interpret carbon emissions data from the existing Azure resources.
+   - Identify opportunities and best practices for optimizing Azure workloads to minimize carbon emissions.
+   - Implement changes and monitor the impact of these optimizations on carbon emissions.
+
+
+
+### Task 1 : Review the Existing Azure Deployments
+1. **Access Azure Portal:**
+   - Log into the Azure portal.
+
+2. **Navigate to Resources:**
+   - Go to the relevant subscription and resource groups.
+
+3. **Review Resource Configurations:**
+   - Look at virtual machines, storage accounts, databases, etc.
+   - Note down configurations, usage patterns, and architecture.
+
+4. **Assess Compliance:**
+   - Use Azure Resource Manager (ARM) templates and Azure Policy to check for best practices for sustainability.
+
+### Task 2 : View Carbon Emissions from the Existing Azure Resources
+
+1. **Access Emissions Data:**
+   - Use the Azure Sustainability Calculator or Emissions Impact Dashboard.
+
+2. **Analyze Emissions Data:**
+   - Identify which resources and services contribute most to carbon emissions.
+
+3. **Compare Emissions:**
+   - Compare data across different regions and resource types to find optimization opportunities.
+
+4. **Generate Reports:**
+   - Create reports and visualizations to show current carbon emissions from your Azure workloads.
+
+## Conclusion
+By following these steps, you'll learn how to assess and reduce the carbon emissions of your Azure workloads, helping your company achieve its sustainability goals and potentially reduce operational costs.
+
+
+
 
 ## Exercise 1 : Emission Impact Dashboard for Azure 
 
