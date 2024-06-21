@@ -4,12 +4,12 @@
 
 You will set up the organizational structure, reference data, unit conversion factors, and reporting periods in Microsoft Sustainability Manager, as well as assign user roles and permissions. This comprehensive setup ensures accurate carbon emission tracking and reporting for the Wide World Importers organization.
 
-## Lab scenario
+## Lab Scenario
 
 In this task, you will set up the company profile, organizational hierarchy, and facilities for the Wide World Importers organization in Microsoft Sustainability Manager. This includes adding industry classifications, creating organizational units, and defining facilities to ensure a structured and comprehensive setup for carbon emission tracking and reporting.
 
 
-## Lab objectives
+## Lab Objectives
 In this lab, you will complete the following tasks:
 
 - Task 1 : Prepare Business Units and Hierarchy  
