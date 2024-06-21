@@ -72,7 +72,7 @@ In this task, we will create factor mappings to link contractual instrument type
      
       ![image](../media/lab01-54.png)
 
-1. Select the Emission factors tab to view a list of emission factors in the factor library.
+1. Select the **Emission factors** tab to view a list of emission factors in the factor library.
 
 1. The Emission factors list displays the name of the emission factor, the unit type, sub type, documentation reference, and gases generated. Because Wide World Importers is a Florida-based business and is connected to the FRCC electrical grid, select **FRCC (FRCC All)** from the list of emission factors.
 
@@ -84,7 +84,7 @@ In this task, we will create factor mappings to link contractual instrument type
 
       ![image](../media/lab01-59.png)
 
-1. Click on back arrow which navigate to **EPA 2022 - eGRID** and select the **Factors mapping** tab.
+1. Click the back arrow to navigate to **EPA 2022 - eGRID**, then select the **Factors mapping** tab.
 
     ![image](../media/lab01-56.png)
 
