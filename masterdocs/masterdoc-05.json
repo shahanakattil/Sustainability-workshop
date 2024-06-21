@@ -1,0 +1,20 @@
+[
+    {
+     "Name": "Sustainability-workshop",
+     "Language": "English",
+     "Files": [
+        {
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Intro-to-Sustainability.md",
+         "Order": 1
+         }, 
+        {
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Getting-started.md",
+         "Order": 2
+         }, 
+        {
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab5%3A%20Reduce-Carbon-Emissions-for-Azure-Workloads.md",
+         "Order": 3
+        }
+      ]  
+    }
+ ]
