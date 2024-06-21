@@ -24,9 +24,11 @@ In this lab, Sustainability specialist for Contoso Corp reviews the data in the 
 
      ![](../media/report1.png)
 
-2. You can filter this dashboard by Reporting year, Accounting method, and Organizational hierarchy. Under Filters select **Fiscal -2022** then **Organizational hierarchy** expand **Contoso Corp** > **Contoso USA** then select check box next to **Wide World Importers**. 
+2. You can filter this dashboard by Reporting year, Accounting method, and Organizational hierarchy. Under Filters select **Fiscal -2023** then **Organizational hierarchy** expand **Contoso Corp** > **Contoso USA** then select check box next to **Wide World Importers**. 
 
     ![](../media/report2.png)
+
+   >**Note**: It might take around 5 hrs to generate the report after completing the emission calculations.
 
 3. The options for Accounting method include:
 
