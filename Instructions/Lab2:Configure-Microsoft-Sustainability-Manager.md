@@ -69,11 +69,11 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 
    ![image](../media/s13.png)
 
-1. If necessary, navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
+1.  Return to the **Company profile** page, navigate to the **Facilities (1)** tab, and then click **Add facility (2)**.
 
     ![image](../media/lab01-13.png)
 
-15. Create a new Facility with the following details. Once the values are entered, select **Save & Close**:
+15. Enter the following details to create a **new facility**, then click **Save & Close**:
 
     >**Note:** Pay close attention to the data used in this lab. The following labs will reference this data, and it will need to match exactly as seen in the lab.
 
@@ -88,9 +88,9 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 
     ![image](../media/lab01-14.png)
     
->**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
+    >**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-1.  Navigate to **Company profile**, switch to the **Facilities** tab page and select **Add facility**.
+1.  Navigate to **Company profile**, switch to the **Facilities** tab page and click on Add facility..
 
     ![image](../media/lab01-15.png)
 
@@ -111,8 +111,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
     
       >**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
-Great job, by completing these steps, you have completed the organizational setup in Microsoft Sustainability Manager for Wide World of Importers. This included the Company profile, hierarchy, and facilities. Organizational structure and facility management will be linked to activity and emission data to group emissions by Organization, facility, and even regions. This is an important part of carbon emission reporting and organization disclosures. **Please continue to the next task.**
-
+Excellent work! By finishing these steps, you have successfully set up the organizational framework in Microsoft Sustainability Manager for Wide World of Importers. This encompassed establishing the Company profile, hierarchy, and facilities. The organizational structure and facility management will play a crucial role in linking activity and emission data, facilitating the grouping of emissions by Organization, facility, and regions. This integration is essential for accurate carbon emission reporting and organizational disclosures.
 
 ## Task 2 : Set up reference data
 
@@ -178,9 +177,9 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
 
 1. Enter the following details. After you've entered the values, select **Save**.
 
-      - Name - Enter **Fiscal - 2022**.
+      - Name - Enter **Fiscal - 2023**.
       
-      - Start date: **01/01/2022**.
+      - Start date: **01/01/2023**.
       
       - Year template - **Annual**.
 
