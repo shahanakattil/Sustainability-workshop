@@ -31,7 +31,7 @@ In this task, you will sign up for a trial version of Microsoft Sustainability M
 
    ![](../media/lab01-2.png)
 
-1. You will be redirected to the Sustainability Manager page, where you can start using the trial version of Microsoft Sustainability Manager.
+1. You will be redirected to the Microsoft Sustainability Manager page, where you can begin exploring and using the trial version.
 
    ![](../media/lab01-3.png)
 
