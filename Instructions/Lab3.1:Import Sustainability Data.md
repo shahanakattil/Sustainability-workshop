@@ -282,5 +282,7 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
 You've now completed the data import of 2022 Purchased Electricity for Wide World Importers and Fleet vechicles Miles Driven Wide World Importers 2022. This step is imperative in realizing the goal of recording, reporting, and reducing carbon emissions.
 
 ## Review 
+Completion of these tasks ensures accurate data integration, robust reporting capabilities, and enhanced environmental stewardship for Wide World Importers in Microsoft Sustainability Manager.
+
 
 ## You have successfully completed the lab. Click on Next >>.
