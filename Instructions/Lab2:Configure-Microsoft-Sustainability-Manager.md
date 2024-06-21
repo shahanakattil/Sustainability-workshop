@@ -173,23 +173,23 @@ Unit groups allow you to organize units and define a base unit for converting be
 
 In this task, we will be setting up the reporting years in Microsoft Sustainability Manager and name the reporting year, set up the start date and use a template to create more than one period.
 
-1. In the left navigation pane, select the **Settings** > **Company profile** then select the **Reporting years** tab and choose **Create reporting year**.
+1. Navigate to **Settings** in the left navigation pane, then select **Company profile (1)**. Click on the **Reporting years (2)** tab, and choose **Create reporting year (3)**.
 
     ![image](../media/lab01-18.png)
 
 1. Enter the following details. After you've entered the values, select **Save**.
 
-      - Name - Enter **Fiscal - 2023**.
+      - **Name** : Enter **Fiscal - 2023**.
       
-      - Start date: **01/01/2023**.
+      - **Start date** : **01/01/2023**.
       
-      - Year template - **Annual**.
+      - **Year template** : **Annual**.
 
-1. This name appears on the Insights page in Microsoft Sustainability Manager.
+1. This name will be displayed on the Insights page in Microsoft Sustainability Manager.
 
-    ![image](../media/lab01-20.png)
+     ![image](../media/lab01-20.png)
 
-1. Select Close. The reporting year will generate with the first period starting on the Start date and the last period ending one year from the Start date.
+1. Click Close. The reporting year will be generated, with the first period starting on the Start date and the last period ending one year from the Start date.
 
 ## Task 5 : Access/Permissions 
 
