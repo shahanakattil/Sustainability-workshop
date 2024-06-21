@@ -14,6 +14,8 @@ The primary objective of this lab is to enable participants to understand and im
    - Identify opportunities and best practices for optimizing Azure workloads to minimize carbon emissions.
    - Implement changes and monitor the impact of these optimizations on carbon emissions.
 
+## Excercise 1 : Review Carbon emissions from Azure workloads.
+
 ### Task 1 : Review the Existing Azure Deployments
 
 1. Once logged in, Navigate to **Resource groups**
@@ -55,17 +57,20 @@ The primary objective of this lab is to enable participants to understand and im
 ## Conclusion
 By following these steps, you'll learn how to assess and reduce the carbon emissions of your Azure workloads, helping your company achieve its sustainability goals and potentially reduce operational costs.
 
-## Exercise 1 : Emission Impact Dashboard for Azure 
+## Excercise 2 : Emission Impact Dashboard for Azure 
 
 The Emissions Impact Dashboard promotes transparency of information and provides insights that empower you to make effective decisions to reach your sustainability goals.
 
 ### Task 1 : Deploy the dashboards from the Solution Center
 
-In this task, you sign in to the Microsoft Cloud Solution Center and deploy the Microsoft Cloud for Sustainability dashboard solutions.
+In this task, you sign in to the Microsoft Cloud Solution Center and deploy the Microsoft Cloud for Sustainability dashboard solutions and view the dashboard with sample data in the PowerBi.
 
 1. Open a browser in InPrivate or Incognito mode and then go to https://solutions.microsoft.com.
 
-2. Use the credentials with your Power BI Pro license install.
+2. Use the below credentials to login.
+
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
 
 3. After sign-in is complete, on the Home page of Microsoft Cloud Solution Center, select View all solutions on the Microsoft Cloud for Sustainability tile.
 
@@ -73,23 +78,28 @@ In this task, you sign in to the Microsoft Cloud Solution Center and deploy the 
 
 4. From the available capabilities, select Report impact and progress.
 
-5. From the available solutions list, select Emissions Impact Dashboard for Azure and Emissions with the Added checkbox and then select Deploy.   
+5. From the available solutions list, select **Emissions Impact Dashboard for Azure** with the **Added checkbox** and then select **Deploy**.   
 
    ![](../media/report22.png)
 
-6. Provide the name for your deployment, select the terms of service and then select Next.
+6. Provide the name for your deployment, select the terms of service and then select **Next**.
 
    ![](../media/report23.png)
 
-7. Verify that the pre-deployment dependencies are installed and set up. Select Deploy.
+7. Verify that the pre-deployment dependencies are installed and set up. Select **Deploy**.
 
      ![](../media/report24.png)
 
-8. Wait for the deployment to show as successful. You're notified about the deployment start and success through email. Select Close.
+8. Wait for the deployment to show as successful. Select **Close**.
 
    ![](../media/report25.png)
 
-9. Go to Microsoft [Power BI](https://app.powerbi.com/home?experience=power-bi), select the Apps on the left navigation pane. You see the Emissions Impact Dashboard for Microsoft 365 and select the Emissions Impact Dashboard for Azure listed on the Apps page.
+9. Navigate to Microsoft PowerBI using the link below.
+
+```
+ https://app.powerbi.com/home?experience=power-bi
+```
+10. select the **Apps** on the left navigation pane. You see the **Emissions Impact Dashboard for Azure** and select the Emissions Impact Dashboard for Azure listed on the Apps page.
 
     ![](../media/report27.png)
 
