@@ -50,8 +50,10 @@ In this task, we will enrich the Excel spreadsheet Purchased electricity Wide Wo
       -	**Logical name** - **Vehicle Size** 
       
       -	**Display name** – **Vehicle Size**
+      
+      - Click **Save & Close (3)**
 
-          ![image](../media/lab01-32.png)
+        ![image](../media/lab01-32.png)
 
 ### Task 2: Import 2022 data for “Purchased Electricity“ for Facilities
 
