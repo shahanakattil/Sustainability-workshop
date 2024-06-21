@@ -59,7 +59,7 @@ In this task, we will enrich the Excel spreadsheet Purchased electricity Wide Wo
 
 In this task, we will import the Excel spreadsheet named Purchased electricity Wide World Importers 2023.xlsx. This spreadsheet contains data on the electricity purchased by Wide World Importers' facilities for the year 2023, which will be integrated into the Purchased electricity activity data.
 
-1. Navigate to **Data** in the left navigation pane, select **Imports (1)**, go to the **Data Import (2)** tab, and click **New (3)**.
+1. Navigate to **Data** in the left navigation pane, select **Imports (1)**, go to the **Data import (2)** tab, and click **New (3)**.
 
    ![image](../media/lab01-33.png)
 
