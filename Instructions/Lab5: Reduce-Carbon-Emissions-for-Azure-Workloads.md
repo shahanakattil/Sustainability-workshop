@@ -14,35 +14,43 @@ The primary objective of this lab is to enable participants to understand and im
    - Identify opportunities and best practices for optimizing Azure workloads to minimize carbon emissions.
    - Implement changes and monitor the impact of these optimizations on carbon emissions.
 
-
-
 ### Task 1 : Review the Existing Azure Deployments
-1. **Access Azure Portal:**
-   - Log into the Azure portal.
 
-2. **Navigate to Resources:**
-   - Go to the relevant subscription and resource groups.
+1. Once logged in, Navigate to **Resource groups**
 
-3. **Review Resource Configurations:**
-   - Look at virtual machines, storage accounts, databases, etc.
-   - Note down configurations, usage patterns, and architecture.
+   ![](../media/5.1.png)
 
-4. **Assess Compliance:**
-   - Use Azure Resource Manager (ARM) templates and Azure Policy to check for best practices for sustainability.
+2. Navigate to each resource group and examine the types of resources currently deployed within them.
+
+   ![](../media/5.3.png)
 
 ### Task 2 : View Carbon Emissions from the Existing Azure Resources
 
-1. **Access Emissions Data:**
-   - Use the Azure Sustainability Calculator or Emissions Impact Dashboard.
+1. Search and select **Carbon optimization** from the Azure Portal.
 
-2. **Analyze Emissions Data:**
-   - Identify which resources and services contribute most to carbon emissions.
+   ![](../media/5.4.png)
 
-3. **Compare Emissions:**
-   - Compare data across different regions and resource types to find optimization opportunities.
+2. On the **Carbon optimization** page, observe the **Total carbon emissions**, **Carbon emissions for the last month** and also monthly emissions data in that subscription under **Emission Trends**
 
-4. **Generate Reports:**
-   - Create reports and visualizations to show current carbon emissions from your Azure workloads.
+   ![](../media/5.5.png)
+
+3. Use filters to identify each individual resourge group emission contribution and trends.
+
+   ![](../media/5.6.png)
+
+1. In the emission details section, You can view emission details at the subscription, resource group, resource, service, and location levels on the emission details page.
+
+   ![](../media/5.7.png)
+
+   ![](../media/5.8.png)
+
+   ![](../media/5.9.png)
+
+   ![](../media/5.10.png)
+
+   ![](../media/5.11.png)
+
+1. In the emission reduction section, you'll discover recommendations, if any, to optimize current Azure workloads based on usage trends.
 
 ## Conclusion
 By following these steps, you'll learn how to assess and reduce the carbon emissions of your Azure workloads, helping your company achieve its sustainability goals and potentially reduce operational costs.
