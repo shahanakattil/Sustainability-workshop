@@ -1,4 +1,4 @@
-# Lab 6 - Backup and Restore Sustainability Environment (Read Only)
+# Lab 5 - Backup and Restore Sustainability Environment (Read Only)
 
 ## Lab Overview
 
