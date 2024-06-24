@@ -32,7 +32,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 
 1. On the Company profile page, navigate to the **Industries (1)** tab and click on **+ Add (2)**.
 
-   ![image](../media/new(1).png)
+   ![](../media/new-img7.png)
 
 1. Choose **Transportation and storage (1)**, then select **Land transport and transport via pipelines (2)**, and finally, click on **Add (3)**.
 
