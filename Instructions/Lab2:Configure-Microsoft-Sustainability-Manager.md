@@ -30,7 +30,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 
 1. On the Company profile page, navigate to the **Industries (1)** tab and click on **+ Add (2)**.
 
-   ![image](../media/new1.png)
+   ![image](../media/new(1).png)
 
 1. Choose **Transportation and storage (1)**, then select **Land transport and transport via pipelines (2)**, and finally, click on **Add (3)**.
 
@@ -44,7 +44,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
       
 1. On the **Company profile** page, switch to the **Structure (1)** tab, expand **Contoso Corp (2)**, then select **Contoso USA (3)** and click on **+ Add (4)** to create a new organizational unit under it.
 
-    ![image](../media/new2.png)
+    ![image](../media/new(2).png)
 
 1. Enter the following data for organizational unit and select **Save (3)** in the button pane:
 
