@@ -230,7 +230,7 @@ Take the opportunity to review some prebuilt models. They're excellent sources o
 
 1. Populate the Source Details pane with the following data and select Save to save the record.
 
-    - Category name - Purchased Electricity: Contractual Instrument Based - 2022
+    - Category name - Purchased Electricity: Contractual Instrument Based - 2023
    
     - Module - Carbon Activities
    
