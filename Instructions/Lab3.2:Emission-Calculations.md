@@ -544,7 +544,6 @@ In this task, Alex creates a calculation profile for the miles driven by Wide Wo
 
 1. The Preview page of the New calculation profile wizard shows the emissions that were calculated for the first row of data that matches your Activity data to include filter. In this scenario, the values that are shown in the preview might differ from the following image and select Save to save your calculation profile.
 
-
      ![image](../media/lab01-116.png)
 
     These values were determined by converting the miles driven to kWh: (7484.724 / 100) * 49 = 3667.515 kWh
