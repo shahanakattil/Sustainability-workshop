@@ -198,7 +198,7 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
 
 In this task, you'll assign specific roles and permissions to user, ensuring they have the appropriate access to Microsoft Sustainability Manager features necessary for their responsibilities. This ensures secure and efficient use of the platform.
 
-1. Use the below link to access the trial version of Microsoft Sustainability Manager.
+1. Open the InPrivate window and browse the below link to access the trial version of Microsoft Sustainability Manager.
 
    ```
     https://dynamics.microsoft.com/en-us/sustainability/sustainability/free-trial/
