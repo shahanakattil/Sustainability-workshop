@@ -82,13 +82,13 @@ In this task, we will import the Excel spreadsheet named Purchased electricity W
 
 1. On the **Connect to data source** under **Connection settings** provide following details.
 
-   - **Server** :   **(1)**
+  - **Server** :  <inject key="SqlserverURL"></inject> **(1)**
 
-   - **Authentication Kind** : Basic  **(2)**
+   - **Authentication Kind** : Basic **(2)**
 
    - **Username** : SQLUSER **(3)**
 
-   - **Password** :  **(4)**
+   - **Password** : **Password.1!!** **(4)**
 
    - Select the checkbox next to **Use encrypted connection (5)**
 
@@ -193,13 +193,13 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
 
 1. On the **Connect to data source** under **Connection settings** provide following details.
 
-   - **Server** :  **(1)**
+   - **Server** :  <inject key="SqlserverURL"></inject> **(1)**
 
    - **Authentication Kind** : Basic **(2)**
 
    - **Username** : SQLUSER **(3)**
 
-   - **Password** : **(4)**
+   - **Password** : **Password.1!!** **(4)**
 
    - Select the checkbox next to **Use encrypted connection (5)**
 
