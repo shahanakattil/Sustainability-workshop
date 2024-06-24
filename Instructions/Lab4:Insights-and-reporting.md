@@ -184,7 +184,6 @@ In this task, Amber explores the various **Sustainability** dashboards which pro
 14. In further filtering we see the Wide World Importers under Org level 3. Use this information to create a goal for Wide World Importers to reduce their Purchased electricity emissions by 300 mtCO2E (you'll complete this task in the next exercise).
 
 16.	Select **Custom Dimensions** tab to view the emission analytics
-    
     - You can view a time chart of CO2E emissions broken by custom dimension strings. For example, compare emissions by vehicle size where Vehicle Size is a custom dimension with string value.
    	- Expand the tree view of total CO2E emissions and drill into each string custom dimension present in the data and view CO2E emissions by value.
    	- Explore the time chart of CO2E emissions intensity broken out by custom dimension strings, where the intensity denominator is a numeric custom dimension, you select. 
