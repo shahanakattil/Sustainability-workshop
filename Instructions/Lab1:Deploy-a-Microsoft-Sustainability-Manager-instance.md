@@ -23,7 +23,7 @@ In this task, you will sign up for a trial version of Microsoft Sustainability M
    ```
     https://dynamics.microsoft.com/en-us/sustainability/sustainability/free-trial/
    ```
-1. On the **Let's get started** page, enter the <inject key="AzureAdUserEmail"></inject> and select the checkbox and click on **Start your free trial**
+1. On the **Let's get started** page, enter the <inject key="AzureAdUserEmail"></inject> **(1)** and select the checkbox next to **By signing up, you agree to the (2)** and click on **Start your free trial (3)**
 
    ![](../media/lab01-1.png)
 
