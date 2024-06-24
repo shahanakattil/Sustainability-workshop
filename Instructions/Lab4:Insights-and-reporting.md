@@ -16,6 +16,8 @@ In this lab, Sustainability specialist for Contoso Corp reviews the data in the 
   - Task 4 : Generate Quantitative preparation report
   - Task 5 : Sustainability scorecards and goals
 
+## Estimated timing: 90 minutes
+
 ## Exercise 1: Sustainability Dashboards
 
 ## Task 1 :  Executive dashboard
