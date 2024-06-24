@@ -426,4 +426,11 @@ Scorecards and goals are manually updated or connected to data for automatic che
     
   >**Note**: The following list provides descriptions Use Update for to identify what date the check-in was for. This date might be the current date or a date in the past. Use New value to specify the current value of the goal check-in. This value will be used on the Progress chart.
 
-**Congratulations!** Amber is now comfortable using the dashboards to gain insights into the emissions data. She can use these insights to drive business decisions and use the information to create scorecards and goals to track progress. In addition, Jessie can now build the emission and activity reports and include them in the sustainability reporting procedures for Contoso Corp. These reports will help develop goals that can be tracked using Scorecards, which will be created in the next lab.
+
+## Review
+
+During this lab we have completed sustainability tasks highlights effective tracking and reduction of emissions through comprehensive dashboards, reports, and goal-setting in Microsoft Sustainability Manager. These tools empower organizations like Contoso Corp to make data-driven decisions for achieving their sustainability objectives.
+
+
+## You have successfully completed the lab. Click on Next >>.
+
