@@ -12,7 +12,7 @@ In this lab, Sustainability specialist for Contoso Corp reviews the data in the 
 
   - Task 1 : Executive dashboard
   - Task 2 : Explore Emission Insights
-  - Task 3 : Waste Insights
+  - Task 3 : Waste and Water Insights
   - Task 4 : Generate Quantitative preparation report
   - Task 5 : Sustainability scorecards and goals
 
@@ -202,6 +202,8 @@ Great job, you have successfully explored various Sustainability dashboards with
 
 ## Task 3 :  Waste and Water Insights
 
+In this task, we are detailing the features and functionalities of various dashboards within Microsoft Sustainability Manager with help of sample data, highlighting how they provide insights into water sustainability, water quality, waste quantity, and circularity practices.
+
 1. The Water insights dashboard in Microsoft Sustainability Manager provides you with a holistic view of your organization's water sustainability performance relative to the business. Based on the selected water transaction type, the tiles contain the following information about your organization:
 
     - Water revenue intensity (total water quantity/total revenue)
@@ -248,28 +250,29 @@ The Waste quantity dashboard in Microsoft Sustainability Manager provides a view
  - Water production intensity (total water quantity/total weight of products produced)
  - To open the Water insights dashboard in Sustainability Manager, select Analytics on the left navigation, and then select Water insights.
 
-1. Select the Water insights tab.
+1. Select the Water insights tab from the left navigation pane.
 
 1. Filter the dashboard by water transaction type, water stressed area, reporting period, or organizational hierarchy.
 
-
 1. View summary statistics in the left tile. These statistics include total water withdrawn, total water discharged, total water consumed, and total water recycled for the selected reporting year. Water withdrawn and water discharged include water source types such as:
 
-      Surface water
-      Sea water
-      Ground water
-      Third party water
-      Produced water
-      View the trends
-      The top tile has six tabs each for water withdrawn and water discharged:
+      - Surface water
+      - Sea water
+      - Ground water
+      - Third party water
+      - Produced water
+      - View the trends
 
-      Water withdrawn/discharged
-      By month (comparison)
-      By source
-      By facility
-      By country/region
-      By organizational unit
-      It has five tabs each for water consumed and water recycled:
+   + The top tile has six tabs each for water withdrawn and water discharged:
+
+      - Water withdrawn/discharged
+      - By month (comparison)
+      - By source
+      - By facility
+      - By country/region
+      - By organizational unit
+      
+    + It has five tabs each for water consumed and water recycled:
 
       Water consumed/recycled
       By month (comparison)
