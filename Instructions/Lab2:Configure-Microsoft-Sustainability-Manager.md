@@ -44,12 +44,12 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
       
 1. On the **Company profile** page, switch to the **Structure (1)** tab, expand **Contoso Corp (2)**, then select **Contoso USA (3)** and click on **+ Add (4)** to create a new organizational unit under it.
 
-    ![image](../media/lab01-9.png)
+    ![image](../media/new2.png)
 
 1. Enter the following data for organizational unit and select **Save (3)** in the button pane:
 
-    * **Name**: **Wide World Importers (2)**
-    * **Organizational unit type**: **Department (3)**
+    * **Name**: **Wide World Importers (1)**
+    * **Organizational unit type**: **Department (2)**
 
       ![image](../media/lab01-10.png)
 
