@@ -683,5 +683,9 @@ In this task, Alex creates the allocation method details by importing an excel f
     
 1. Refresh the page and select the Allocation profile to view the status of the calculation.
 
-You created the allocation methods and set up the allocation profile with this method. Now, you'll be able to visualize how your emissions are generated using these methods without impacting the default emissions reporting. 
+   You created the allocation methods and set up the allocation profile with this method. Now, you'll be able to visualize how your emissions are generated using these methods without impacting the default emissions reporting. 
 
+
+## Review
+
+## You have successfully completed the lab. Click on Next >>.
