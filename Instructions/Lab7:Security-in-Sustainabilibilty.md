@@ -21,6 +21,8 @@ In this lab, you will perform the following tasks to enhance security monitoring
   - Task 2: Set up the data connector to ingest logs to workspace
   - Task 3: View data ingested into Microsoft Sentinel
 
+## Estimated timing: 90 minutes
+
 ## Excercise 1 - Setup Sentinel Workspace
 
 ### Task 1: Create Sentinel Workspace
