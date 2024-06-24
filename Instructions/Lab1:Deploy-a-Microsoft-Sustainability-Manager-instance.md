@@ -27,7 +27,11 @@ In this task, you will sign up for a trial version of Microsoft Sustainability M
 
    ![](../media/lab01-1.png)
 
-1. Follow the on-screen guidance to provide the contact details and click on **Submit**
+1. When prompted provide the **Password:** <inject key="User's Password"></inject>.
+
+1. On the **Action required** page click on **Ask Later**.
+   
+1. Follow the on-screen guidance to provide the contact details then select the check boxs and click on **Submit**
 
    ![](../media/lab01-2.png)
 
