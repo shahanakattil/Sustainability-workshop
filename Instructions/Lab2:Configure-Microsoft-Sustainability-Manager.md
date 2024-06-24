@@ -133,7 +133,7 @@ In the task You'll set up reference data by adding contractual instrument types 
       
       - **Energy source** - **Nuclear (2)**
 
-        ![image](../media/report12.png)
+         ![](../media/new-img12.png)
 
 1. In the same way, create a new **contractual instrument** with the following details, and then select **Save & Close (3)**
 
@@ -141,8 +141,8 @@ In the task You'll set up reference data by adding contractual instrument types 
       
       - **Energy source** - **Other (2)**
 
-        ![image](../media/report13.png)
-   
+         ![](../media/new-img13.png)
+
         >**Note**: Many types of reference data are available. You can explore the other reference data types, which will be used throughout Microsoft Cloud for Sustainability and Microsoft Sustainability Manager.
 
 ## Task 3 : Set up unit conversion factor
