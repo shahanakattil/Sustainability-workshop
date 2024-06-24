@@ -94,8 +94,10 @@ In this task, we will import the Excel spreadsheet named Purchased electricity W
 
       ![image](../media/lab01-34.png)     
 
-1. On the **Choose data** window expand **sustainability** and select **Purchase electricity wide world importer 2023** then click on **Transform data**.
+1. On the **Choose data** window expand **purchasedelectricity** and select **Purchase electricity wide world importer 2023** then click on **Transform data**.
 
+    ![image](../media/new7.png)
+   
 1. You can complete various data and column transformations on the **Transform data** page of the Power Query wizard. As a result, you can adjust data types, update column mappings, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Microsoft Power BI datasets. For this exercise, do not apply any transformations, click **Create**.
 
     ![image](../media/lab01-40.png)
@@ -206,8 +208,10 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
       ![image](../media/lab01-34.png)
      
 
-1. On the **Choose data** window expand **Fleetvechicles** and select **Fleet vechicles Miles Driven Wide World Importers 2023** then click on **Transform data**.
-    
+1. On the **Choose data** window expand **fleetvehicles** and select **Fleet vechicles Miles Driven Wide World Importers 2023** then click on **Transform data**.
+
+      ![image](../media/new8.png)
+   
 1. You can complete various data and column transformations on the **Transform data** page of the Power Query wizard. As a result, you can adjust data types, update column mappings, and perform advanced transformations that you're familiar with in Microsoft Power Platform dataflows or Microsoft Power BI datasets. For this exercise, do not apply any transformations, click **Create**.
 
       ![image](../media/lab01-99.png)
@@ -237,7 +241,7 @@ In this task, we will imports the Excel spreadsheet provided by Alex, _Purchased
 
     ![image](../media/lab01-43.png)
    
-1. Select the **Data source** to map, in this exercise select **Purchased electricity** under **Carbon Activities.** Select **Auto Map** for the solution to automatically map the file’s source fields with the destination fields, for any field that is not an exact match the best match will be found and highlighted in blue, make sure to select **Energy Provider Name** to **Provider** from the drop down and review them. Review the custom dimensions to ensure Model and Product are added as part of mapping. Toggle **Ready to Import** as yes and click on **Save**.
+1. Select the **Data source** to map, in this exercise select **Purchased electricity** under **Carbon Activities.** Select **Auto Map** for the solution to automatically map the file’s source fields with the destination fields, for any field that is not an exact match the best match will be found and highlighted in blue, make sure to select **Energy Provider Name** to **Provider** from the drop down and review them. Review the custom dimensions (you may need to scroll down) ensure to remove the **Product > Provider** custom fields and then Toggle **Ready to Import** as yes and click on **Save**.
            
    ![image](../media/lab01-101.png)
 
