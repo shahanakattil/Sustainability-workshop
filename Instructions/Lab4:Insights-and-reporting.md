@@ -4,7 +4,7 @@
 
 In the previous lab, the ingested Activity data was taken through calculation designs using calculation models and the output was reviewed in terms of CO<sub>2</sub>E unit. In this lab, we will perform a set of activities to generate emissions reports, activity reports, and review Power BI dashboards.
 
-##  Lab Scenarios
+##  Lab Scenario
 
 In this lab, Sustainability specialist for Contoso Corp reviews the data in the Insights section of Microsoft Sustainability Manager, noticing that Wide World Importers was a large contributor to Scope 2 emissions in 2022. Sustainability lead for Contoso Corp that the Activity and Emission Reports are available for review. We will explore the reporting section and creates a new Activity report and a new Emissions report. Reviews the generated report and includes the report in the sustainability reporting procedures for Contoso Corp.
 
