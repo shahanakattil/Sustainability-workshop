@@ -16,6 +16,8 @@ As a sustainability manager using Microsoft Cloud for Sustainability, you are ta
    - Task 1: Enable auditing and logging in Microsoft Cloud for Sustainability.
    - Task 2: Review audit logs and summaries.
 
+## Estimated timing: 20 minutes
+
 ### Task 1: Enable auditing and logging in Microsoft Cloud for Sustainability.
 
 In this task, you will enable auditing and logging within the Microsoft Cloud for Sustainability platform to track and record various activities
