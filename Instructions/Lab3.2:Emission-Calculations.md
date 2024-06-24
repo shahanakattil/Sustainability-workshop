@@ -96,11 +96,11 @@ In this task, we will create factor mappings to link contractual instrument type
 
      - Name - FRCC - Purchased Electricity - VanArsdel Ltd
       
-     - Reference data - VanArsdel Ltd
-
      - Factor library EPA 2022 - eGRID
       
      - Factor - FRCC (FRCC All)
+
+     - Reference data  > Name - VanArsdel Ltd
 
        ![image](../media/lab01-60.png)
       
