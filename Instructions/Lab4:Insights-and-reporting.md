@@ -285,14 +285,16 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 3.  Set the following fields:
 
     1. **Report type**: Emissions report
-    1.  **Name**: MC4S Emissions report
-    1.  **Report type**: Emissions report
-    1.  **Start date**: 01/01/2023
-    1.  **End date**: 12/31/2023
+    1. **Name**: MC4S Emissions report
+    1. **Report type**: Emissions report
+    1. **Start date**: 01/01/2023
+    1. **End date**: 12/31/2023
+    1. **Report level** : All levels
+    1. **Hierarchy as of** : 1/1/2023
 
-    Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country/Region**, **Regional group**, **Latitude/Longitude**, **Organization unit**, **Facility**, **Is market based**, **Is biogenic**, **Scope**, **Emission source**, **Activity type**. (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
-
-4. For this task, Jessie will just set the following fields to **Yes** for use in Contoso Corp’s carbon emissions reporting for public disclosure:
+    Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country/Region**, **Regional group**, **Latitude/Longitude**, **Organization unit**, **Facility**, **Is market based**, **Is biogenic**, **Scope**, **Emission source**, **Activity type**.
+    
+5. For this task, we will just set the following fields to **Yes** for use in Contoso Corp’s carbon emissions reporting for public disclosure:
 
     - **Country/Region**
     - **Regional group**
@@ -303,17 +305,17 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
      ![](../media/report6.png)
     
-5. Once these are selected, select **Save & Close** on the top command bar.
+6. Once these are selected, select **Save & Close** on the top command bar.
 
-6.  Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
+7.  Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
 
        ![](../media/report7.png)
   
-7.  Select **Refresh** button on the command bar until the **Report generation status** is changed from **Pending** to **Ready for download.** This may take a few minutes to generate.
+8.  Select **Refresh** button on the command bar until the **Report generation status** is changed from **Pending** to **Ready for download.** This may take a few minutes to generate.
 
      ![](../media/report8.png)
 
-8.  Once the status is changed, a **Download report** button is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
+9.  Once the status is changed, a **Download report** button is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
 
      ![](../media/report9.png)
 
@@ -321,7 +323,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
     - The **Group by** column headers that were selected. In this case, it is grouped by Country/Region, Regional group, Facility, Scope, Emissions source, and Activity type
     - The following emission metrics: **CO<sub>2</sub>**, **CH<sub>4</sub>**, **N<sub>2</sub>O**, **SF<sub>6</sub>**, **NF<sub>3</sub>**, **CO<sub>2</sub>E**, **HFCs**, **PFCs**, and **Other GHGs.**
 
-##Excercise 2 :  Sustainability scorecards and goals
+## Task 4 :  Sustainability scorecards and goals
 
 Scorecards and Goals allow organizations to monitor progress against data-driven goals. They can help you curate sustainability metrics and track them against your company's key business objectives. After you’ve created a scorecard that includes some goals, you can periodically check on the scorecard’s progress and make required adjustments.
 
