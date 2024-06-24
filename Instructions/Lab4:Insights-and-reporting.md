@@ -252,6 +252,33 @@ The Waste quantity dashboard in Microsoft Sustainability Manager provides a view
 
 1. Filter the dashboard by water transaction type, water stressed area, reporting period, or organizational hierarchy.
 
+
+1. View summary statistics in the left tile. These statistics include total water withdrawn, total water discharged, total water consumed, and total water recycled for the selected reporting year. Water withdrawn and water discharged include water source types such as:
+
+      Surface water
+      Sea water
+      Ground water
+      Third party water
+      Produced water
+      View the trends
+      The top tile has six tabs each for water withdrawn and water discharged:
+
+      Water withdrawn/discharged
+      By month (comparison)
+      By source
+      By facility
+      By country/region
+      By organizational unit
+      It has five tabs each for water consumed and water recycled:
+
+      Water consumed/recycled
+      By month (comparison)
+      By facility
+      By country/region
+      By organizational unit
+
+      ![](../media/new9.png)
+
 ## Task 4:  Generate Quantitative preparation report
 
 In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for Contoso Corp that the Activity and Emission Reports are available for review. Jessie generates quantitative preparation reports that extract emission and activity data from Microsoft Sustainability Manager. The reports are in an Excel format that can be used to submit the data for public disclosure.
