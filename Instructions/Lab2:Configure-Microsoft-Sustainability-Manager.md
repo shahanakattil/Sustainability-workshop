@@ -205,6 +205,7 @@ In this task, you'll assign specific roles and permissions to user, ensuring the
 1. Please use the following credentials to start a free trial of Sustainability Manager for Alex Wilber.
 
     - **Email/Username:** <inject key="User 01 UPN"></inject>
+    
     - **Password:** <inject key="User's Password"></inject>
     
 1. On the **Let's get started** page, enter the <inject key="AzureAdUserEmail"></inject> and select the checkbox and click on **Start your free trial**.
@@ -241,7 +242,6 @@ In this task, you'll assign specific roles and permissions to user, ensuring the
     ![image](../media/lab01-27.png)
 
     ![image](../media/lab01-(28).png)
-
 
     >**Note**: Basic User: Provides fundamental access rights necessary for standard user functionality within the system/application.
 
