@@ -1,4 +1,4 @@
-# Lab 7 : Security in Sustainability
+# Lab 7 : Security in Sustainability using Microsoft Sentinel
 
 ## Lab Overview
 This lab provides hands-on experience in configuring Microsoft Sentinel to establish a centralized workspace for monitoring security events that impact sustainability efforts. You will install and configure data connectors to ingest logs from Microsoft Entra ID and Dynamics 365, ensuring comprehensive monitoring and compliance with environmental standards. By the end of this lab, you will understand how to leverage Microsoft Sentinel to enhance security monitoring and response capabilities in alignment with sustainability goals.
