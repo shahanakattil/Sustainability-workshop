@@ -53,7 +53,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
     * **Name**: **Wide World Importers (1)**
     * **Organizational unit type**: **Department (2)**
 
-      ![image](../media/lab01-10.png)
+      ![](../media/new-img8.png)
 
 1. In the **Organizational hierarchies** section (you may need to scroll down), select the **three ellipses (1)** option, and then choose **+ New Organizational hierarchy (2)** from the list.
 
