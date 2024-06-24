@@ -65,7 +65,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 
     * **Effective start date**: The first day of the current month **(MM/DD/YYYY)**
 
-      ![image](../media/lab01-12.png)
+       ![image](../media/lab01-9.png)
 
 1. After being returned to the **Organizational Unit**, select **Save & Close** to return to the **Company profile**.
 
