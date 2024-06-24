@@ -8,6 +8,16 @@ Your company wants to reduce its carbon footprint by optimizing its Azure cloud 
 
 
 ## Lab Objective
+
++ Excercise 1 : Review Carbon emissions from Azure workloads.
+
+  - Task 1 : Review the Existing Azure Deployments
+  - Task 2 : View Carbon Emissions from the Existing Azure Resources
+
++ Excercise 2 : Emission Impact Dashboard for Azure
+
+  - Task 1 : Deploy the dashboards from the Solution Center
+
 The primary objective of this lab is to enable participants to understand and implement strategies for reducing carbon emissions associated with Azure workloads. By the end of this lab, participants will be able to:
 
    - Review and assess existing Azure deployments to understand their current state and resource utilization.
@@ -55,8 +65,7 @@ The primary objective of this lab is to enable participants to understand and im
 
 1. In the emission reduction section, you'll discover recommendations, if any, to optimize current Azure workloads based on usage trends.
 
-## Conclusion
-By following these steps, you'll learn how to assess and reduce the carbon emissions of your Azure workloads, helping your company achieve its sustainability goals and potentially reduce operational costs.
+  >**Note**: By following these steps, you'll learn how to assess and reduce the carbon emissions of your Azure workloads, helping your company achieve its sustainability goals and potentially reduce operational costs.
 
 ## Excercise 2 : Emission Impact Dashboard for Azure 
 
