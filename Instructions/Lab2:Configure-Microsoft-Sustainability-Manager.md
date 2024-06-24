@@ -216,7 +216,7 @@ In this task, you'll assign specific roles and permissions to user, ensuring the
 
 1. When prompted provide - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-   ![](../media/new-img15.png)
+    ![](../media/new-img15.png)
 
 1. Click on **Ask later**.
 
