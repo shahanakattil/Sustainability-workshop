@@ -7,7 +7,7 @@ This lab provides a hands-on experience in configuring and utilizing monitoring 
    - Enable auditing to track activities within the environment.
    - Access and review audit logs to understand user and system actions.
 
-## Lab scenario
+## Lab Scenario
 As a sustainability manager using Microsoft Cloud for Sustainability, you are tasked with ensuring that sustainable practices are adhered to and that the organization complies with environmental regulations. One critical aspect of this role is monitoring and logging activities within your cloud environment. This lab will guide you through the process of enabling auditing, reviewing logs. By the end of this lab, you will have a comprehensive understanding of how to implement and utilize these tools to support your sustainability initiatives.
 
 
