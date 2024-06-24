@@ -212,11 +212,19 @@ In this task, you'll assign specific roles and permissions to user, ensuring the
 
 1. On the **Let's get started** page, enter the <inject key="AzureAdUserEmail"></inject> and select the checkbox and click on **Start your free trial**.
 
-   ![](../media/lab01-1.png)
+   ![](../media/new-img14.png)
 
+1. When prompted provide - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+   ![](../media/new-img15.png)
+
+1. Click on **Ask later**.
+
+    ![](../media/new-img16.png)
+   
 1. Follow the on-screen guidance to provide the contact details and click on **Submit**.
 
-   ![](../media/lab01-2.png)
+   ![](../media/new-img17.png)
 
 1. close the tab.
 
