@@ -25,6 +25,8 @@ The primary objective of this lab is to enable participants to understand and im
    - Identify opportunities and best practices for optimizing Azure workloads to minimize carbon emissions.
    - Implement changes and monitor the impact of these optimizations on carbon emissions.
 
+## Estimated timing: 90 minutes
+
 ## Excercise 1 : Review Carbon emissions from Azure workloads.
 
 ### Task 1 : Review the Existing Azure Deployments
