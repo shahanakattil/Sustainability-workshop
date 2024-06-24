@@ -71,7 +71,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 
 1.  Return to the **Company profile** page, navigate to the **Facilities (1)** tab, and then click **Add facility (2)**.
 
-    ![image](../media/lab01-13.png)
+    ![image](../media/new3.png)
 
 1. Enter the following details to create a **new facility**, then click **Save & Close**:
 
