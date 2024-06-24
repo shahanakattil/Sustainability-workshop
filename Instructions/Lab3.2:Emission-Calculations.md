@@ -322,7 +322,7 @@ In this task, we will creates a new calculation model to calculate carbon emissi
 
 1. Populate the Source Details pane with the following data and select Save to save the record.
       
-      - Category name - Electric Vehicle Miles Driven - 2022
+      - Category name - Electric Vehicle Miles Driven - 2023
       
       - Module - Carbon Activities
       
@@ -461,7 +461,7 @@ In this task, Alex creates a calculation profile for the electricity that Wide W
 
 1. Populate the following information on the New calculation profile wizard.
 
-     - Calculation profile name - **Purchased Electricity: Contractual Instrument Based 2022 Wide World Importers**
+     - Calculation profile name - **Purchased Electricity: Contractual Instrument Based 2023 Wide World Importers**
       
      - Module - Select **Carbon activities**
       
@@ -512,7 +512,7 @@ In this task, we will be creating a calculation profile for the miles driven by 
 
 1. Populate the following information on the New calculation profile wizard.
 
-     - Calculation profile name - **Electric Vehicle Miles Driven 2022**
+     - Calculation profile name - **Electric Vehicle Miles Driven 2023**
 
      - Module - **Carbon activities**
 
@@ -556,15 +556,15 @@ In this task, Alex runs the newly created calculation profiles for the electrici
 
 1. To run the calculation profile for Purchased Electricity: Contractual Instrument Type 2022, complete the following steps:
 
-    - Select Purchased Electricity: Contractual Instrument Type 2022 in the list.
+    - Select Purchased Electricity: Contractual Instrument Type 2023 in the list.
 
     - Select Run calculation on the command bar.
 
        ![image](../media/lab01-118.png)
       
-1. To run the calculation profile for Electric Vehicle Miles Driven 2022, follow these steps:
+1. To run the calculation profile for Electric Vehicle Miles Driven 2023, follow these steps:
 
-    - Select Electric Vehicle Miles Driven 2022 in the list.
+    - Select Electric Vehicle Miles Driven 2023 in the list.
 
     - Select Run calculation on the command bar.
 
@@ -644,9 +644,9 @@ In this task, Alex creates the allocation method details by importing an excel f
 
 1. On the **Create new allocation profiles** blade, from the **Emission source** drop down select **Purchased electricity (Emission)**.
 
-   - Start date : 1/1/2022.
+   - Start date : 1/1/2023.
 
-   - End date : 31/1/2022
+   - End date : 31/1/2023
 
      ![image](../media/lab01-89.png)
 
