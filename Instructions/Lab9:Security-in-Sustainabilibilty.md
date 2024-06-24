@@ -193,4 +193,4 @@ https://learn.microsoft.com/en-us/industry/sustainability/security-overview
 
 By completing these exercises, you have acquired practical skills in leveraging Microsoft Sentinel for security monitoring in alignment with sustainability objectives, ensuring proactive security measures and regulatory compliance within the organization.
 
-## You have successfully completed the lab.
+## You have successfully completed the lab. Click on Next >>.
