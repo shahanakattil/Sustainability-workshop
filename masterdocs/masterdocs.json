@@ -32,15 +32,15 @@
          "Order": 7
         },
         {
-         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab6%3ABackup-and-restore-sustainability-environment.md",
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab5%3ABackup-and-restore-sustainability-environment.md",
          "Order": 8
         },
         {
-         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab8%3AMonitoring%20and%20Logging.md",
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab6%3AMonitoring%20and%20Logging.md",
          "Order": 9
         },
         {
-         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab9%3ASecurity-in-Sustainabilibilty.md",
+         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/Sustainability-workshop/main/Instructions/Lab7%3ASecurity-in-Sustainabilibilty.md",
          "Order": 10
         }
       ]  
