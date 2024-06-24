@@ -688,4 +688,6 @@ In this task, Alex creates the allocation method details by importing an excel f
 
 ## Review
 
+During this lab, we have successfully navigated through the comprehensive steps required to set up factor libraries, create estimation and emission factors, establish calculation models, and run calculation profiles within Microsoft Sustainability Manager. This process is pivotal for organizations like Wide World Importers to accurately estimate and report their carbon emissions, specifically focusing on Scope 2 emissions from purchased electricity and emissions derived from electric vehicle operations.
+
 ## You have successfully completed the lab. Click on Next >>.
