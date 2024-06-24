@@ -397,7 +397,8 @@ Scorecards and goals are manually updated or connected to data for automatic che
       ![](../media/lab01-132.png)
     
    - Select **+ Add Rule** to start a new rule for the Status.
-      ![](../media/lab01-133.png)
+
+     ![](../media/lab01-133.png)
 
    - In the Operator dropdown menu, select is **greater than**.
    - In the Value field, which currently shows 0, enter **600**. Select **At risk** from the Set status to dropdown menu.
