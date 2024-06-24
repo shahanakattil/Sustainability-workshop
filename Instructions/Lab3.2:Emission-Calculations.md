@@ -42,7 +42,7 @@ The following terminologies will be used throughout the configuration of Emissio
 -   **Allocation Profile**: An allocation profile configures methods to distribute emissions from a source (like a facility) to specific entities based on chosen parameters. It allows visualization of emissions distribution without altering default reporting, offering insights into how emissions are divided.
 -   **Custom dimensions**: Custom dimensions can be used in emission calculation models, for example, in condition, calculation, and reporting actions.
 
-## Estimated timing: 80 minutes
+## Estimated timing: 90 minutes
 
 ## Exercise 1 -  Set up Factor Libraries
 
