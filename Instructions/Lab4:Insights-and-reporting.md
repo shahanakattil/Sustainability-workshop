@@ -200,7 +200,7 @@ You've now successfully explored various Sustainability dashboards. You can use 
 
 Great job, you have successfully explored various Sustainability dashboards with Amber to gain insights into the emissions data. You can see as you drilled down from total emissions to the organization level, Amber was able to determine that Wide World Importers needs to reduce the carbon emissions from Purchased electricity. This could be achieved in a variety of ways such as switching to renewable energy sources or using more energy efficient devices and vehicles. You and she can use these insights to drive business decisions and use the information to create scorecards and goals to track progress. **Please continue to the next task.**
 
-## Task 3 :  Waste Insights
+## Task 3 :  Waste and Water Insights
 
 1. The Water insights dashboard in Microsoft Sustainability Manager provides you with a holistic view of your organization's water sustainability performance relative to the business. Based on the selected water transaction type, the tiles contain the following information about your organization:
 
@@ -239,6 +239,18 @@ The Waste quantity dashboard in Microsoft Sustainability Manager provides a view
           By finished good (weight)
           By finished good (percentage)
 
+
+### Water Insight
+
+1. The Water insights dashboard in Microsoft Sustainability Manager provides you with a holistic view of your organization's water sustainability performance relative to the business. Based on the selected water transaction type, the tiles contain the following information about your organization:
+
+ - Water revenue intensity (total water quantity/total revenue)
+ - Water production intensity (total water quantity/total weight of products produced)
+ - To open the Water insights dashboard in Sustainability Manager, select Analytics on the left navigation, and then select Water insights.
+
+1. Select the Water insights tab.
+
+1. Filter the dashboard by water transaction type, water stressed area, reporting period, or organizational hierarchy.
 
 ## Task 4:  Generate Quantitative preparation report
 
