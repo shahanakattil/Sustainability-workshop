@@ -65,8 +65,8 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
 
     * **Effective start date**: The first day of the current month **(MM/DD/YYYY)**
 
-       ![image](../media/lab01-9.png)
-
+       ![](../media/new-img9.png)
+      
 1. After being returned to the **Organizational Unit**, select **Save & Close** to return to the **Company profile**.
 
    ![image](../media/s13.png)
@@ -88,7 +88,7 @@ In this task, you will set up the Company profile, hierarchy, and facilities for
     1. **Latitude**: 25.774320
     1. **Longitude**: -80.187720
 
-    ![image](../media/new4.png)
+    ![](../media/new-img10.png)
     
     >**Note:** Latitude and Longitude are not required but are used to display a pin on the Facilities map. They can be automatically added by selecting an address from the autocomplete options in Address line 1, or manually entered.
 
