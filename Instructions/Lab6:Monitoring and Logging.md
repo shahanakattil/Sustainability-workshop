@@ -6,17 +6,15 @@ This lab provides a hands-on experience in configuring and utilizing monitoring 
 
    - Enable auditing to track activities within the environment.
    - Access and review audit logs to understand user and system actions.
-   - Use Microsoft Compliance Center to conduct detailed audits and ensure compliance.
 
 ## Lab scenario
-As a sustainability manager using Microsoft Cloud for Sustainability, you are tasked with ensuring that sustainable practices are adhered to and that the organization complies with environmental regulations. One critical aspect of this role is monitoring and logging activities within your cloud environment. This lab will guide you through the process of enabling auditing, reviewing logs, and using Microsoft Compliance Center to monitor user and admin activities. By the end of this lab, you will have a comprehensive understanding of how to implement and utilize these tools to support your sustainability initiatives.
+As a sustainability manager using Microsoft Cloud for Sustainability, you are tasked with ensuring that sustainable practices are adhered to and that the organization complies with environmental regulations. One critical aspect of this role is monitoring and logging activities within your cloud environment. This lab will guide you through the process of enabling auditing, reviewing logs. By the end of this lab, you will have a comprehensive understanding of how to implement and utilize these tools to support your sustainability initiatives.
 
 
 ## Lab Objectives
 
    - Task 1: Enable auditing and logging in Microsoft Cloud for Sustainability.
    - Task 2: Review audit logs and summaries.
-   - Task 3: Use Microsoft Compliance Center to monitor user and admin activities.
 
 ### Task 1: Enable auditing and logging in Microsoft Cloud for Sustainability.
 
@@ -51,37 +49,7 @@ In this task, you will review audit logs and summaries within the Microsoft Clou
 
     ![image](../media/lab01-153.png) 
 
-
-### Task 3: Use Microsoft Compliance Center to monitor user and admin activities
-
-In this task, you will use the Microsoft Compliance Center to monitor user and admin activities. This involves starting recording activities, performing audit searches, and reviewing the audit logs.
-
-1. Open another edge tab and browser to https://compliance.microsoft.com/ then from the left navigation pane under solution select **Audit**.
-
-    ![image](../media/lab01-146.png) 
-
-1. Click on **Start recording user and admin activity** on **Audit** page.
-
-     ![image](../media/lab01-151.png) 
-
-1. On the **Audit** under **New search** tab specify the following:
-
-    - select **Start date** and **End date** 
-    - **Record Type** : **CRM** and **PowerPlatformAdministratorActivity**
-    - User : Search and select  **<inject key="AzureAdUserEmail"></inject>**
-    - Click on **Search**
-
-       ![image](../media/lab01-147.png)
-
-1. On the Audit Page refresh the page and monitor the status and wait until changes from **Queue > progress** to  **Completed**.
-
-    ![image](../media/lab01-148.png)
-
-    ![image](../media/lab01-149.png)
-
-1. Then click on **Completed** link and you can view all the record
-
-   ![image](../media/lab01-150.png)
+>**Note**: Audit logs will be available starting from the moment you enable auditing.
 
 ## Review
 
