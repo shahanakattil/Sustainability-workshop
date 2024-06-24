@@ -31,16 +31,16 @@ In this task, you will review the different types of backups available in the Mi
    - Initiated by users before major customizations or updates.
    - Retention periods depend on whether the environment has Dynamics 365 applications.
 
-| Environment types                          | System backup | Manual backup |
-|--------------------------------------------|---------------|---------------|
-| Production with Dynamics 365 apps          | 28 days       | 28 days       |
-| Production without Dynamics 365 apps       | 7 days        | 7 days        |
-| Sandbox                                    | 7 days        | 7 days        |
-| Developer                                  | 7 days        | 7 days        |
-| Teams                                      | 7 days        | 7 days        |
-| Default                                    | 7 days        | Not supported |
-| Trial                                      | Not backed up | Not supported |
-| Trial (subscription-based)                 | Not backed up | Not supported |
+      | Environment types                          | System backup | Manual backup |
+      |--------------------------------------------|---------------|---------------|
+      | Production with Dynamics 365 apps          | 28 days       | 28 days       |
+      | Production without Dynamics 365 apps       | 7 days        | 7 days        |
+      | Sandbox                                    | 7 days        | 7 days        |
+      | Developer                                  | 7 days        | 7 days        |
+      | Teams                                      | 7 days        | 7 days        |
+      | Default                                    | 7 days        | Not supported |
+      | Trial                                      | Not backed up | Not supported |
+      | Trial (subscription-based)                 | Not backed up | Not supported |
 
 ## Exercise 2: Create Manual Backups
 
