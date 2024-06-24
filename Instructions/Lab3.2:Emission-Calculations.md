@@ -623,7 +623,7 @@ In this task, Alex creates the allocation method details by importing an excel f
 
     ![image](../media/lab01-80.png)
 
-1. Select Choose File and then upload the **Allocation method details** sample data.
+1. Select **Choose File** and then upload the **Allocation method details** sample data by navigating to **C:\Allfiles**.
 
     ![image](../media/lab01-81.png)
 
