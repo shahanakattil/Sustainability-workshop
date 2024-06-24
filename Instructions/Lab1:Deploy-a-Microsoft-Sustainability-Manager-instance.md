@@ -25,15 +25,19 @@ In this task, you will sign up for a trial version of Microsoft Sustainability M
    ```
 1. On the **Let's get started** page, enter the <inject key="AzureAdUserEmail"></inject> **(1)** and select the checkbox next to **By signing up, you agree to the (2)** and click on **Start your free trial (3)**
 
-   ![](../media/lab01-1.png)
+   ![](../media/new-img1.png)
 
 1. When prompted provide the **Password:** <inject key="User's Password"></inject>.
 
+     ![](../media/new-img2.png)
+   
 1. On the **Action required** page click on **Ask Later**.
+
+     ![](../media/new-img3.png)
    
 1. Follow the on-screen guidance to provide the contact details then select the check boxs and click on **Submit**
 
-   ![](../media/lab01-2.png)
+    ![](../media/new-img4.png)
 
 1. You will be redirected to the Microsoft Sustainability Manager page, where you can begin exploring and using the trial version.
 
