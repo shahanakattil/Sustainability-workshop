@@ -233,7 +233,7 @@ In this task, you'll assign specific roles and permissions to user, ensuring the
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
     - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-1. From the left navigation pane, select Environment and then Sustainability trail.
+1. From the left navigation pane, select Environment and then Sustainability trail make sure to select sustainability account created by ODLUser.
 
      ![image](../media/lab01-23.png)
 
@@ -256,7 +256,11 @@ In this task, you'll assign specific roles and permissions to user, ensuring the
     >**Note**: Basic User: Provides fundamental access rights necessary for standard user functionality within the system/application.
 
     >**Note**: Sustainability All - Reports - Full Access Role: Grants comprehensive access to all sustainability reports and full administrative capabilities related to sustainability management within the system/application.
-     
+
+1. Review the list of user in sustainability manager
+
+   ![](../media/new-img18.png)
+   
 ## Review
 
 Completing the lab, you will have gained practical knowledge on configuring Microsoft Sustainability Manager, including setting up organizational hierarchies, reference data, and unit conversion factors. Additionally, you will understand how to create reporting periods and assign user roles and permissions, essential for accurate carbon emission tracking and reporting.
