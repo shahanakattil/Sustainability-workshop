@@ -333,7 +333,7 @@ Scorecards and goals are manually updated or connected to data for automatic che
 
 ### Task 1 : Create a new scorecard
 
-1. From the lefy navigation pane select **Scorecards & goals** then select **+ Add Scorecard** to create a scorecard.
+1. From the left navigation pane select **Scorecards & goals** then select **+ Add Scorecard** to create a scorecard.
 
    ![](../media/lab01-125.png)
    
