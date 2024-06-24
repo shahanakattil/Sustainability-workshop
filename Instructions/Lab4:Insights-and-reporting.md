@@ -267,8 +267,8 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
     1. **Report type**: Emissions report
     1.  **Name**: MC4S Emissions report
     1.  **Report type**: Emissions report
-    1.  **Start date**: 01/01/2022
-    1.  **End date**: 12/31/2022
+    1.  **Start date**: 01/01/2023
+    1.  **End date**: 12/31/2023
 
     Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country/Region**, **Regional group**, **Latitude/Longitude**, **Organization unit**, **Facility**, **Is market based**, **Is biogenic**, **Scope**, **Emission source**, **Activity type**. (The **Organization hierarchy date** field appears only after the **Organization unit** field is selected.).
 
@@ -301,10 +301,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
     - The **Group by** column headers that were selected. In this case, it is grouped by Country/Region, Regional group, Facility, Scope, Emissions source, and Activity type
     - The following emission metrics: **CO<sub>2</sub>**, **CH<sub>4</sub>**, **N<sub>2</sub>O**, **SF<sub>6</sub>**, **NF<sub>3</sub>**, **CO<sub>2</sub>E**, **HFCs**, **PFCs**, and **Other GHGs.**
 
-Great job, you have helped Jessie successfully generate an emissions report. Emissions reports are useful for providing information in public disclosures. Microsoft Sustainability provides this information in a tabular format to allow you to adapt it to meet the rapidly changing regulatory requirements. There is a great opportunity for partners to assist in the generation of the disclosure documents by configuring an emissions report to export data in a consistent and familiar format for ingestion into a partner solution. This report can be used in conjunction with the activity report, which will be generated in the next task. **Please continue to the next task.**
-
-
-## Execise :  Sustainability scorecards and goals
+##Excercise 2 :  Sustainability scorecards and goals
 
 Scorecards and Goals allow organizations to monitor progress against data-driven goals. They can help you curate sustainability metrics and track them against your company's key business objectives. After you’ve created a scorecard that includes some goals, you can periodically check on the scorecard’s progress and make required adjustments.
 
@@ -337,17 +334,17 @@ Scorecards and goals are manually updated or connected to data for automatic che
 
 1. Use the following information to populate the fields on the New goal page:
 
-    - **Goal name** - **Reduce Scope 2 Emissions - 2023**
+    - **Goal name** - **Reduce Scope 2 Emissions - 2024**
 
     - **Owner** - ODL User
 
-    - **Scorecard** - **Wide World Importers Reduction Plan - 2024**
+    - **Scorecard** - **Wide World Importers Reduction Plan - 2025**
 
     - **Organizational unit** - **Wide World Importers**
 
-    - **Start date** - **12/31/2022**
+    - **Start date** - **12/31/2023**
   
-    - **End date** - **12/31/2023**
+    - **End date** - **12/31/2024**
   
     - **Unit of measure** - **mtCO2e**
 
@@ -405,7 +402,7 @@ Scorecards and goals are manually updated or connected to data for automatic che
 
 1. Review the following information for the goal:
 
-    - Progress toward the Reduce Scope 2 Emissions - 2023 goal
+    - Progress toward the Reduce Scope 2 Emissions - 2024 goal
  
     - The Goal details
     
