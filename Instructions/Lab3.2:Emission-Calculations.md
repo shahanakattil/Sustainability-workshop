@@ -29,7 +29,6 @@ In the Emission calculations focus area calculation models are designed to calcu
    + Task 2 : Create the allocation method details
    + Task 3 : Create an allocation profile
 
-
 ### Learning Objectives
 
 The following terminologies will be used throughout the configuration of Emission Calculations:
@@ -42,6 +41,8 @@ The following terminologies will be used throughout the configuration of Emissio
 -   **Calculation Profile**: Provides the scheduling for calculation jobs, defining activity data filter and the calculation model (instruction set) to use.
 -   **Allocation Profile**: An allocation profile configures methods to distribute emissions from a source (like a facility) to specific entities based on chosen parameters. It allows visualization of emissions distribution without altering default reporting, offering insights into how emissions are divided.
 -   **Custom dimensions**: Custom dimensions can be used in emission calculation models, for example, in condition, calculation, and reporting actions.
+
+## Estimated timing: 80 minutes
 
 ## Exercise 1 -  Set up Factor Libraries
 
