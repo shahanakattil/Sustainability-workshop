@@ -18,6 +18,8 @@ In this lab, you will complete the following tasks:
 - Task 4 : Create a reporting year
 - Task 5 : Access/Permissions
 
+## Estimated timing: 60 minutes
+
 ### Task 1 : Prepare Business Units and Hierarchy  
 
 In this task, you will set up the Company profile, hierarchy, and facilities for the Wide World Importers organization in Microsoft Sustainability Manager.
