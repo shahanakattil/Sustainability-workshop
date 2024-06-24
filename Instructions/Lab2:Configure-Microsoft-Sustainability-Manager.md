@@ -204,6 +204,9 @@ In this task, you'll assign specific roles and permissions to user, ensuring the
 
 1. Please use the following credentials to start a free trial of Sustainability Manager for Alex Wilber.
 
+    - **Email/Username:** <inject key="User 01 UPN"></inject>
+    - **Password:** <inject key="User's Password"></inject>
+    
 1. On the **Let's get started** page, enter the <inject key="AzureAdUserEmail"></inject> and select the checkbox and click on **Start your free trial**.
 
    ![](../media/lab01-1.png)
