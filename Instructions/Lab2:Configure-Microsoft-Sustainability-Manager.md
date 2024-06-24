@@ -196,6 +196,24 @@ In this task, we will be setting up the reporting years in Microsoft Sustainabil
 
 In this task, you'll assign specific roles and permissions to user, ensuring they have the appropriate access to Microsoft Sustainability Manager features necessary for their responsibilities. This ensures secure and efficient use of the platform.
 
+1. Use the below link to access the trial version of Microsoft Sustainability Manager.
+
+   ```
+    https://dynamics.microsoft.com/en-us/sustainability/sustainability/free-trial/
+   ```
+
+1. Please use the following credentials to start a free trial of Sustainability Manager for Alex Wilber.
+
+1. On the **Let's get started** page, enter the <inject key="AzureAdUserEmail"></inject> and select the checkbox and click on **Start your free trial**.
+
+   ![](../media/lab01-1.png)
+
+1. Follow the on-screen guidance to provide the contact details and click on **Submit**.
+
+   ![](../media/lab01-2.png)
+
+1. close the tab.
+
 1. In the Edge browser, navigate to https://admin.powerplatform.microsoft.com/ and log in with the following credentials:
 
     - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
