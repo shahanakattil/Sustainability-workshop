@@ -1,12 +1,12 @@
 # Lab 7 : Security in Sustainability
 
-## Lab scenario
-As an IT security specialist in a sustainability-driven organization, your role focuses on safeguarding environmental initiatives through robust security measures. This lab emphasizes setting up and configuring Microsoft Sentinel to monitor and analyze security events related to sustainability practices within the organization's cloud environment.
-
-## Lab overview
+## Lab Overview
 This lab provides hands-on experience in configuring Microsoft Sentinel to establish a centralized workspace for monitoring security events that impact sustainability efforts. You will install and configure data connectors to ingest logs from Microsoft Entra ID and Dynamics 365, ensuring comprehensive monitoring and compliance with environmental standards. By the end of this lab, you will understand how to leverage Microsoft Sentinel to enhance security monitoring and response capabilities in alignment with sustainability goals.
 
-## Lab objectives
+## Lab Scenario
+As an IT security specialist in a sustainability-driven organization, your role focuses on safeguarding environmental initiatives through robust security measures. This lab emphasizes setting up and configuring Microsoft Sentinel to monitor and analyze security events related to sustainability practices within the organization's cloud environment.
+
+## Lab Objectives
 
 In this lab, you will perform the following tasks to enhance security monitoring within a sustainability context:
 
