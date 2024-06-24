@@ -278,11 +278,11 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
 1.  In the left navigation pane, select **Reporting**.
 
-2.  Select **New**.
+1.  Select **New**.
 
      ![](../media/report5.png)
 
-3.  Set the following fields:
+1.  Set the following fields:
 
     1. **Report type**: Emissions report
     1. **Name**: MC4S Emissions report
@@ -294,7 +294,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
     Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country/Region**, **Regional group**, **Latitude/Longitude**, **Organization unit**, **Facility**, **Is market based**, **Is biogenic**, **Scope**, **Emission source**, **Activity type**.
     
-5. For this task, we will just set the following fields to **Yes** for use in Contoso Corp’s carbon emissions reporting for public disclosure:
+1. For this task, we will just set the following fields to **Yes** for use in Contoso Corp’s carbon emissions reporting for public disclosure:
 
     - **Country/Region**
     - **Regional group**
@@ -305,25 +305,25 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
      ![](../media/report6.png)
     
-6. Once these are selected, select **Save & Close** on the top command bar.
+1. Once these are selected, select **Save & Close** on the top command bar.
 
-7.  Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
+1. Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
 
-       ![](../media/report7.png)
+    ![](../media/report7.png)
   
-8.  Select **Refresh** button on the command bar until the **Report generation status** is changed from **Pending** to **Ready for download.** This may take a few minutes to generate.
+1. Select **Refresh** button on the command bar until the **Report generation status** is changed from **Pending** to **Ready for download.** This may take a few minutes to generate.
 
      ![](../media/report8.png)
 
-9.  Once the status is changed, a **Download report** button is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
+1. Once the status is changed, a **Download report** button is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
 
      ![](../media/report9.png)
 
-10.  The reports contain the following information:
+1. The reports contain the following information:
     - The **Group by** column headers that were selected. In this case, it is grouped by Country/Region, Regional group, Facility, Scope, Emissions source, and Activity type
     - The following emission metrics: **CO<sub>2</sub>**, **CH<sub>4</sub>**, **N<sub>2</sub>O**, **SF<sub>6</sub>**, **NF<sub>3</sub>**, **CO<sub>2</sub>E**, **HFCs**, **PFCs**, and **Other GHGs.**
 
-## Task 4 :  Sustainability scorecards and goals
+## Task 5 :  Sustainability scorecards and goals
 
 Scorecards and Goals allow organizations to monitor progress against data-driven goals. They can help you curate sustainability metrics and track them against your company's key business objectives. After you’ve created a scorecard that includes some goals, you can periodically check on the scorecard’s progress and make required adjustments.
 
@@ -331,7 +331,7 @@ Additionally, you can have manual goals with the ability to connect to data and 
 
 Scorecards and goals are manually updated or connected to data for automatic check-ins with optional Microsoft Teams collaboration.
 
-### Task 1 : Create a new scorecard
+### Task 5.1 : Create a new scorecard
 
 1. From the left navigation pane select **Scorecards & goals** then select **+ Add Scorecard** to create a scorecard.
 
@@ -348,7 +348,7 @@ Scorecards and goals are manually updated or connected to data for automatic che
    ![](../media/lab01-127.png)
 
 
-### Task 2 : Create a goal
+### Task 5.2 : Create a goal
 
 1. Select the **+ Add goal** button to create a new goal.
 
@@ -417,7 +417,7 @@ Scorecards and goals are manually updated or connected to data for automatic che
    >**Note**: You've now created a goal for your scorecard. Goals are beneficial for keeping track of an organization's progress toward reducing their carbon footprint. Any goals that you have with a current value that's connected to data will have check-ins created approximately every 24 hours. Next, you'll create your first check-in manually so that you're familiar with the check-in data.
 
 
-### Task: Create a goal check-in
+### Task 5.3 : Create a goal check-in
 
 1. Open the goal that was created in the previous task by selecting the goal name from the list in the scorecard.
     ![](../media/lab01-136.png)
