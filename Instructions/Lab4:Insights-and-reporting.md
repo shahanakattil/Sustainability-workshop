@@ -329,6 +329,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
     1. **Report level** : All levels
     1. **Hierarchy as of** : 1/1/2023
 
+       
     Fields can be selected to group data by, or column headers for the report. The available fields for Emissions report are **Country/Region**, **Regional group**, **Latitude/Longitude**, **Organization unit**, **Facility**, **Is market based**, **Is biogenic**, **Scope**, **Emission source**, **Activity type**.
     
 1. For this task, we will just set the following fields to **Yes** for use in Contoso Corp’s carbon emissions reporting for public disclosure:
@@ -346,15 +347,15 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 
 1. Once the report is saved, the **Generate report** button will be visible on the command bar. Select **Generate report** and then the report is queued to be generated.
 
-    ![](../media/report7.png)
+    ![](../media/new-img39.png) 
   
 1. Select **Refresh** button on the command bar until the **Report generation status** is changed from **Pending** to **Ready for download.** This may take a few minutes to generate.
 
-     ![](../media/report8.png)
+     ![](../media/new-img40.png) 
 
 1. Once the status is changed, a **Download report** button is visible in the command bar. Select that button to download the generated report. An Excel report begins to be downloaded. Open the report.
 
-     ![](../media/report9.png)
+     ![](../media/new-img41.png) 
 
 1. The reports contain the following information:
     - The **Group by** column headers that were selected. In this case, it is grouped by Country/Region, Regional group, Facility, Scope, Emissions source, and Activity type
