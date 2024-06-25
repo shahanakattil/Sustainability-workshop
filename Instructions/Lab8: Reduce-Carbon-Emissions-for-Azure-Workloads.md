@@ -55,7 +55,7 @@ The primary objective of this lab is to enable participants to understand and im
 
 1. In the emission details section, You can view emission details at the subscription, resource group, resource, service, and location levels on the emission details page.
 
-   ![](../media/5.71.png)
+   ![](../media/5.712.png)
 
    ![](../media/5.8.png)
 
