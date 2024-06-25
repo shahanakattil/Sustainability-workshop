@@ -90,7 +90,7 @@ In this task, we will explores the various **Sustainability** dashboards which p
           ![](../media/new-img26.png) 
     -   (7) Select **Fiscal 2023** under **Filters : Reporting period** on the left side to explore the data. **Note**: The data in the image below may not match your data.
 
-            ![](../media/new-img27.png) 
+         ![](../media/new-img27.png) 
 
 1.  Select **Scope 1** on the top tab to view the Scope 1 emissions dashboard. Unselect the **Fiscal 2023** under **Filters : Reporting period** on the left side to explore the data. Scope 1 emissions are emissions that are owned or directly controlled by the organization. Like the Emissions overview, the **Scope 1 emissions** dashboard lets users view scope 1 emissions by reporting period.
 
