@@ -398,7 +398,7 @@ Scorecards and goals are manually updated or connected to data for automatic che
 
     - **Owner** - ODL User
 
-    - **Scorecard** - **Wide World Importers Reduction Plan - 2025**
+    - **Scorecard** - **Wide World Importers Reduction Plan - 2024**
 
     - **Organizational unit** - **Wide World Importers**
 
@@ -410,21 +410,22 @@ Scorecards and goals are manually updated or connected to data for automatic che
 
     - **Starting value** - **900**
 
-    - **Source of current value** - Select **Connect to data** from the drop down then select **Set up connection**.
+    - **Source of current value** - Select **Connect to data** from the drop down then select **+ Set up connection**.
   
     - On the **Set up connection: current value** blade, follow the below mentioned steps:
 
        a) Select the check box next to **Track all carbon emissions**.
        b) Value - Select **CO2E** from drop down.
        c) Select **+ Add** > **Add row** then choose **Organizational unit** equals **Wide World Importers**.
+       d) Select **+ Add** > **Add row** then choose **Consumption end date** >  **Last x years** > **1**.
        d) At the top of the form, select **Calculate** for a preview of the data that would be used for the current value check-in. Copy this value. The value that's calculated might differ from what's shown in the following image.
 
          ![](../media/lab01-129.png)
-         ![](../media/lab01-130.png)
+         ![](../media/new-img42.png) 
 
       e) Click on **Confirm** from the buttom of the page.
 
-         ![](../media/lab01-131.png)
+         ![](../media/new-img43.png) 
 
 1. Back on **Add a goal** page
 
