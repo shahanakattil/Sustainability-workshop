@@ -486,14 +486,14 @@ Scorecards and goals are manually updated or connected to data for automatic che
 
    - Click on **Save**
     
-     ![](../media/lab01-139.png)
+     ![](../media/new-img46.png) 
 
 
 1. Now, the Progress section should show as updated with the latest check-in value and status, as well its plot on the graph. Additionally, the History section should show the recently created check-in with the status automatically set based on the goal rules. Check-ins will be shown in the order of newest to oldest.    
 
-   ![](../media/lab01-140.png)
+   ![](../media/new-img44.png) 
    
-   ![](../media/lab01-141.png)
+   ![](../media/new-img45.png) 
     
   >**Note**: The following list provides descriptions Use Update for to identify what date the check-in was for. This date might be the current date or a date in the past. Use New value to specify the current value of the goal check-in. This value will be used on the Progress chart.
 
