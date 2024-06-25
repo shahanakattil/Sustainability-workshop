@@ -290,5 +290,4 @@ You've now completed the data import of 2022 Purchased Electricity for Wide Worl
 ## Review 
 Completion of these tasks ensures accurate data integration, robust reporting capabilities, and enhanced environmental stewardship for Wide World Importers in Microsoft Sustainability Manager.
 
-
-## You have successfully completed the lab. Click on Next >>.
+## You have successfully completed this lab. Proceed with the next lab.
