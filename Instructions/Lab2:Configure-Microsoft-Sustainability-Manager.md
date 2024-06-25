@@ -265,4 +265,4 @@ In this task, you'll assign specific roles and permissions to user, ensuring the
 
 Completing the lab, you will have gained practical knowledge on configuring Microsoft Sustainability Manager, including setting up organizational hierarchies, reference data, and unit conversion factors. Additionally, you will understand how to create reporting periods and assign user roles and permissions, essential for accurate carbon emission tracking and reporting.
 
-## You have successfully completed the lab. Click on Next >>.
+## You have successfully completed this lab. Proceed with the next lab.
