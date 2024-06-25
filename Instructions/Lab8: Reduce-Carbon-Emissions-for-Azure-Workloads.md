@@ -35,7 +35,7 @@ The primary objective of this lab is to enable participants to understand and im
 
    ![](../media/5.1.png)
 
-2. Navigate to **ODL-Sustaibility-<inject key="DeploymentID"></inject>** resource group and examine the types of resources currently deployed within them.
+2. Navigate to **ODL-Sustaibility-<inject key="DeploymentID"></inject>** resource group and examine the types of resources currently deployed within it.
 
    ![](../media/inb1.png)
 
