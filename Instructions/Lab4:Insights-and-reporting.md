@@ -24,7 +24,7 @@ In this lab, Sustainability specialist for Contoso Corp reviews the data in the 
 
 1. The Executive dashboard in Microsoft Sustainability Manager provides an overview of total emissions, revenue intensity, and renewable energy categorized by scope, geography, organizational unit, and facility.
 
-     ![](../media/report1.png)
+     ![](../media/new-img20.png) 
 
 2. You can filter this dashboard by Reporting year, Accounting method, and Organizational hierarchy. Under Filters select **Fiscal -2023** then **Organizational hierarchy** expand **Contoso Corp** > **Contoso USA** then select check box next to **Wide World Importers**. 
 
@@ -62,13 +62,14 @@ Water production intensity: This tab shows values for water production intensity
 
 ## Task 2: Explore Emission Insights 
 
-In this task, Amber explores the various **Sustainability** dashboards which provide an overview of total emissions, revenue intensity, and renewable energy broken down by scope, geography, organizational unit, and facility.
+In this task, we will explores the various **Sustainability** dashboards which provide an overview of total emissions, revenue intensity, and renewable energy broken down by scope, geography, organizational unit, and facility.
 
 1.  In the left navigation pane, under **Analytics**, select **Emission Insights.**
 
-2.  Select **Insights** on the left pane.
+     ![](../media/new-img21.png) 
 
-3.  The page displays the **Emissions overview** dashboard, the dashboard is filtered by selecting a reporting period and accounting method. The top tile in the dashboard has four tabs: All emissions, By month (comparison), By scope, and By scope (line chart). The first, third, and fourth tabs have a toggle that is used to **Show a comparison by year**. When the toggle is off, data for the selected reporting period is shown in a monthly view. When the toggle is on, all available years are shown on a trend chart. The details around each of the tabs in the top tile are as follows:
+
+1.  The page displays the **Emissions overview** dashboard, the dashboard is filtered by selecting a reporting period and accounting method. The top tile in the dashboard has four tabs: All emissions, By month (comparison), By scope, and By scope (line chart). The first, third, and fourth tabs have a toggle that is used to **Show a comparison by year**. When the toggle is off, data for the selected reporting period is shown in a monthly view. When the toggle is on, all available years are shown on a trend chart. The details around each of the tabs in the top tile are as follows:
 
     -   (1) All emissions – This tab shows total emissions over time.
     -   (2) By month - This tab shows a breakdown of emissions by month for the selected reporting period.
