@@ -35,9 +35,9 @@ The primary objective of this lab is to enable participants to understand and im
 
    ![](../media/5.1.png)
 
-2. Navigate to each resource group and examine the types of resources currently deployed within them.
+2. Navigate to **ODL-Sustaibility-<inject key="DeploymentID"></inject>** resource group and examine the types of resources currently deployed within them.
 
-   ![](../media/5.3.png)
+   ![](../media/inb1.png)
 
 ### Task 2 : View Carbon Emissions from the Existing Azure Resources
 
@@ -49,7 +49,7 @@ The primary objective of this lab is to enable participants to understand and im
 
    ![](../media/5.5.png)
 
-3. Use filters to identify each individual resourge group emission contribution and trends.
+3. Use filters to identify each individual resource group emission contribution and trends.
 
    ![](../media/5.6.png)
 
@@ -88,30 +88,28 @@ In this task, you sign in to the Microsoft Cloud Solution Center and deploy the 
 
    ![](../media/report21.png)
 
-4. From the available capabilities, select Report impact and progress.
-
-5. From the available solutions list, select **Emissions Impact Dashboard for Azure** with the **Added checkbox** and then select **Deploy**.   
+4. From the available solutions list, select **Emissions Impact Dashboard for Azure** with the **Added checkbox** and then select **Deploy**.   
 
    ![](../media/report22.png)
 
-6. Provide the name for your deployment, select the terms of service and then select **Next**.
+5. Leave the default name, select the terms of service and then select **Next**.
 
    ![](../media/report23.png)
 
-7. Verify that the pre-deployment dependencies are installed and set up. Select **Deploy**.
+6. Verify that the pre-deployment dependencies are installed and set up. Select **Deploy**.
 
      ![](../media/report24.png)
 
-8. Wait for the deployment to show as successful. Select **Close**.
+7. Wait for the deployment to show as successful. Select **Close**.
 
    ![](../media/report25.png)
 
-9. Navigate to Microsoft PowerBI using the link below.
+8. Navigate to Microsoft PowerBI using the link below.
 
-```
- https://app.powerbi.com/home?experience=power-bi
-```
-10. select the **Apps** on the left navigation pane. You see the **Emissions Impact Dashboard for Azure** and select the Emissions Impact Dashboard for Azure listed on the Apps page.
+    ```
+     https://app.powerbi.com/home?experience=power-bi
+    ```
+9. Select the **Apps** on the left navigation pane. You see the **Emissions Impact Dashboard for Azure** and select the Emissions Impact Dashboard for Azure listed on the Apps page.
 
     ![](../media/report27.png)
 
