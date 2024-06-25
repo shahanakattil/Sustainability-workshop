@@ -323,8 +323,7 @@ In this exercise, Amber Rodriguez informs Jessie Irwin - Sustainability lead for
 1.  Set the following fields:
 
     1. **Report type**: Emissions report
-    1. **Name**: MC4S Emissions report
-    1. **Report type**: Emissions report
+    1. **Report Name**: MC4S Emissions report
     1. **Start date**: 01/01/2023
     1. **End date**: 12/31/2023
     1. **Report level** : All levels
