@@ -47,4 +47,4 @@ In this task, you will sign up for a trial version of Microsoft Sustainability M
 
 During this lab, you have learned how to sign up for a trial version of Microsoft Sustainability Manager.
 
-## You have successfully completed the lab. Click on Next >>.
+## You have successfully completed this lab. Proceed with the next lab.
